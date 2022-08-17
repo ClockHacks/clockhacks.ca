@@ -26,25 +26,70 @@ code {
 	monospace;
 }
 
-// .app {
-	
-// }
-
 div {
 	color: $light;
 }
 
-.nav {
-	display: flex;
-	justify-content: space-between;
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: inherit;  /* Preferred icon size */
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	user-select: none;
+  
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+  
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+  
+	/* Support for IE. */
+	font-feature-settings: 'liga';
 
+}  
+
+.menuicon {
+	display: none;
+}
+
+@media screen and (max-width: 830px) {
+	.nav a:not(:first-child) {display: none;}
+	.menuicon {
+	  float: right;
+	  display: block;
+	  position: fixed;
+	  right: 15px;
+	  top: 15px;
+	  font-size: 27px;
+	}
+	.nav.responsive {
+		position: relative;
+		a {
+			float: none;
+			display: block;
+			text-align: left;
+			margin-left: 0;
+		}  
+	}
+}
+  
+
+.nav {
 	background-color: $dark;
-	padding: 18px 20px 18px 20px;
-	font-size: max(1.55vw, 20px);
+	padding: 18px 21px 18px 21px;
+	font-size: max(1.7vw, 25px);
 	align-items: center;
 
 	position: sticky;
 	transition: 0.2s ease;
+	line-height: 40px;
 
 	// &:hover {
 	// 	background-color: $light;
@@ -57,7 +102,7 @@ div {
 		text-decoration: none;
 		color: #fff;
 		transition: color 0.3s ease;
-		margin-left: 1.3vw;
+		margin-left: 1.5vw;
 
 		&:hover {
 			color: $accent;
