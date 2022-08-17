@@ -1,4 +1,3 @@
-
 const Navbar = () => {
     
     const pages = ['About', 'Contact', 'FAQ', 'Schedule', 'Speakers', 'Sponsors', 'Team']
@@ -8,12 +7,13 @@ const Navbar = () => {
 		logo
         
         <div>
-            {
-                pages.map(page => (
-                    <a href={`#${page.toLowerCase()}`}>{page} </a>
-                ))
-            }
+        {
+            pages.map(page => (
+                <a href={`#${page.toLowerCase()}`}>{page} </a>
+            ))
+        }
         </div>
+
 	</div>
 	)
 }
