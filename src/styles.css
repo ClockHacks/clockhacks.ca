@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+:root {    
     --accent-color: #81e3a0;
     --light-color: #f3f3f3;
     --dark-color: #353535;

@@ -11,18 +11,18 @@ import Navbar from './components/Navbar'
 
 function App() {
 	return (
-			<div id="app" className="bg-dark-color">
-				<Navbar/>
+		<div id="app" className="bg-dark-color">
+			<Navbar/>
 
-				<About/>
-				<Contact/>
-				<FAQ/>
-				<Schedule/>
-				<Speakers/>
-				<Sponsors/>
-				<Team/>
+			<About/>
+			<Contact/>
+			<FAQ/>
+			<Schedule/>
+			<Speakers/>
+			<Sponsors/>
+			<Team/>
 
-			</div>
+		</div>
 	);
 }
 
