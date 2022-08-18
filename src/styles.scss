@@ -30,27 +30,34 @@ body {
 h1 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: max(5vw, 50px);
+    font-size: max(3.5vw, 40px);
 }
 
 p {
     font-size: max(1.75vw, 17.5px);
 
-    .gradient {
-        background-color: #f3ec78;
-        background-image: linear-gradient(90deg, rgba(129,227,160,1) 22%, rgba(174,221,13,1) 100%);
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        -moz-text-fill-color: transparent;
-        display: inline;
-    }
+}
+
+gradient {
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, rgba(129,227,160,1) 22%, rgba(174,221,13,1) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    display: inline;
 }
 
 .container {
     width: 100%;
     height: 90vh;
+    padding: 8vw 3vw 0vw 3vw;
+}
+
+.spaced {
+    display: flex;
+    justify-content: space-between;   
 }
 
 .nav {
@@ -60,6 +67,7 @@ p {
     color: #000;
 	align-items: center;
 	position: sticky;
+    top: 0;
 	transition: 0.2s ease;
     line-height: 40px;
     font-size: max(1.3vw, 20px);

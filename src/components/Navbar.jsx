@@ -1,6 +1,6 @@
 const Navbar = () => {
 
-	const pages = ['About', 'FAQ', 'Schedule', 'Sponsors', 'Speakers', 'Our Team', 'Contact']
+	const pages = ['About', 'FAQ', 'Schedule', 'Sponsors', 'Speakers', 'Team', 'Contact']
 
 	function HandleClick() {
 		var x = document.getElementById("nav");
