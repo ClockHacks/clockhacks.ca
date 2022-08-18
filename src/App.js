@@ -1,4 +1,4 @@
-import './App.css'; 
+import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
@@ -10,20 +10,20 @@ import Team from './components/Team';
 import Navbar from './components/Navbar'
 
 function App() {
-  return (
-    <div id="app">
-      <Navbar/>
+	return (
+			<div id="app" className="bg-dark-color">
+				<Navbar/>
 
-      <About />
-      <Contact />
-      <FAQ />
-      <Schedule />
-      <Speakers />
-      <Sponsors />
-      <Team />
+				<About/>
+				<Contact/>
+				<FAQ/>
+				<Schedule/>
+				<Speakers/>
+				<Sponsors/>
+				<Team/>
 
-    </div>
-  );
+			</div>
+	);
 }
 
 export default App;
