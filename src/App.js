@@ -1,4 +1,5 @@
 import About from './components/About';
+import Home from './components/Home';
 import Contact from './components/Contact';
 import FAQ from './components/FAQ';
 import Schedule from './components/Schedule';
@@ -13,6 +14,7 @@ function App() {
 		<div id="app" className="bg-dark-color">
 			<Navbar/>
 
+			<Home/>
 			<About/>
 			<Contact/>
 			<FAQ/>
