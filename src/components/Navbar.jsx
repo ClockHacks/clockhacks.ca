@@ -12,9 +12,7 @@ const Navbar = () => {
 	}
 
 	return (
-			<div
-					className='bg-dark-color	px-4 py-5 text-xl	items-center sticky transition-all duration-200 ease-in-out leading-4'
-					id='nav'>
+			<div className='nav' id='nav'>
 				<a style={{marginLeft: '0px'}}>
 					logo
 				</a>
@@ -24,7 +22,7 @@ const Navbar = () => {
 					))
 				}
 
-				<span className="material-icons hidden" onClick={HandleClick}>menu</span>
+				<span className="material-icons menuicon" onClick={HandleClick}>menu</span>
 
 			</div>
 	)
