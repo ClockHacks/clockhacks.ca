@@ -10,7 +10,9 @@ const Home = () => {
         </h1>
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}}>
             A hackathon for 
-            <gradient> time</gradient> 
+            <gradient> time </gradient>
+            <br></br> 
+            <button>Applications Open Soon</button>
         </p>
     </div>
   )

@@ -47,6 +47,25 @@ gradient {
     display: inline;
 }
 
+button {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background-color: $accent;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: max(1.4vw, 20px);
+    margin-top: 10px;
+
+    transition: background-color 0.2s ease;
+
+    &:hover {
+        background-color: darken($accent, 15%);
+    }
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
 .container {
     width: 100%;
     padding: 15vh 3vw 10vh 3vw;
@@ -56,17 +75,18 @@ gradient {
     h1 {
         margin-bottom: 20px;
         font-family: 'Poppins', sans-serif;
-        font-size: max(3.5vw, 40px);
+        font-size: max(3.5vw, 35px);
     }
 
     #title {
         text-align: center;
-        font-size: max(6vw, 60px);
-        margin-bottom: -10px;
+        font-size: max(6vw, 50px);
+        margin-bottom: -20px;
+        margin-top: -20px;
     }
     
     #homelogo {
-        width: 20%;
+        width: 18%;
         min-width: 200px;
     }
 
