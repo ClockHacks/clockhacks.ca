@@ -7,7 +7,7 @@ const FAQ = () => {
 
 				<div>
 
-				<h1 className = 'header'>Before the Hackathon</h1>
+				<h1 className = 'header'>Before</h1>
 
 				<details>
 					<summary>What is a hackathon?</summary>
@@ -18,41 +18,74 @@ const FAQ = () => {
 					<p>Students of any age from any part of the world are welcome to participate in ClockHacks. We are aiming for this to be a hackathon targeted toward high school students.</p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>Is ClockHacks in person or online?</summary>
+					<p>ClockHacks 2022 will be online. Unfortunately, we simply do not have the resources to host ClockHacks in person.</p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>When is ClockHacks 2022?</summary>
+					<p>ClockHacks 2022 will be November 4, 2022 to November 6, 2022. Hacking will start at 7:00 pm on November 4 and will end at 11:00 pm on November 6.</p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>How much does it cost to attend ClockHacks?</summary>
+					<p>It costs nothing! ClockHacks is completely free to attend.</p>
+				</details>
+				<details>
+					<summary>What if I've never been to a hackathon before?</summary>
+					<p>That's okay! If you choose not to code, you will be able to connect with other participants, attend workshops, listen to guest speakers, and learn about the world of tech.</p>
 				</details>
 
 				</div>
 
 				<div className = 'faqcolumn'>
 
+				<h1 className = 'header'>During</h1>
+
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>What if I don't know how to code?</summary>
+					<p>It's okay! Hackathons aren't just about coding. There is also an aspect of business, design, and presentation. You can also attend workshops and listen to guest speakers talk about the world of tech.</p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>What if I don't have a team?</summary>
+					<p>You will be able to find a team in the ClockHacks discord before the event starts, or choose to work by yourself. </p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>How will we communicate during the event?</summary>
+					<p>Announcements during and before ClockHacks will be through Discord. We strongly recommend that you talk to your teammates on Discord as well.</p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>What project should I make?</summary>
+					<p>You can make any type of project you would like! An app, a website, blockchain, hardware, design, or anything that your heart desires. However, since our hackathon is themed around time, we strongly encourage you to base your project around time as well.</p>
 				</details>
 				<details>
-					<summary>What is a hackathon?</summary>
-					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
+					<summary>What kind of workshops, talks, and events will there be? sadfsadfadfasd</summary>
+					<p>Well, we don't know yet.</p>
+				</details>
+				<details>
+					<summary>What if I need help?</summary>
+					<p>If you need help or have questions regarding the event, you can ask an organizer in the Discord. If you have technical questions, good luck.</p>
+				</details>
+
+				</div>
+
+				<div className = 'faqcolumn'>
+
+				<h1 className = 'header'>After</h1>
+
+				<details>
+					<summary>How does judging work?</summary>
+					<p>You will submit a pitch video on Devpost, which will be reviewed by a panel of judges. </p>
+				</details>
+				<details>
+					<summary>What prizes are there? sdfasdfasdfasdfad</summary>
+					<p>Well, uh, you see... we don't know yet.</p>
+				</details>
+				<details>
+					<summary>How do I become a sponsor? asdfasdfasdfasd</summary>
+					<p>To become a sponsor, email our business email: </p>
+				</details>
+				<details>
+					<summary>What if my question isn't listed here? asdfasdfasdfasd</summary>
+					<p>If you have more questions, you can ask on our Discord, or email our business email: </p>
 				</details>
 
 				</div>

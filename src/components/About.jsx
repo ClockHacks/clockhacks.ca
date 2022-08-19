@@ -9,7 +9,7 @@ const About = () => {
 					By <gradient> students,</gradient> for <gradient> students</gradient>
 				</h1>
 				<p>
-					ClockHacks was created in August 2022 by a group of high school students from Waterloo, Ontario.
+					ClockHacks is a hackathon created by a group of high school students from Waterloo, Ontario.
 					<br></br><br></br>
 					Our mission is to make hackathons accessible and fun for high school students around the world. Themed around time, Clockhacks will take place online on DATE.
 					<br></br><br></br>

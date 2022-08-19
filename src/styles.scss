@@ -39,7 +39,7 @@ details {
 
     p {
         padding: 1rem;
-        font-size: max(1.2vw, 15px) !important;
+        font-size: max(1.2vw, 17px) !important;
     }
 }
   
@@ -75,6 +75,10 @@ details[open] > summary:before {
     transform: rotate(90deg);
 }
 
+details[open] summary {
+    color: $accent;
+}
+
 details summary::-webkit-details-marker {
     display:none;
 }  
@@ -104,7 +108,7 @@ gradient {
     display: flex;
 
     .header {
-        font-size: max(2.3vw, 25px);
+        font-size: max(2.3vw, 30px);
         text-align: center;
         margin-bottom: 0px;
         color: $accent;
