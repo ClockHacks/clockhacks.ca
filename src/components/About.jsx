@@ -15,11 +15,11 @@ const About = () => {
 					<br></br><br></br>
 					You will be able to work in teams of up to 4 to create a website, game, app, robot, or whatever tech-related product you want. Participate in activites, speeches, workshops, and events to learn more about the world of tech. At the end of the event, pitch your project to a panel of judges and compete for prizes. 
 					<br></br><br></br>
-					Join hackers from across North America this November for a weekend of fun and innovation at ClockHacks. 
+					Join hackers from across North America this November for a weekend of fun and innovation at ClockHacks! 
 				</p>
 				</div>
 
-				<img src = {Collaboration} alt = 'collabimg'></img>
+				<img src = {Collaboration} alt = 'collabimg' className = 'img'></img>
 
 			</div>
 	)

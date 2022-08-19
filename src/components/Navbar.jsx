@@ -1,3 +1,5 @@
+import Logo from '../assets/Logo.png'
+
 const Navbar = () => {
 
 	const pages = ['About', 'FAQ', 'Schedule', 'Sponsors', 'Speakers', 'Team', 'Contact']
@@ -13,8 +15,12 @@ const Navbar = () => {
 
 	return (
 			<div className='nav' id='nav'>
-				<a style={{marginLeft: '0px'}}>
-					logo
+				<a onClick = {
+					() => {
+						window.scrollTo(0,0);
+					}
+				}>
+					<img src = {Logo} alt = 'navlogo'></img>
 				</a>
 				{
 					pages.map((page, index) => (

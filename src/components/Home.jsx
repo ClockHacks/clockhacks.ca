@@ -3,9 +3,9 @@ import logo from '../assets/Logo.png'
 
 const Home = () => {
   return (
-    <div className = 'container'>
-        <img src = {logo} alt = 'logo' className='centered' style = {{width: '20%'}}></img>
-        <h1 style = {{fontSize: 'max(6vw, 60px)', textAlign: 'center'}}>
+    <div className = 'container' id = 'home' style = {{paddingTop: '5vh'}}>
+        <img src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
+        <h1 id = 'title'>
             ClockHacks
         </h1>
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}}>

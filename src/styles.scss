@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-$accent: #81e3a0;
+$accent: #78B68C;
 $light: #f3f3f3;
 $dark: #353535;
 
@@ -27,19 +27,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: max(3.5vw, 40px);
-    margin-bottom: 15px;
-}
-
-p {
-    font-size: max(1.4vw, 20px);
-}
-
 img {
     width: 30%;
-
 }
 
 .centered {
@@ -49,7 +38,7 @@ img {
 
 gradient {
     background-color: #f3ec78;
-    background-image: linear-gradient(90deg, rgba(129,227,160,1) 22%, rgba(174,221,13,1) 100%);
+    background-image: linear-gradient(90deg, $accent 22%, rgba(174,221,13,1) 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -60,10 +49,35 @@ gradient {
 
 .container {
     width: 100%;
-    height: 80vh;
-    padding: 8vw 3vw 0vw 3vw;
+    padding: 15vh 3vw 10vh 3vw;
     max-width: none;
     align-items: center;
+
+    h1 {
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: max(3.5vw, 40px);
+    }
+
+    #title {
+        text-align: center;
+        font-size: max(6vw, 60px);
+        margin-bottom: -10px;
+    }
+    
+    #homelogo {
+        width: 20%;
+        min-width: 200px;
+    }
+
+    p {
+        font-size: max(1.4vw, 20px);
+    }
+
+    img {
+        width: max(30%, 250px);
+    }
+
 }
 
 .spaced {
@@ -76,12 +90,12 @@ gradient {
         display: block;
     }
     .container {
-        padding: 0vw 13vw 0vw 13vw;
+        padding: 15vh 13vw 10vh 13vw;
     }
     h1 {
         text-align: center;
     }
-    img {
+    .img {
         margin-left: auto;
         margin-right: auto;
         margin-top: 25px;
@@ -94,7 +108,7 @@ gradient {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 	background-color: #000;
-	padding: 18px 21px 18px 21px;
+	padding: 15px 18px 15px 18px;
     color: #000;
 	align-items: center;
 	position: sticky;
@@ -107,6 +121,12 @@ gradient {
         margin-right: 1.5vw;
         color: $light;
         transition: color 0.2s ease;
+
+        img {
+            margin-left: 0px;
+            cursor: pointer;
+            width: 50px;
+        }
         
         &:hover {
             color: $accent;

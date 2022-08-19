@@ -1,7 +1,7 @@
 const FAQ = () => {
 	return (
-		<div id="faq">
-			This is the FAQ page
+		<div id="faq" className = 'container'>
+			<h1>Frequently Asked Questions</h1>
 		</div>
 	)
 }
