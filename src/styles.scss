@@ -31,6 +31,54 @@ img {
     width: 30%;
 }
 
+details {
+    width: 30vw;
+    background: lighten(#000, 15%);
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+
+    p {
+        padding: 1rem;
+        font-size: max(1.2vw, 15px) !important;
+    }
+}
+  
+summary {
+    padding: 1rem;
+    display: block;
+    background: #000;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+    font-size: max(1.4vw, 20px);
+    transition: 0.2s ease;
+    
+    &:hover {
+        color: $accent;
+    }
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.6rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+    display:none;
+}  
+
 .centered {
     margin-left: auto;
     margin-right: auto;
@@ -45,6 +93,22 @@ gradient {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     display: inline;
+}
+
+.faqcolumn {
+    display: block;
+    margin-left: 2vw;
+}
+
+.faqdiv {
+    display: flex;
+
+    .header {
+        font-size: max(2.3vw, 3px);
+        text-align: center;
+        margin-bottom: 0px;
+        color: $accent;
+    }
 }
 
 button {
@@ -111,6 +175,11 @@ button {
     }
     .container {
         padding: 15vh 13vw 10vh 13vw;
+        
+        #title {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
     }
     h1 {
         text-align: center;
@@ -131,6 +200,7 @@ button {
 	padding: 15px 18px 15px 18px;
     color: #000;
 	align-items: center;
+    z-index: 10;
 	position: sticky;
     top: 0;
 	transition: 0.2s ease;
