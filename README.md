@@ -11,11 +11,16 @@ Location: Online<br/>
 Duration: probably 36 hours<br/>
 Language: English<br/>
 
-## About
+## By students, for students
 
-Finding time for yourself outside of your busy life is critical, especially for high-school / university students, since they are still exploring themselves, their passions, and developing their identity. However, this is not possible if there isn’t enough time, which can be a great challenge for high-school and university students. There’s one thing young students are great at: it’s technology. What if we could use technology to our advantage, to save time?
+ClockHacks is a hackathon created by a group of high school students from Waterloo, Ontario.
 
-This is why ClockHacks was created. Our mission is to inspire developers to create innovate solutions for managing time, your most valuable asset. Unlike money, attention, or energy, time is limited; you have no way of getting it back once you’ve used it.
+Our mission is to make hackathons accessible and fun for high school students around the world. Themed around time, Clockhacks will take place online on DATE.
+
+You will be able to work in teams of up to 4 to create a website, game, app, robot, or whatever tech-related product you want. Participate in activites, speeches, workshops, and events to learn more about the world of tech. At the end of the event, pitch your project to a panel of judges and compete for prizes.
+
+Join hackers from across North America this November for a weekend of fun and innovation at ClockHacks!
+
 
 ## Dependencies
 
