@@ -16,12 +16,12 @@ function App() {
 
 			<Home/>
 			<About/>
-			<Contact/>
 			<FAQ/>
 			<Schedule/>
-			<Speakers/>
 			<Sponsors/>
+			<Speakers/>
 			<Team/>
+			<Contact/>
 
 		</div>
 	);
