@@ -8,10 +8,11 @@ const Home = () => {
         <h1 id = 'title'>
             <gradient>ClockHacks</gradient>
         </h1>
-        <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}}>
+        <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}} id ='desc'>
             A hackathon for time | November 4 - 6, 2022
             <br></br> 
-            <button>Applications Open Soon</button>{' '}
+            <button>Applications Open Soon</button>
+            <br></br>
             <button>Sponsor Us</button>
         </p>
     </div>

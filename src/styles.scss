@@ -142,6 +142,26 @@ gradient {
     }
 }
 
+@keyframes homeAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: inherit;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        margin-top: 100px;
+        opacity: 0;
+    }
+    to {
+        margin-top: inherit;
+        opacity: inherit;
+    }
+}
+
 button {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -178,11 +198,20 @@ button {
         font-size: max(6vw, 50px);
         margin-bottom: -20px;
         margin-top: -20px;
+        animation-name: homeAnimation;
+        animation-duration: 3s;    
     }
     
     #homelogo {
         width: 18%;
         min-width: 200px;
+        animation-name: homeAnimation;
+        animation-duration: 3s;    
+    }
+
+    #desc {
+        animation-name: fadeUp;
+        animation-duration: 2s;
     }
 
     p {
