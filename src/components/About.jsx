@@ -3,7 +3,7 @@ import Collaboration from '../assets/collaboration.svg'
 const About = () => {
 
 	return (
-		<div id="about" className="container spaced" data-aos = 'fade-up' data-aos-duration = '1200'>
+		<div id="about" className="container spaced" data-aos-duration = '1200'>
 
 			<div>
 			<h1>
