@@ -4,11 +4,11 @@ The website for Clockhacks, a hackathon by students for students
 
 ## Info
 
-Event Date: We don't know yet<br/>
+Event Date: Nov 4, 2022 to Nov 6, 2022<br/>
 Free: Yes<br/>
 Students: Yes, high school<br/>
 Location: Online<br/>
-Duration: probably 36 hours<br/>
+Duration: 40 hours<br/>
 Language: English<br/>
 
 ## By students, for students
