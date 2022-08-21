@@ -30,6 +30,10 @@ const FAQ = () => {
 					<p>It costs nothing! ClockHacks is completely free to attend.</p>
 				</details>
 				<details>
+					<summary>How do I become a sponsor? asdfasdfasdfasd</summary>
+					<p>To become a sponsor, email our business email: </p>
+				</details>
+				<details>
 					<summary>What if I've never been to a hackathon before?</summary>
 					<p>That's okay! If you choose not to code, you will be able to connect with other participants, attend workshops, listen to guest speakers, and learn about the world of tech.</p>
 				</details>
@@ -80,12 +84,12 @@ const FAQ = () => {
 					<p>Well, uh, you see... we don't know yet.</p>
 				</details>
 				<details>
-					<summary>How do I become a sponsor? asdfasdfasdfasd</summary>
-					<p>To become a sponsor, email our business email: </p>
-				</details>
-				<details>
 					<summary>What if my question isn't listed here? asdfasdfasdfasd</summary>
 					<p>If you have more questions, you can ask on our Discord, or email our business email: </p>
+				</details>
+				<details>
+					<summary>What if I can't, or haven't made anything?</summary>
+					<p>That's okay! Nobody is forcing you to make something at ClockHacks. We just hope that you can learn something, have fun, or make some new friends.</p>
 				</details>
 
 				</div>
