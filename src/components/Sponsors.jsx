@@ -1,24 +1,72 @@
+import Apple from "../assets/companies/Apple.png"
+import Google from "../assets/companies/Google.png"
+import Twilio from "../assets/companies/Twilio.png"
+
+const goldCompanies = [
+	{
+		name: "Apple",
+		img: Apple,
+		link: "https://www.apple.com/ca/",
+	},
+	{
+		name: "Google",
+		img: Google,
+		link: "https://www.google.ca/",
+	},
+]
+const silverCompanies = [
+	{
+		name: "Twilio",
+		img: Twilio,
+		link: "https://www.twilio.com/",
+	}
+]
+const bronzeCompanies = [
+	
+]
+
 const Sponsors = () => {
 	return (
 		<div id="sponsors" className = 'container'>
 			<h1 style = {{textAlign: 'center'}}>
 				Our Sponsors
-				<p>
-					The companies that make ClockHacks possible
-				</p>
+				<p>A special thanks to all our sponsors for making ClockHacks possible</p>
 			</h1>
 
-			<div id = 'gold'>
-				<div>
-					Gold sponsor #1
-				</div>
+			<div className="tier" id = 'gold'>
+				<h2>Gold sponsor #1</h2>
+				{goldCompanies.map((company, i) => {
+					return (
+						<div className="company">
+							<a className="m-auto" href={company.link}><img src={company.img} alt={company.name}></img></a>
+							<p>{company.name}</p>
+						</div>
+					)
+				})}
 			</div>
-			<div id = 'bronze'>
-
+			<div className="tier" id = 'silver'>
+				<h2>Silver sponsors #2</h2>
+				{silverCompanies.map((company, i) => {
+					return (
+						<div className="company">
+							<a className="m-auto" href={company.link}><img src={company.img} alt={company.name}></img></a>
+							<p>{company.name}</p>
+						</div>
+					)
+				})}
 			</div>
-			<div id = 'silver'>
-
+			<div className="tier" id = 'bronze'>
+				<h2>Bronze sponsors #3</h2>
+				{bronzeCompanies.map((company, i) => {
+					return (
+						<div className="company">
+							<a className="m-auto" href={company.link}><img src={company.img} alt={company.name}></img></a>
+							<p>{company.name}</p>
+						</div>
+					)
+				})}
 			</div>
+			<hr/>
 
 		</div>
 	)
