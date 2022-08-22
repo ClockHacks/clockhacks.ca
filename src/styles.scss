@@ -46,11 +46,11 @@ details {
 summary {
     padding: 1rem;
     display: block;
-    background: #000;
+    background: darken($dark, 10%);
     padding-left: 2.2rem;
     position: relative;
     cursor: pointer;
-    font-size: max(1.4vw, 20px);
+    font-size: max(1.3vw, 20px);
     transition: 0.2s ease;
     
     &:hover {
@@ -205,8 +205,6 @@ button {
     #homelogo {
         width: 18%;
         min-width: 200px;
-        animation-name: homeAnimation;
-        animation-duration: 3s;    
     }
 
     #desc {
@@ -222,6 +220,10 @@ button {
         width: max(30%, 250px);
     }
 
+}
+
+#about {
+    background-color: darken($dark, 10%);
 }
 
 .spaced {

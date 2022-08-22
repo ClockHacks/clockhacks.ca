@@ -3,13 +3,13 @@ const FAQ = () => {
 		<div id="faq" className = 'container'>
 			<h1 style = {{textAlign: 'center'}}>Frequently Asked Questions</h1>
 
-			<div className = 'faqdiv'>
+			<div className = 'faqdiv' data-aos = 'fade-up' data-aos-duration = '800'>
 
 				<div>
 
 				<h1 className = 'header'>Before</h1>
 
-				<details>
+				<details open>
 					<summary>What is a hackathon?</summary>
 					<p>A hackathon is an event where designers, programmers, engineers, and tech enthusiasts gather to create something within a given time limit.</p>
 				</details>
@@ -44,7 +44,7 @@ const FAQ = () => {
 
 				<h1 className = 'header'>During</h1>
 
-				<details>
+				<details open>
 					<summary>What if I don't know how to code?</summary>
 					<p>It's okay! Hackathons aren't just about coding. There is also an aspect of business, design, and presentation. You can also attend workshops and listen to guest speakers talk about the world of tech.</p>
 				</details>
@@ -68,6 +68,10 @@ const FAQ = () => {
 					<summary>What if I need help?</summary>
 					<p>If you need help or have questions regarding the event, you can ask an organizer in the Discord. If you have technical questions, good luck.</p>
 				</details>
+				<details>
+					<summary>How long does the event last?</summary>
+					<p>The creating portion of ClockHacks lasts 40 hours, from 7:00 pm on November 4 to 11:00 am on November 6.</p>
+				</details>
 
 				</div>
 
@@ -75,7 +79,7 @@ const FAQ = () => {
 
 				<h1 className = 'header'>After</h1>
 
-				<details>
+				<details open>
 					<summary>How does judging work?</summary>
 					<p>You will submit a pitch video on Devpost, which will be reviewed by a panel of judges. </p>
 				</details>

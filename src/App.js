@@ -7,9 +7,13 @@ import Speakers from './components/Speakers';
 import Sponsors from './components/Sponsors';
 import Team from './components/Team';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 import Navbar from './components/Navbar'
 
 function App() {
+	AOS.init()
 	return (
 		<div id="app" className="bg-dark-color">
 			<Navbar/>

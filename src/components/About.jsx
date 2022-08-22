@@ -3,9 +3,9 @@ import Collaboration from '../assets/collaboration.svg'
 const About = () => {
 
 	return (
-		<div id="about" className="container spaced" data-aos-duration = '1200'>
+		<div id="about" className="container spaced" >
 
-			<div>
+			<div data-aos = 'fade-up' data-aos-duration = '1200'>
 			<h1>
 				By <gradient> students,</gradient> for <gradient> students</gradient>
 			</h1>
@@ -20,7 +20,7 @@ const About = () => {
 			</p>
 			</div>
 
-			<img src = {Collaboration} alt = 'collabimg' className = 'img'></img>
+			<img data-aos = 'fade-up' data-aos-duration = '1200' src = {Collaboration} alt = 'collabimg' className = 'img'></img>
 
 		</div>
 	)
