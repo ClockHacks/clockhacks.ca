@@ -24,6 +24,7 @@ Join hackers from across North America this November for a weekend of fun and in
 
 ## Dependencies
 
+React<br/>
 Sass<br/>
 Material Icons<br/>
-Tensorflow<br/>
+Tailwind<br/>
