@@ -201,7 +201,7 @@ button {
 
     #title {
         text-align: center;
-        font-size: max(6vw, 50px);
+        font-size: max(6vw, 40px);
         margin-bottom: -20px;
         margin-top: -20px;
         animation-name: homeAnimation;
@@ -286,6 +286,47 @@ button {
             justify-content: center;
             text-align: center;
         }
+    }
+}
+
+#team {
+    .column {
+        display: block;
+        width: 50%;
+
+        h1 {
+            text-align: center;
+            font-size: max(3vw, 25px);
+        }
+
+        p {
+            font-size: max(1.5vw, 15px);
+        }
+
+        a {
+            cursor: pointer;
+        }
+    }
+    img {
+        border-radius: 50%;
+        border: $accent solid 5px;
+        width: max(45%, 125px);
+        max-width: none;
+        @include centered();
+    }
+}
+
+#teamcontainer {
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        margin: auto;
+    }
+    #teamcontainer {
+        display: block;
     }
 }
 
