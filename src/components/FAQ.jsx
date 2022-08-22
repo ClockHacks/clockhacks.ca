@@ -30,8 +30,8 @@ const FAQ = () => {
 					<p>It costs nothing! ClockHacks is completely free to attend.</p>
 				</details>
 				<details>
-					<summary>How do I become a sponsor? asdfasdfasdfasd</summary>
-					<p>To become a sponsor, email our business email: </p>
+					<summary>How do I become a sponsor?</summary>
+					<p>Applying to be a sponsor will be available soon.</p>
 				</details>
 				<details>
 					<summary>What if I've never been to a hackathon before?</summary>
@@ -61,8 +61,8 @@ const FAQ = () => {
 					<p>You can make any type of project you would like! An app, a website, blockchain, hardware, design, or anything that your heart desires. However, since our hackathon is themed around time, we strongly encourage you to base your project around time as well.</p>
 				</details>
 				<details>
-					<summary>What kind of workshops, talks, and events will there be? sadfsadfadfasd</summary>
-					<p>Well, we don't know yet.</p>
+					<summary>What kind of workshops, talks, and events will there be?</summary>
+					<p>Events and activities will be determined at a later date.</p>
 				</details>
 				<details>
 					<summary>What if I need help?</summary>
@@ -84,12 +84,12 @@ const FAQ = () => {
 					<p>You will submit a pitch video on Devpost, which will be reviewed by a panel of judges. </p>
 				</details>
 				<details>
-					<summary>What prizes are there? sdfasdfasdfasdfad</summary>
-					<p>Well, uh, you see... we don't know yet.</p>
+					<summary>What prizes are there?</summary>
+					<p>Prizes will be determined at a later date.</p>
 				</details>
 				<details>
-					<summary>What if my question isn't listed here? asdfasdfasdfasd</summary>
-					<p>If you have more questions, you can ask on our Discord, or email our business email: </p>
+					<summary>What if my question isn't listed here?</summary>
+					<p>If you have more questions, you can ask one of the organizers on our Discord: https://discord.com/invite/UKjQBdy26S</p>
 				</details>
 				<details>
 					<summary>What if I can't, or haven't made anything?</summary>

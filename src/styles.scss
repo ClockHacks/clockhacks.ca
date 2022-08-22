@@ -312,7 +312,7 @@ button {
     img {
         border-radius: 50%;
         border: $accent solid 5px;
-        width: max(45%, 125px);
+        width: max(35%, 125px);
         max-width: none;
         @include centered();
     }
@@ -474,6 +474,7 @@ button {
             color: $accent;
         }
         margin-left: 10px;
+        cursor: pointer;
         white-space: nowrap;
     }
 }
@@ -491,5 +492,5 @@ button {
 }
 
 footer {
-    background-color: darken($dark, 10%);
+    background-color: #0B1015;
 }

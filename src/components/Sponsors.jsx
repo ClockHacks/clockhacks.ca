@@ -19,9 +19,8 @@ const Sponsors = () => {
 					<br></br><br></br>
 					By sponsoring, not only do you allow ClockHacks to run, you help to inspire many youth to pursue a career in tech. You will make a long-lasting impression on the future inventors, innovators, and entrepreneurs.
 					<br></br><br></br>
-					Interested in sponsoring? If you're a business or organization, you can check out our <a>sponsor package</a> or email our business email: 
-					<br></br><br></br>
-					<button>Sponsor Us</button>
+					{/* Interested in sponsoring? If you're a business or organization, you can check out our <a>sponsor package</a> or email our business email:  */}
+					<button>Sponsor Us (Coming Soon!)</button>
 				</p>
 			</h1>
 			<img src = {sponsor} alt = 'sponsorimg'></img>

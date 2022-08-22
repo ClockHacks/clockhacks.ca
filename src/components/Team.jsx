@@ -5,13 +5,13 @@ import cera from '../assets/team/cera.jpg'
 
 const Sponsors = () => {
 	return (
-		<div id="team" className = 'container' data-aos = 'fade-up' data-aos-duration = '1200'>
+		<div id="team" className = 'container' >
 			<h1 style = {{textAlign: 'center'}}>
 				Our Team
-				<p>The amazing people behind it all</p>
+				<p>The people behind the scenes at ClockHacks</p>
 			</h1>
 
-			<div id = 'teamcontainer'>
+			<div id = 'teamcontainer' data-aos = 'fade-up' data-aos-duration = '1200'>
 			<div className = 'column'>
 				<a href = 'https://www.linkedin.com/in/pilotprix/' target = '_blank' rel = 'noreferrer'>
 				<img src = {sean} alt = 'headshot'></img>
