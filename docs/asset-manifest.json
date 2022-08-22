@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/clockhacks.ca/static/css/main.20d1b7ca.css",
-    "main.js": "/clockhacks.ca/static/js/main.af35517b.js",
-    "static/media/Logo.png": "/clockhacks.ca/static/media/Logo.ec739979523c90817a96.png",
-    "static/media/banner.jpg": "/clockhacks.ca/static/media/banner.82ca41d7a91549b07285.jpg",
-    "static/media/cera.jpg": "/clockhacks.ca/static/media/cera.58bcc89fd2707935df51.jpg",
-    "static/media/sean.jpg": "/clockhacks.ca/static/media/sean.6369654af566de2cc634.jpg",
-    "static/media/jeffrey.jpg": "/clockhacks.ca/static/media/jeffrey.e78b391d7c3b0a093ed0.jpg",
-    "static/media/jay.jpg": "/clockhacks.ca/static/media/jay.c9ab35d2d97209c7a1a2.jpg",
-    "static/media/inspiration.svg": "/clockhacks.ca/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
-    "static/media/collaboration.svg": "/clockhacks.ca/static/media/collaboration.83524ac4559add56ba7231b5e245c07f.svg",
-    "static/media/contact.svg": "/clockhacks.ca/static/media/contact.caf10b57b78e9622a75dd722b9a14092.svg",
-    "static/media/sponsor.svg": "/clockhacks.ca/static/media/sponsor.19f7abd02f244b70c6509a3cdedc4713.svg",
-    "index.html": "/clockhacks.ca/index.html",
-    "static/media/headshot.svg": "/clockhacks.ca/static/media/headshot.57489afb4cf6bd18117193e332d96371.svg",
-    "main.20d1b7ca.css.map": "/clockhacks.ca/static/css/main.20d1b7ca.css.map",
-    "main.af35517b.js.map": "/clockhacks.ca/static/js/main.af35517b.js.map"
+    "main.css": "/clockhacks.github.io/clockhacks-website/static/css/main.20d1b7ca.css",
+    "main.js": "/clockhacks.github.io/clockhacks-website/static/js/main.49c976b1.js",
+    "static/media/Logo.png": "/clockhacks.github.io/clockhacks-website/static/media/Logo.ec739979523c90817a96.png",
+    "static/media/banner.jpg": "/clockhacks.github.io/clockhacks-website/static/media/banner.82ca41d7a91549b07285.jpg",
+    "static/media/cera.jpg": "/clockhacks.github.io/clockhacks-website/static/media/cera.58bcc89fd2707935df51.jpg",
+    "static/media/sean.jpg": "/clockhacks.github.io/clockhacks-website/static/media/sean.6369654af566de2cc634.jpg",
+    "static/media/jeffrey.jpg": "/clockhacks.github.io/clockhacks-website/static/media/jeffrey.e78b391d7c3b0a093ed0.jpg",
+    "static/media/jay.jpg": "/clockhacks.github.io/clockhacks-website/static/media/jay.c9ab35d2d97209c7a1a2.jpg",
+    "static/media/inspiration.svg": "/clockhacks.github.io/clockhacks-website/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
+    "static/media/collaboration.svg": "/clockhacks.github.io/clockhacks-website/static/media/collaboration.83524ac4559add56ba7231b5e245c07f.svg",
+    "static/media/contact.svg": "/clockhacks.github.io/clockhacks-website/static/media/contact.caf10b57b78e9622a75dd722b9a14092.svg",
+    "static/media/sponsor.svg": "/clockhacks.github.io/clockhacks-website/static/media/sponsor.19f7abd02f244b70c6509a3cdedc4713.svg",
+    "index.html": "/clockhacks.github.io/clockhacks-website/index.html",
+    "static/media/headshot.svg": "/clockhacks.github.io/clockhacks-website/static/media/headshot.57489afb4cf6bd18117193e332d96371.svg",
+    "main.20d1b7ca.css.map": "/clockhacks.github.io/clockhacks-website/static/css/main.20d1b7ca.css.map",
+    "main.49c976b1.js.map": "/clockhacks.github.io/clockhacks-website/static/js/main.49c976b1.js.map"
   },
   "entrypoints": [
     "static/css/main.20d1b7ca.css",
-    "static/js/main.af35517b.js"
+    "static/js/main.49c976b1.js"
   ]
 }
