@@ -1,6 +1,7 @@
 import Apple from "../assets/companies/Apple.png"
 import Google from "../assets/companies/Google.png"
 import Twilio from "../assets/companies/Twilio.png"
+import HE from "../assets/companies/highlanderengineering.jpg"
 
 const goldCompanies = [
 	{
@@ -22,7 +23,11 @@ const silverCompanies = [
 	}
 ]
 const bronzeCompanies = [
-	
+	{
+		name: "Highlander Engineering",
+		img: HE,
+		link: "https://www.highlanderengineering.ca/",
+	}
 ]
 
 const Sponsors = () => {
@@ -38,7 +43,9 @@ const Sponsors = () => {
 				{goldCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a className="m-auto" href={company.link}><img src={company.img} alt={company.name}></img></a>
+							<a href={company.link} target = '_blank' rel='noreferrer'>
+								<img src={company.img} alt={company.name}></img>
+							</a>
 							<p>{company.name}</p>
 						</div>
 					)
@@ -49,7 +56,9 @@ const Sponsors = () => {
 				{silverCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a className="m-auto" href={company.link}><img src={company.img} alt={company.name}></img></a>
+							<a href={company.link} target = '_blank' rel='noreferrer'>
+								<img src={company.img} alt={company.name}></img>
+							</a>
 							<p>{company.name}</p>
 						</div>
 					)
@@ -60,7 +69,7 @@ const Sponsors = () => {
 				{bronzeCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a className="m-auto" href={company.link}><img src={company.img} alt={company.name}></img></a>
+							<a href={company.link} target = '_blank' rel='noreferrer'><img src={company.img} alt={company.name}></img></a>
 							<p>{company.name}</p>
 						</div>
 					)

@@ -84,6 +84,11 @@ details summary::-webkit-details-marker {
     display:none;
 }  
 
+@mixin centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .centered {
     margin-left: auto;
     margin-right: auto;
@@ -228,14 +233,46 @@ button {
 }
 
 #sponsors {
-    background-color: darken($dark, 10%);
     display: flex;
     flex-direction: column;
+
+    a {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: max(3vw, 20px);
+    }
+
+    #gold {
+        img {
+            max-width: none;
+            width: max(23%, 150px);
+            @include centered();
+        }
+    }
+
+    #silver {
+        img {
+            max-width: none;
+            width: max(40%, 80px);
+            @include centered();
+        }
+    }
+
+    #bronze {
+        img {
+            max-width: none;
+            width: max(15%, 80px);
+            @include centered();
+        }
+    }
 
     .tier {
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
+        text-align: center;
         
         .company {
             display: flex;
@@ -243,9 +280,6 @@ button {
             align-items: center;
             justify-content: center;
             text-align: center;
-        
-            width: 100px;
-            margin: auto;
         }
     }
 }
