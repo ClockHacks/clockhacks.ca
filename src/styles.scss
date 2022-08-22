@@ -290,6 +290,8 @@ button {
 }
 
 #team {
+    background-color: darken($dark, 10%);
+    
     .column {
         display: block;
         width: 50%;
@@ -327,6 +329,17 @@ button {
     }
     #teamcontainer {
         display: block;
+    }
+}
+
+#contact {
+    a {
+        cursor: pointer;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: $accent;
+        }
     }
 }
 

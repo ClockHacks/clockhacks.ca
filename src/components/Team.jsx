@@ -5,7 +5,7 @@ import cera from '../assets/team/cera.jpg'
 
 const Sponsors = () => {
 	return (
-		<div id="team" className = 'container'>
+		<div id="team" className = 'container' data-aos = 'fade-up' data-aos-duration = '1200'>
 			<h1 style = {{textAlign: 'center'}}>
 				Our Team
 				<p>The amazing people behind it all</p>
