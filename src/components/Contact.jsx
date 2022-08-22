@@ -2,6 +2,7 @@ import contact from '../assets/contact.svg'
 
 const Contact = () => {
 	return (
+		<>
 		<div id="contact" className="container spaced">
 			<h1>
 				Important Links and Contact
@@ -25,6 +26,8 @@ const Contact = () => {
 			</h1>
 			<img src = {contact} alt = 'contactimg'></img>
 		</div>
+
+		</>
 	)
 }
 

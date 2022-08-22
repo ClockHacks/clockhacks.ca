@@ -459,3 +459,37 @@ button {
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
+
+#footerspaced {
+    padding: 2vw;
+    
+    h1 {
+        align-items: center;
+        display: flex;
+        font-size: max(1.3vw, 15px)
+    }
+    a {
+        transition: color 0.2s ease;
+        &:hover {
+            color: $accent;
+        }
+        margin-left: 10px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #footerspaced {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        a {
+            display: none;
+        }
+    }
+}
+
+footer {
+    background-color: darken($dark, 10%);
+}
