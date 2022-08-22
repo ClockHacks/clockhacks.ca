@@ -1,44 +1,33 @@
-import Apple from "../assets/companies/Apple.png"
-import Google from "../assets/companies/Google.png"
-import Twilio from "../assets/companies/Twilio.png"
-import HE from "../assets/companies/highlanderengineering.jpg"
+import sponsor from '../assets/sponsor.svg'
 
 const goldCompanies = [
-	{
-		name: "Apple",
-		img: Apple,
-		link: "https://www.apple.com/ca/",
-	},
-	{
-		name: "Google",
-		img: Google,
-		link: "https://www.google.ca/",
-	},
 ]
 const silverCompanies = [
-	{
-		name: "Twilio",
-		img: Twilio,
-		link: "https://www.twilio.com/",
-	}
 ]
 const bronzeCompanies = [
-	{
-		name: "Highlander Engineering",
-		img: HE,
-		link: "https://www.highlanderengineering.ca/",
-	}
 ]
 
 const Sponsors = () => {
 	return (
 		<div id="sponsors" className = 'container'>
-			<h1 style = {{textAlign: 'center'}}>
-				Our Sponsors
-				<p>A special thanks to all our sponsors for making ClockHacks possible</p>
+			
+			<div className = 'container spaced' style = {{padding: '0'}}>
+			<h1>
+				Sponsor the <gradient>future</gradient>
+				<p>
+					Sponsors like you are what makes ClockHacks possible. Without sponsors, we wouldn't be able to have prizes, workshops, speakers, or even the event at all. 
+					<br></br><br></br>
+					By sponsoring, not only do you allow ClockHacks to run, you help to inspire many youth to pursue a career in tech. You will make a long-lasting impression on the future inventors, innovators, and entrepreneurs.
+					<br></br><br></br>
+					Interested in sponsoring? If you're a business or organization, you can check out our <a>sponsor package</a> or email our business email: 
+					<br></br><br></br>
+					<button>Sponsor Us</button>
+				</p>
 			</h1>
+			<img src = {sponsor} alt = 'sponsorimg'></img>
+			</div>
 
-			<div className="tier" id = 'gold'>
+			{/* <div className="tier" id = 'gold'>
 				<h2>Gold sponsor #1</h2>
 				{goldCompanies.map((company, i) => {
 					return (
@@ -75,9 +64,9 @@ const Sponsors = () => {
 					)
 				})}
 			</div>
-			<hr/>
+			<hr/>*/}
 
-		</div>
+		</div> 
 	)
 }
 

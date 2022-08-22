@@ -228,6 +228,10 @@ button {
 
 }
 
+#home {
+    height: 93vh;
+}
+
 #about {
     background-color: darken($dark, 10%);
 }
@@ -235,6 +239,7 @@ button {
 #sponsors {
     display: flex;
     flex-direction: column;
+    background-color: darken($dark, 10%);
 
     a {
         width: 100%;
