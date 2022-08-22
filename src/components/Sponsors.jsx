@@ -11,7 +11,7 @@ const Sponsors = () => {
 	return (
 		<div id="sponsors" className = 'container'>
 			
-			<div className = 'container spaced' style = {{padding: '0'}}>
+			<div className = 'container spaced' style = {{padding: '0'}} data-aos = 'fade-right' data-aos-duration = '1000'>
 			<h1>
 				Sponsor the <gradient>future</gradient>
 				<p>
@@ -26,6 +26,9 @@ const Sponsors = () => {
 			</h1>
 			<img src = {sponsor} alt = 'sponsorimg'></img>
 			</div>
+
+			<h1>Our Sponsors</h1>
+			<p>Coming Soon!</p>
 
 			{/* <div className="tier" id = 'gold'>
 				<h2>Gold sponsor #1</h2>

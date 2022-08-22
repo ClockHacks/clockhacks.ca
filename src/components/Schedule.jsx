@@ -1,10 +1,9 @@
 const Schedule = () => {
 	return (
-		<div id="schedule" className = 'container'>
+		<div id="schedule" className = 'container' style = {{textAlign: 'center'}}>
 			<h1>Schedule</h1>
 			<p>
-				12:00 am 
-				BEGIN
+				Coming Soon!
 			</p>
 		</div>
 	)

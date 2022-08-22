@@ -305,9 +305,13 @@ button {
             margin-top: 0px;
             margin-bottom: 0px;
         }
+
+        img {
+            @include centered();
+        }    
     }
     h1 {
-        text-align: center;
+        text-align: center !important;
     }
     .img {
         margin-left: auto;
