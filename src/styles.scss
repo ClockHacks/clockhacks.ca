@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 $accent: #78B68C;
-$accent-bright: #8cb655;
+$accent-bright: #8eb650;
 $light: #f3f3f3;
 $dark: #353535;
 
@@ -236,17 +236,18 @@ button {
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
+        
+        .company {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        
+            width: 100px;
+            margin: auto;
+        }
     }
-}
-.company {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-    width: 100px;
-    margin: auto;
 }
 
 .spaced {
