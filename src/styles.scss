@@ -459,12 +459,15 @@ button {
 
 #footerspaced {
     padding: 2vw;
-    
-    h1 {
-        align-items: center;
-        display: flex;
-        font-size: max(1.3vw, 15px)
+    display: block;
+    justify-content: center;
+    text-align: center;
+    @include centered();
+
+    p {
+        font-size: max(1.5vw, 13px);
     }
+    
     a {
         transition: color 0.2s ease;
         &:hover {
@@ -476,17 +479,17 @@ button {
     }
 }
 
-@media screen and (max-width: 1000px) {
-    #footerspaced {
-        display: flex;
-        justify-content: center;
-        text-align: center;
+// @media screen and (max-width: 1000px) {
+//     #footerspaced {
+//         display: block !important;
+//         justify-content: center !important;
+        
+//         h1, a {
+//             text-align: center !important;
 
-        a {
-            display: none;
-        }
-    }
-}
+//         }
+//     }
+// }
 
 footer {
     background-color: #0B1015;
