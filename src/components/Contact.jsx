@@ -5,26 +5,17 @@ const Contact = () => {
 		<>
 		<div id="contact" className="container spaced" data-aos = 'fade-right' data-aos-duration = '800'>
 			<h1>
-				Important Links and Contact
+				Inspire, create, <gradient>innovate</gradient>
 				<p>
-					Inquiry Email: Coming Soon!
+					Hackathons are a great place to not only learn about tech, but to meet and connect with other likeminded people. If you're a high schooler interested in tech, business, design, or just free merch, ClockHacks is for you.
 					<br></br>
-					Business Email: Coming Soon!
 					<br></br>
-					Sponsorship Package: Coming Soon!
-					<br></br> 
-					Devpost: Coming Soon!
-					<br></br> 
+					Interested in Sponsoring? Email us at: (Coming Soon!)
 					<br></br>
-					<a href = 'https://discord.gg/UKjQBdy26S' target = '_blank'><i class = 'bi bi-discord'></i> Discord</a>
-					<br></br>
-					<a href = 'https://github.com/ClockHacks' target = '_blank'><i class = 'bi bi-github'></i> GitHub Organization</a>
-					<br></br>
-					<a target = '_blank'><i class = 'bi bi-linkedin'></i> LinkedIn Organization</a>
+					Have questions? Reach out to us (here) or join the <a href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a>
 				</p>
-				<button>Sponsor Us (Coming Soon!)</button>
 			</h1>
-			<img src = {contact} alt = 'contactimg'></img>
+			<img src = {contact} alt = 'contact'></img>
 		</div>
 
 		</>

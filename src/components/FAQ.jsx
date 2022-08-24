@@ -54,7 +54,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>How will we communicate during the event?</summary>
-					<p>Announcements during and before ClockHacks will be through Discord. We strongly recommend that you talk to your teammates on Discord as well.</p>
+					<p>Announcements during and before ClockHacks will be through Discord. We strongly recommend that you talk to your teammates on Discord as well. Join the ClockHacks Discord: https://discord.com/invite/UKjQBdy26S</p>
 				</details>
 				<details>
 					<summary>What project should I make?</summary>

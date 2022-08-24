@@ -13,7 +13,11 @@ const Home = () => {
             <br></br> 
             <button>Applications Open Soon</button>
             <br></br>
-            <button>Sponsor Us (Coming Soon!)</button>
+            {/* <button>Sponsor Us (Coming Soon!)</button> */}
+            <button onClick = {
+              () => {window.open('https://discord.com/invite/UKjQBdy26S')}
+            }
+              >Join the Discord!</button>
         </p>
     </div>
   )
