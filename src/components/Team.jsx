@@ -17,7 +17,7 @@ const Sponsors = () => {
 				<img src = {sean} alt = 'headshot'></img>
 				<h1>
 					Sean Wang
-					<p>Co-founder, financing and logistics lead</p>
+					<p>Co-Founder</p>
 				</h1>
 				</a>
 
@@ -25,7 +25,7 @@ const Sponsors = () => {
 					<img src = {jeffrey} alt = 'headshot'></img>
 					<h1>
 						Jeffrey Zang
-						<p>Co-founder, technical co-lead</p>
+						<p>Technical Lead</p>
 					</h1>
 				</a>
 
@@ -36,7 +36,7 @@ const Sponsors = () => {
 					<img src = {jay} alt = 'headshot'></img>
 					<h1>
 						Jay Ren
-						<p>Co-founder, technical co-lead</p>
+						<p>Co-Founder</p>
 					</h1>
 				</a>
 
@@ -44,7 +44,7 @@ const Sponsors = () => {
 					<img src = {cera} alt = 'headshot'></img>
 					<h1>
 						Cera Wang
-						<p>Co-founder, design lead</p>
+						<p>Design Lead</p>
 					</h1>
 				</a>
 			</div>
