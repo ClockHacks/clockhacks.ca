@@ -20,7 +20,7 @@ const About = () => {
 			</p>
 			</div>
 
-			<img data-aos = 'fade-up' data-aos-duration = '1200' src = {Collaboration} alt = 'collabimg' className = 'img'></img>
+			<img loading = 'lazy' data-aos = 'fade-up' data-aos-duration = '1200' src = {Collaboration} alt = 'collabimg' className = 'img'></img>
 
 		</div>
 	)

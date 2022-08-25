@@ -18,6 +18,11 @@ const Home = () => {
               () => {window.open('https://discord.com/invite/UKjQBdy26S')}
             }
               >Join the Discord!</button>
+                          <button onClick = {
+              () => {window.open('https://clockhacks.devpost.com/')}
+            }
+              >Devpost</button>
+              
         </p>
     </div>
   )

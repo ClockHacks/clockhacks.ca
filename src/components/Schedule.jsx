@@ -3,7 +3,11 @@ const Schedule = () => {
 		<div id="schedule" className = 'container' style = {{textAlign: 'center'}}>
 			<h1>Schedule</h1>
 			<p>
-				Coming Soon!
+				November 4
+				7:00 PM - Hacking Starts!
+				<br></br>
+				November 6
+				11:00 AM - Hacking Ends!
 			</p>
 		</div>
 	)
