@@ -23,7 +23,7 @@ const Sponsors = () => {
 					<button>Sponsor Us (Coming Soon!)</button>
 				</p>
 			</h1>
-			<img src = {sponsor} alt = 'sponsorimg'></img>
+			<img loading = 'lazy' src = {sponsor} alt = 'sponsorimg'></img>
 			</div>
 
 			<h1>Our Sponsors</h1>

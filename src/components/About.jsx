@@ -1,3 +1,4 @@
+import {React, useEffect, lazy, Suspense} from "react";
 import Collaboration from '../assets/collaboration.svg'
 
 const About = () => {

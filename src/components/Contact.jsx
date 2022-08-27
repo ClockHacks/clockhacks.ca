@@ -15,7 +15,7 @@ const Contact = () => {
 					Have questions? Reach out to us (here) or join the <a href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a>
 				</p>
 			</h1>
-			<img src = {contact} alt = 'contact'></img>
+			<img loading = 'lazy' src = {contact} alt = 'contact'></img>
 		</div>
 
 		</>

@@ -13,7 +13,7 @@ const Sponsors = () => {
 
 			<div id = 'teamcontainer' data-aos = 'fade-up' data-aos-duration = '1200'>
 			<div className = 'column'>
-				<img src = {sean} alt = 'headshot'></img>
+				<img loading = 'lazy' src = {sean} alt = 'headshot'></img>
 				<h1>
 					Sean Wang
 					<p>Co-Founder</p>
@@ -27,7 +27,7 @@ const Sponsors = () => {
 					</p>
 				</h1>
 
-				<img src = {jeffrey} alt = 'headshot'></img>
+				<img loading = 'lazy' src = {jeffrey} alt = 'headshot'></img>
 				<h1>
 					Jeffrey Zang
 					<p>Technical Lead</p>
@@ -44,7 +44,7 @@ const Sponsors = () => {
 			</div>
 
 			<div className = 'column'>
-				<img src = {jay} alt = 'headshot'></img>
+				<img loading = 'lazy' src = {jay} alt = 'headshot'></img>
 				<h1>
 					Jay Ren
 					<p>Co-founder</p>
@@ -58,7 +58,7 @@ const Sponsors = () => {
 					</p>
 				</h1>
 
-				<img src = {cera} alt = 'headshot'></img>
+				<img loading = 'lazy' src = {cera} alt = 'headshot'></img>
 				<h1>
 					Cera Wang
 					<p>Design Lead</p>

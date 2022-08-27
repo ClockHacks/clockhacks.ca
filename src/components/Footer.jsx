@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
 		
-		<img src = {banner} alt = 'banner' style = {{width: '100%'}}></img>
+		<img loading = 'lazy' src = {banner} alt = 'banner' style = {{width: '100%'}}></img>
 		<div className = 'spaced' id = 'footerspaced'>
 			<p>
 			Copyright © 2022 ClockHacks
