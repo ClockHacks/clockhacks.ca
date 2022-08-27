@@ -307,6 +307,11 @@ button {
 
         a {
             cursor: pointer;
+            transition: 0.2s;
+
+            &:hover {
+                color: $accent;
+            }
         }
     }
     img {
@@ -315,6 +320,15 @@ button {
         width: max(35%, 125px);
         max-width: none;
         @include centered();
+        transition: border-radius 0.3s;
+
+        &:hover {
+            border-radius: 35%;
+        }
+
+        &:active { 
+            transform: scale(0.96);
+        }
     }
 }
 

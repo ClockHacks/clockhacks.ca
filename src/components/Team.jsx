@@ -13,40 +13,64 @@ const Sponsors = () => {
 
 			<div id = 'teamcontainer' data-aos = 'fade-up' data-aos-duration = '1200'>
 			<div className = 'column'>
-				<a href = 'https://www.linkedin.com/in/pilotprix/' target = '_blank' rel = 'noreferrer'>
 				<img src = {sean} alt = 'headshot'></img>
 				<h1>
 					Sean Wang
 					<p>Co-Founder</p>
+					<p>
+						<a href = 'https://www.linkedin.com/in/pilotprix/' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-linkedin' ></i>
+						</a>{' '}
+						<a href = 'https://github.com/PilotPrix' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-github' ></i>
+						</a>
+					</p>
 				</h1>
-				</a>
 
-				<a href = 'https://www.linkedin.com/in/jeffrey-zang-49b872246/' target = '_blank' rel = 'noreferrer'> 
-					<img src = {jeffrey} alt = 'headshot'></img>
-					<h1>
-						Jeffrey Zang
-						<p>Technical Lead</p>
-					</h1>
-				</a>
+				<img src = {jeffrey} alt = 'headshot'></img>
+				<h1>
+					Jeffrey Zang
+					<p>Technical Lead</p>
+					<p>
+						<a href = 'https://www.linkedin.com/in/jeffreyzang2007/' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-linkedin' ></i>
+						</a>{' '}
+						<a href = 'https://github.com/jeffrey-zang' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-github' ></i>
+						</a>
+					</p>
+				</h1>
 
 			</div>
 
 			<div className = 'column'>
-				<a href = 'https://www.linkedin.com/in/jay-yuan-ren-107892211/' target = '_blank' rel = 'noreferrer'>
-					<img src = {jay} alt = 'headshot'></img>
-					<h1>
-						Jay Ren
-						<p>Co-Founder</p>
-					</h1>
-				</a>
+				<img src = {jay} alt = 'headshot'></img>
+				<h1>
+					Jay Ren
+					<p>Co-founder</p>
+					<p>
+						<a href = 'https://www.linkedin.com/in/jay-yuan-ren-107892211/' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-linkedin' ></i>
+						</a>{' '}
+						<a href = 'https://github.com/JaryJay' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-github' ></i>
+						</a>
+					</p>
+				</h1>
 
-				<a href = 'https://www.linkedin.com/in/cera-wang-171699240/' target = '_blank' rel = 'noreferrer'>
-					<img src = {cera} alt = 'headshot'></img>
-					<h1>
-						Cera Wang
-						<p>Design Lead</p>
-					</h1>
-				</a>
+				<img src = {cera} alt = 'headshot'></img>
+				<h1>
+					Cera Wang
+					<p>Design Lead</p>
+					<p>
+						<a href = 'https://www.linkedin.com/in/cera-wang-171699240/' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-linkedin' ></i>
+						</a>{' '}
+						<a href = 'https://github.com/orgs/ClockHacks/people/acrenw' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-github' ></i>
+						</a>
+					</p>
+				</h1>
 			</div>
 			</div>
 
