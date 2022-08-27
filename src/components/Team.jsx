@@ -11,7 +11,7 @@ const Sponsors = () => {
 				<p>The people behind the scenes at ClockHacks</p>
 			</h1>
 
-			<div id = 'teamcontainer' data-aos = 'fade-up' data-aos-duration = '1200'>
+			<div id = 'teamcontainer' data-aos = 'fade-up' data-aos-duration = '1000' >
 			<div className = 'column'>
 				<img loading = 'lazy' src = {sean} alt = 'headshot'></img>
 				<h1>

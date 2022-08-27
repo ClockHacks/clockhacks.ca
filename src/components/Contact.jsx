@@ -3,7 +3,7 @@ import contact from '../assets/contact.svg'
 const Contact = () => {
 	return (
 		<>
-		<div id="contact" className="container spaced" data-aos = 'fade-right' data-aos-duration = '800'>
+		<div id="contact" className="container spaced" data-aos = 'fade-right' data-aos-duration = '800' data-aos-delay="300">
 			<h1>
 				Inspire, create, <gradient>innovate</gradient>
 				<p>
