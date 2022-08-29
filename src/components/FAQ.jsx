@@ -23,7 +23,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>When is ClockHacks 2022?</summary>
-					<p>ClockHacks 2022 will be November 4, 2022 to November 6, 2022. Hacking will start at 7:00 pm on November 4 and will end at 11:00 pm on November 6.</p>
+					<p>ClockHacks 2022 will be November 4, 2022 to November 6, 2022. Hacking will start at 7:00 pm on November 4 and will end at 11:00 am on November 6.</p>
 				</details>
 				<details>
 					<summary>How much does it cost to attend ClockHacks?</summary>
@@ -54,7 +54,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>How will we communicate during the event?</summary>
-					<p>Announcements during and before ClockHacks will be through Discord. We strongly recommend that you talk to your teammates on Discord as well. Join the ClockHacks Discord: https://discord.com/invite/UKjQBdy26S</p>
+					<p>Announcements during and before ClockHacks will be through <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a>. We strongly recommend that you talk to your teammates on Discord as well.</p>
 				</details>
 				<details>
 					<summary>What project should I make?</summary>
@@ -66,7 +66,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>What if I need help?</summary>
-					<p>If you need help or have questions regarding the event, you can ask an organizer in the Discord. If you have technical questions, good luck.</p>
+					<p>If you need help or have questions regarding the event, you can ask an organizer in the <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a>. If you have technical questions, good luck.</p>
 				</details>
 				<details>
 					<summary>How long does the event last?</summary>
@@ -89,7 +89,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>What if my question isn't listed here?</summary>
-					<p>If you have more questions, you can ask one of the organizers on our Discord: https://discord.com/invite/UKjQBdy26S</p>
+					<p>If you have more questions, you can ask one of the organizers on our <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a></p>
 				</details>
 				<details>
 					<summary>What if I can't, or haven't made anything?</summary>

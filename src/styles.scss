@@ -132,6 +132,13 @@ gradient {
     display: inline;
 }
 
+#faq {
+    a {
+        color: $accent;
+        text-decoration: underline;
+    }
+}
+
 .faqcolumn {
     display: block;
     margin-left: 2vw;
@@ -351,10 +358,6 @@ button {
 
         &:hover {
             border-radius: 35%;
-        }
-
-        &:active { 
-            transform: scale(0.96);
         }
     }
 }
