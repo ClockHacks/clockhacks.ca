@@ -19,15 +19,14 @@ const Sponsors = () => {
 					<br></br><br></br>
 					By sponsoring, not only do you allow ClockHacks to run, you help to inspire many youth to pursue a career in tech. You will make a long-lasting impression on the future inventors, innovators, and entrepreneurs.
 					<br></br><br></br>
-					{/* Interested in sponsoring? If you're a business or organization, you can check out our <a>sponsor package</a> or email our business email:  */}
-					<button>Sponsor Us (Coming Soon!)</button>
+					Interested in sponsoring? If you're a business or organization, you can check out our <a>sponsor package</a> or email our <a href = 'mailto: business.clockhacks@gmail.com'>business email</a>.
 				</p>
 			</h1>
 			<img loading = 'lazy' src = {sponsor} alt = 'sponsorimg'></img>
 			</div>
 
-			<h1>Our Sponsors</h1>
-			<p>Coming Soon!</p>
+			{/* <h1>Our Sponsors</h1>
+			<p>Coming Soon!</p> */}
 
 			{/* <div className="tier" id = 'gold'>
 				<h2>Gold sponsor #1</h2>

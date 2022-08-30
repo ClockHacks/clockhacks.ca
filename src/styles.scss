@@ -270,6 +270,14 @@ button {
     background-color: darken($dark, 10%);
 }
 
+#speakers {
+    a {
+        width: 100%;
+        color: $accent;
+        text-decoration: underline;
+    }
+}
+
 #sponsors {
     display: flex;
     flex-direction: column;
@@ -277,6 +285,8 @@ button {
 
     a {
         width: 100%;
+        color: $accent;
+        text-decoration: underline;
     }
 
     h2 {

@@ -11,9 +11,14 @@ const Home = () => {
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}} id ='desc'>
             A hackathon for time | November 4 - 6, 2022
             <br></br> 
-            <button>Applications Open Soon</button>
+            <button>Applications Open Soon</button>{' '}
+            <button onClick = {
+              () => {
+                let sponsor = document.getElementById('sponsors')
+                sponsor.scrollIntoView({behavior: 'smooth'});
+              }
+            }>Sponsor Us</button>
             <br></br>
-            {/* <button>Sponsor Us (Coming Soon!)</button> */}
             <button onClick = {
               () => {window.open('https://discord.com/invite/UKjQBdy26S')}
             }

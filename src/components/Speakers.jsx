@@ -12,7 +12,7 @@ const Speakers = () => {
 			<p>
 				Sign up to be a guest speaker at ClockHacks and inspire the youth of the future. Give a speech or host a workshop during the event from November 4 to November 6, 2022.
 				<br></br><br></br>
-				{/* Interested? Email us here:  */}
+				Interested? Email us <a href = 'mailto:business.clockhacks@gmail.com'>here</a>.
 			</p>
 			</h1>
 			</div>

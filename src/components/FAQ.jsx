@@ -31,7 +31,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>How do I become a sponsor?</summary>
-					<p>Applying to be a sponsor will be available soon.</p>
+					<p>Sponsoring is a great way to grow your business and inspire the youth of the future. If you're interested in sponsoring, <a href = 'mailto:business@clockhacks.ca'>email our business email.</a></p>
 				</details>
 				<details>
 					<summary>What if I've never been to a hackathon before?</summary>
@@ -66,7 +66,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>What if I need help?</summary>
-					<p>If you need help or have questions regarding the event, you can ask an organizer in the <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a>. If you have technical questions, good luck.</p>
+					<p>If you need help or have questions regarding the event, you can ask an organizer in the <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a> or <a href = 'mailto:hello@clockhacks.ca'>email us</a>. If you have technical questions, good luck.</p>
 				</details>
 				<details>
 					<summary>How long does the event last?</summary>
@@ -89,7 +89,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>What if my question isn't listed here?</summary>
-					<p>If you have more questions, you can ask one of the organizers on our <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a></p>
+					<p>If you have more questions, you can ask one of the organizers on our <a target = '_blank' rel = 'noreferrer' href = 'https://discord.com/invite/UKjQBdy26S'>Discord</a> or <a href = 'mailto:hello@clockhacks.ca'>email us.</a></p>
 				</details>
 				<details>
 					<summary>What if I can't, or haven't made anything?</summary>
