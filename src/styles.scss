@@ -440,9 +440,17 @@ button {
 	transition: 0.2s ease;
     line-height: 40px;
     font-size: max(1.3vw, 25px);
-    
+
+    #links {
+        @include centered();
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
     a {
-        margin-right: 1.5vw;
+        // margin-right: 0.5vw;
         color: $light;
         transition: color 0.2s ease;
 
@@ -467,7 +475,7 @@ button {
 }
 
 @media screen and (max-width: 830px) {
-	.nav a:not(:first-child) {display: none;}
+	.nav #links {display: none;}
 	.menuicon {
 	  float: right;
 	  display: block;
@@ -478,11 +486,18 @@ button {
 	}
 	.nav.responsive {
         display: block;
-		a {
-			float: none;
-			display: block;
-			text-align: left;
-			margin-left: 0;
+		#links {
+            display: block;
+            float: none;
+            text-align: left;
+            left: 0;
+            transform: none;
+            position: static;
+            white-space: normal;
+            
+            a {
+                display: block;
+            }
 		}  
 	}
 }

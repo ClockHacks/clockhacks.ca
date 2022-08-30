@@ -22,11 +22,13 @@ const Navbar = () => {
 				}>
 					<img src = {Logo} alt = 'navlogo'></img>
 				</a>
+				<div id = 'links'>
 				{
 					pages.map((page, index) => (
-							<a href={`#${page.toLowerCase()}`} key={index}>{page} </a>
-					))
+						<a href={`#${page.toLowerCase()}`} key={index}>{page} </a>
+						))
 				}
+				</div>
 
 				<span className="material-icons menuicon" onClick={HandleClick}>menu</span>
 
