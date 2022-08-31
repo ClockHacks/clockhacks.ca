@@ -49,6 +49,8 @@ img {
 }
   
 details {
+    position: relative;
+    z-index: 3;
     width: 30vw;
     background: lighten(#000, 15%);
     margin-bottom: 0.5rem;
@@ -257,28 +259,71 @@ button {
 
 #home {
     height: 93vh;
+}
 
-    #gear0 {
-        position: absolute;
-        right: 0;
-        top: 0;
+#gear0 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#gear1 {
+    position: absolute;
+    top: 40vh;
+    width: 20%;
+    left: 0;
+    min-width: 150px;
+}
+
+#gear2 {
+    position: absolute;
+    right: 0;
+    top: 55vh;
+    transform: scaleX(-1);
+    width: 15%;
+    min-width: 150px;
+}
+
+#gear3 {
+    position: absolute;
+    right: 0;
+}
+
+#gear4 {
+    position: absolute;
+    left: 0;
+    width: 20%;
+}
+
+#gear5 {
+    position: absolute;
+    left: 0;
+    transform: scaleY(-1);
+}
+
+#watch {
+    position: absolute;
+    left: 0;
+    margin-top: 300px;
+}
+
+#gear6 {
+    position: absolute;
+    width: 15%;
+}
+
+#gear7 {
+    position:absolute;
+    left: 0;
+    width: 7%;
+}
+
+@media screen and (max-width: 800px) {
+    #gear5 {
+        display: none;
     }
-
-    #gear1 {
-        position: absolute;
-        top: 40vh;
-        width: 20%;
-        left: 0;
-        min-width: 150px;
-    }
-
-    #gear2 {
-        position: absolute;
-        right: 0;
-        top: 55vh;
-        transform: scaleX(-1);
-        width: 15%;
-        min-width: 150px;
+    #watch {
+        display: none;
     }
 }
 
@@ -298,6 +343,8 @@ button {
     display: flex;
     flex-direction: column;
     background-color: darken($dark, 10%);
+    position: relative;
+    z-index: 3;
 
     a {
         width: 100%;
@@ -405,6 +452,8 @@ button {
 }
 
 #contact {
+    position: relative;
+    z-index: 3;
     a {
         cursor: pointer;
         text-decoration: underline;

@@ -1,5 +1,7 @@
 import sponsor from '../assets/sponsor.svg'
 
+import watch from '../assets/images/watch.png'
+
 const goldCompanies = [
 ]
 const silverCompanies = [
@@ -10,6 +12,7 @@ const bronzeCompanies = [
 const Sponsors = () => {
 	return (
 		<div id="sponsors" className = 'container'>
+			<img src = {watch} alt = 'watch' id = 'watch'></img>
 			
 			<div className = 'container spaced' style = {{padding: '0'}} data-aos = 'fade-right' data-aos-duration = '1000'>
 			<h1>
@@ -23,10 +26,11 @@ const Sponsors = () => {
 				</p>
 			</h1>
 			<img loading = 'lazy' src = {sponsor} alt = 'sponsorimg'></img>
+
 			</div>
 
-			{/* <h1>Our Sponsors</h1>
-			<p>Coming Soon!</p> */}
+			<h1>Our Sponsors</h1>
+			<p>Coming Soon!</p>
 
 			{/* <div className="tier" id = 'gold'>
 				<h2>Gold sponsor #1</h2>

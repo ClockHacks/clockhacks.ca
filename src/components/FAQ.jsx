@@ -1,9 +1,15 @@
+import gear3 from '../assets/images/gear2.png'
+import gear4 from '../assets/images/gear1.png'
+
 const FAQ = () => {
 	return (
 		<div id="faq" className = 'container'>
 			<h1 style = {{textAlign: 'center'}}>Frequently Asked Questions</h1>
+			<img src = {gear3} alt = 'gear3' id = 'gear3'></img>
+			<img src = {gear4} alt = 'gear4' id = 'gear4'></img>
 
 			<div className = 'faqdiv' data-aos = 'fade-up' data-aos-duration = '800'>
+
 
 				<div>
 
