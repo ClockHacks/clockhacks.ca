@@ -350,6 +350,8 @@ button {
         width: 100%;
         color: $accent;
         text-decoration: underline;
+        position: relative;
+        z-index: 3;
     }
 
     h2 {
