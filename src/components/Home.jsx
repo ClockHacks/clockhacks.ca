@@ -1,9 +1,16 @@
 import React from 'react'
 import logo from '../assets/Logo.png'
 
+import gear0 from '../assets/images/gear0.png'
+import gear1 from '../assets/images/gear1.png'
+
 const Home = () => {
   return (
     <div className = 'container' id = 'home' style = {{paddingTop: '5vh'}}>
+
+        <img src = {gear0} alt = 'gear0' id = 'gear0'></img>
+        <img src = {gear1} alt = 'gear1' id = 'gear1'></img>
+        <img src = {gear1} alt = 'gear2' id = 'gear2'></img>
         <img src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
         <h1 id = 'title'>
             <gradient>ClockHacks</gradient>
@@ -30,6 +37,8 @@ const Home = () => {
               >Devpost</button>
               
         </p>
+
+
     </div>
   )
 }
