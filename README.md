@@ -25,12 +25,12 @@ Join hackers from across North America this November for a weekend of fun and in
 
 ## Dependencies
 
-React<br/>
-Sass<br/>
-Material Icons<br/>
-Tailwind<br/>
-AOS<br/>
-Bootstrap Icons<br/>
+- React<br/>
+- Sass<br/>
+- Material Icons<br/>
+- Tailwind<br/>
+- AOS<br/>
+- Bootstrap Icons<br/>
 
 Graphics by https://undraw.co/illustrations <br/>
 Logo and banner by https://www.linkedin.com/in/cera-wang-171699240/
