@@ -26,7 +26,7 @@ const Footer = () => {
 			<p>
 			<a href = 'https://discord.gg/UKjQBdy26S' target = '_blank'><i class = 'bi bi-discord'></i></a>
 			<a href = 'https://github.com/ClockHacks' target = '_blank'><i class = 'bi bi-github'></i></a>
-			<a target = '_blank'><i class = 'bi bi-linkedin'></i></a>
+			<a href = 'https://www.linkedin.com/company/clockhacks/' target = '_blank'><i class = 'bi bi-linkedin'></i></a>
 			</p>
 		</div>
 
