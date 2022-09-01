@@ -12,7 +12,7 @@ const bronzeCompanies = [
 const Sponsors = () => {
 	return (
 		<div id="sponsors" className = 'container'>
-			<img src = {watch} alt = 'watch' id = 'watch'></img>
+			<img loading = 'lazy' src = {watch} alt = 'watch' id = 'watch'></img>
 			
 			<div className = 'container spaced' style = {{padding: '0'}} data-aos = 'fade-right' data-aos-duration = '1000'>
 			<h1>

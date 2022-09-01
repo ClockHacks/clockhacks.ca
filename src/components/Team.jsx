@@ -3,6 +3,9 @@ import jeffrey from '../assets/team/jeffrey.jpg'
 import sean from '../assets/team/sean.jpg'
 import cera from '../assets/team/cera.jpg'
 
+import gear8 from '../assets/images/gear0.png'
+import gear9 from '../assets/images/gear2.png'
+
 const Sponsors = () => {
 	return (
 		<div id="team" className = 'container' >
@@ -10,6 +13,8 @@ const Sponsors = () => {
 				Our Team
 				<p>The people behind the scenes at ClockHacks</p>
 			</h1>
+			<img src = {gear8} alt = 'gear8' id = 'gear8' loading = 'lazy'></img>
+			<img src = {gear9} alt = 'gear9' id = 'gear9' loading = 'lazy'></img>
 
 			<div id = 'teamcontainer' data-aos = 'fade-up' data-aos-duration = '1000' >
 			<div className = 'column'>

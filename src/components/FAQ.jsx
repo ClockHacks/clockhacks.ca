@@ -5,8 +5,8 @@ const FAQ = () => {
 	return (
 		<div id="faq" className = 'container'>
 			<h1 style = {{textAlign: 'center'}}>Frequently Asked Questions</h1>
-			<img src = {gear3} alt = 'gear3' id = 'gear3'></img>
-			<img src = {gear4} alt = 'gear4' id = 'gear4'></img>
+			<img loading = 'lazy' src = {gear3} alt = 'gear3' id = 'gear3'></img>
+			<img loading = 'lazy' src = {gear4} alt = 'gear4' id = 'gear4'></img>
 
 			<div className = 'faqdiv' data-aos = 'fade-up' data-aos-duration = '800'>
 

@@ -4,7 +4,7 @@ import gear2 from '../assets/images/gear1.png'
 const Contact = () => {
 	return (
 		<>
-		<img src = {gear2} alt = 'gear2' id = 'gear6'></img>
+		<img loading = 'lazy' src = {gear2} alt = 'gear2' id = 'gear6'></img>
 		<div id="contact" className="container spaced" data-aos = 'fade-right' data-aos-duration = '800' data-aos-delay="300">
 			<h1>
 				Inspire, create, <gradient>innovate</gradient>

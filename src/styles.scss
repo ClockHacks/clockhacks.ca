@@ -318,6 +318,18 @@ button {
     width: 7%;
 }
 
+#gear8 {
+    position: absolute;
+    right: 0;
+}
+
+#gear9 {
+    position: absolute;
+    transform: scaleX(-1);
+    left: 0;
+    width: 20%;
+}
+
 @media screen and (max-width: 800px) {
     #gear5 {
         display: none;
@@ -441,6 +453,8 @@ button {
 
 #teamcontainer {
     display: flex;
+    position: relative;
+    z-index: 3;
 }
 
 @media screen and (max-width: 800px) {

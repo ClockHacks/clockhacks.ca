@@ -3,7 +3,7 @@ import gear5 from '../assets/images/gear3.png'
 const Schedule = () => {
 	return (
 		<div id="schedule" className = 'container' style = {{textAlign: 'center'}}>
-			<img src = {gear5} alt = 'gear5' id = 'gear5'></img>
+			<img loading = 'lazy' src = {gear5} alt = 'gear5' id = 'gear5'></img>
 			<h1>Schedule</h1>
 			<p>
 				November 4
