@@ -22,7 +22,7 @@ const Sponsors = () => {
 					<br></br><br></br>
 					By sponsoring, not only do you allow ClockHacks to run, you help to inspire many youth to pursue a career in tech. You will make a long-lasting impression on the future inventors, innovators, and entrepreneurs.
 					<br></br><br></br>
-					Interested in sponsoring? If you're a business or organization, you can check out our <a>sponsor package</a> or email our <a href = 'mailto: business.clockhacks@gmail.com'>business email</a>.
+					Interested in sponsoring? If you're a business or organization, you can check out our <a href = 'https://drive.google.com/file/d/1yl3QcwDGCNNPabv4qlJwmaHEyJbUhIhg/view?usp=sharing' target = '_blank'>sponsor package</a> or email our <a href = 'mailto: business.clockhacks@gmail.com'>business email</a>.
 				</p>
 			</h1>
 			<img loading = 'lazy' src = {sponsor} alt = 'sponsorimg'></img>
