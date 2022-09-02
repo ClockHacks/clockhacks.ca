@@ -2,6 +2,8 @@ import sponsor from '../assets/sponsor.svg'
 
 import watch from '../assets/images/watch.png'
 
+import hackclub from '../assets/sponsors/hackclub.png'
+
 const goldCompanies = [
 ]
 const silverCompanies = [
@@ -29,8 +31,13 @@ const Sponsors = () => {
 
 			</div>
 
-			<h1>Our Sponsors</h1>
-			<p>Coming Soon!</p>
+			<h1>Partners</h1>
+			<div className="partner">
+				<a href='https://hackclub.com/' target = '_blank' rel='noreferrer'>
+					<img src={hackclub} alt='hackclub'></img>
+				</a>
+			</div>
+
 
 			{/* <div className="tier" id = 'gold'>
 				<h2>Gold sponsor #1</h2>
