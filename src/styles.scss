@@ -370,27 +370,41 @@ button {
         font-size: max(3vw, 20px);
     }
 
-    #gold {
-        img {
-            max-width: none;
-            width: max(23%, 150px);
-            @include centered();
+    @mixin sponsor {
+        max-width: none;
+        @include centered();
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:active {
+            transform: scale(0.95);
         }
     }
 
-    #silver {
+    #gold {
         img {
-            max-width: none;
+            width: max(23%, 150px);
+            @include sponsor();
+        }
+    }
+
+    #silver, .partner {
+        img {
             width: max(40%, 80px);
-            @include centered();
+            @include sponsor();
         }
     }
 
     #bronze {
         img {
-            max-width: none;
             width: max(15%, 80px);
-            @include centered();
+            @include sponsor();
         }
     }
 
