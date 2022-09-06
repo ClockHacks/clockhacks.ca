@@ -359,7 +359,6 @@ button {
     z-index: 3;
 
     a {
-        width: 100%;
         color: $accent;
         text-decoration: underline;
         position: relative;
@@ -377,6 +376,7 @@ button {
         padding: 10px;
         border-radius: 10px;
         transition: transform 0.2s;
+        margin-bottom: 20px;
 
         &:hover {
             transform: scale(1.05);

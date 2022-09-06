@@ -3,15 +3,40 @@ import sponsor from '../assets/sponsor.svg'
 import watch from '../assets/images/watch.png'
 
 import hackclub from '../assets/sponsors/hackclub.png'
+import mlh from '../assets/sponsors/mlh.png'
 
-const goldCompanies = [
-]
-const silverCompanies = [
-]
-const bronzeCompanies = [
-]
+const partners = {
+	hc: {
+		img: hackclub,
+		href: 'https://hackclub.com/',
+		alt: 'hackclub'
+	},
+	mlh: {
+		img: mlh,
+		href: 'https://mlh.io/',
+		alt: 'mlh'
+	}
+}
+// const goldCompanies = [
+// ]
+// const silverCompanies = [
+// ]
+// const bronzeCompanies = [
+// ]
+let PartnerList = []
+
+for (let company in partners) {
+	PartnerList.push(
+		<div className="partner">
+			<a href={partners[company].href} target = '_blank' rel='noreferrer'>
+				<img src={partners[company].img} alt={partners[company].alt}></img>
+			</a>
+		</div>
+	)
+}
 
 const Sponsors = () => {
+
 	return (
 		<div id="sponsors" className = 'container'>
 			<img loading = 'lazy' src = {watch} alt = 'watch' id = 'watch'></img>
@@ -32,12 +57,7 @@ const Sponsors = () => {
 			</div>
 
 			<h1>Partners</h1>
-			<div className="partner">
-				<a href='https://hackclub.com/' target = '_blank' rel='noreferrer'>
-					<img src={hackclub} alt='hackclub'></img>
-				</a>
-			</div>
-
+			{PartnerList}
 
 			{/* <div className="tier" id = 'gold'>
 				<h2>Gold sponsor #1</h2>
