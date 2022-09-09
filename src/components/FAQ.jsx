@@ -41,7 +41,7 @@ const FAQ = () => {
 				</details>
 				<details>
 					<summary>What if I've never been to a hackathon before?</summary>
-					<p>That's okay! If you choose not to code, you will be able to connect with other participants, attend workshops, listen to guest speakers, and learn about the world of tech.</p>
+					<p>That's okay! All beginners are welcome. You don't have to be an expert to participate in a hackathon. If you choose not to code, you will be able to connect with other participants, attend workshops, listen to guest speakers, and learn about the world of tech.</p>
 				</details>
 
 				</div>
