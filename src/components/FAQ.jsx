@@ -10,7 +10,6 @@ const FAQ = () => {
 
 			<div className = 'faqdiv' data-aos = 'fade-up' data-aos-duration = '800'>
 
-
 				<div>
 
 				<h1 className = 'header'>Before</h1>

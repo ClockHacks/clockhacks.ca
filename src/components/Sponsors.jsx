@@ -4,6 +4,7 @@ import watch from '../assets/images/watch.png'
 
 import hackclub from '../assets/sponsors/hackclub.png'
 import mlh from '../assets/sponsors/mlh.png'
+import triviaimg from '../assets/sponsors/triviaclub.png'
 
 const partners = {
 	hc: {
@@ -15,6 +16,11 @@ const partners = {
 		img: mlh,
 		href: 'https://mlh.io/',
 		alt: 'mlh'
+	},
+	trivia: {
+		img: triviaimg,
+		href: 'https://www.instagram.com/lhss.trivia/',
+		alt: 'lhsstrivia'
 	}
 }
 // const goldCompanies = [
@@ -28,8 +34,8 @@ let PartnerList = []
 for (let company in partners) {
 	PartnerList.push(
 		<div className="partner">
-			<a href={partners[company].href} target = '_blank' rel='noreferrer'>
-				<img src={partners[company].img} alt={partners[company].alt}></img>
+			<a href={partners[company].href} style = {{display: 'block'}} target = '_blank' rel='noreferrer'>
+				<img src={partners[company].img} width = '100%' alt={partners[company].alt}></img>
 			</a>
 		</div>
 	)
@@ -57,6 +63,8 @@ const Sponsors = () => {
 			</div>
 
 			<h1>Partners</h1>
+			<div style = {{display: 'grid'}}>
+			</div>
 			{PartnerList}
 
 			{/* <div className="tier" id = 'gold'>

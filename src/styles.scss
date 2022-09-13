@@ -406,7 +406,8 @@ button {
     }
 
     #silver, .partner {
-        img {
+        @include centered();
+        a {
             width: max(40%, 80px);
             @include sponsor();
         }
