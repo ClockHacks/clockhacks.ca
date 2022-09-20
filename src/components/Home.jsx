@@ -20,9 +20,9 @@ const Home = () => {
             <br></br> 
             <button onClick = {
               () => {
-                window.open('https://forms.gle/fBSNsqJZbrytsP6d7');
+                window.open('https://rqq6b39zlpg.typeform.com/to/LAmuuOIU');
               }
-            }>Pre-Register!</button>{' '}
+            }>Register Now!</button>{' '}
             <button onClick = {
               () => {
                 let sponsor = document.getElementById('sponsors')
