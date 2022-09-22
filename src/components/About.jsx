@@ -4,6 +4,7 @@ import Collaboration from '../assets/collaboration.svg'
 const About = () => {
 
 	return (
+		<>
 		<div id="about" className="container spaced" >
 
 			<div data-aos = 'fade-up' data-aos-duration = '1200'>
@@ -24,6 +25,7 @@ const About = () => {
 			<img loading = 'lazy' data-aos = 'fade-up' data-aos-duration = '1200' src = {Collaboration} alt = 'collabimg' className = 'img'></img>
 
 		</div>
+		</>
 	)
 }
 

@@ -26,6 +26,8 @@ div {
 body {
     background-color: $dark;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+    z-index: 1;
 }
 
 img {
@@ -124,6 +126,7 @@ gradient {
 }
 
 #faq {
+    background-color: $dark;
     a {
         color: $accent;
         text-decoration: underline;
@@ -144,6 +147,10 @@ gradient {
         margin-bottom: 0px;
         color: $accent;
     }
+}
+
+#schedule {
+    background-color: $dark;
 }
 
 @media screen and (max-width: 1000px) {
@@ -196,11 +203,11 @@ gradient {
 #mlh {
     display:block;
     max-width:100px;
-    min-width:60px;
+    min-width:10px;
     position:fixed;
     right:50px;
     top:0;
-    width:10%;
+    width:6%;
     z-index:10000;
 }
 
@@ -270,6 +277,9 @@ button {
 
 #home {
     height: 93vh;
+    position: fixed;
+    top: 10;
+    z-index: -1;
 }
 
 #gear0 {
@@ -352,9 +362,12 @@ button {
 
 #about {
     background-color: darken($dark, 10%);
+    border-top: 10px solid black;
+    margin-top: 93vh;
 }
 
 #speakers {
+    background-color: $dark;
     a {
         width: 100%;
         color: $accent;
@@ -496,6 +509,7 @@ button {
 #contact {
     position: relative;
     z-index: 3;
+    background-color: $dark;
     a {
         cursor: pointer;
         text-decoration: underline;

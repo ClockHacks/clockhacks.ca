@@ -23,8 +23,8 @@ const partners = {
 		alt: 'lhsstrivia'
 	}
 }
-// const goldCompanies = [
-// ]
+const goldCompanies = [
+]
 // const silverCompanies = [
 // ]
 // const bronzeCompanies = [
@@ -62,13 +62,8 @@ const Sponsors = () => {
 
 			</div>
 
-			<h1>Partners</h1>
-			<div style = {{display: 'grid'}}>
-			</div>
-			{PartnerList}
-
-			{/* <div className="tier" id = 'gold'>
-				<h2>Gold sponsor #1</h2>
+			<div className="tier" id = 'gold'>
+				{/* <h2>Gold sponsor #1</h2> */}
 				{goldCompanies.map((company, i) => {
 					return (
 						<div className="company">
@@ -80,6 +75,7 @@ const Sponsors = () => {
 					)
 				})}
 			</div>
+			{/* 
 			<div className="tier" id = 'silver'>
 				<h2>Silver sponsors #2</h2>
 				{silverCompanies.map((company, i) => {
@@ -105,6 +101,11 @@ const Sponsors = () => {
 				})}
 			</div>
 			<hr/>*/}
+
+			<h1>Partners</h1>
+				<div style = {{display: 'grid'}}>
+				</div>
+			{PartnerList}
 
 		</div> 
 	)

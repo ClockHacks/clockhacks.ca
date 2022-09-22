@@ -20,7 +20,7 @@ const Home = () => {
             <br></br> 
             <button onClick = {
               () => {
-                window.open('https://rqq6b39zlpg.typeform.com/to/LAmuuOIU');
+                window.open('https://forms.gle/3YWYgnWdzHLvpDa66');
               }
             }>Register Now!</button>{' '}
             <button onClick = {
