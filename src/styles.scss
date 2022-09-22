@@ -217,7 +217,7 @@ button {
     background-color: $accent;
     padding: 10px 15px;
     border-radius: 25px;
-    font-size: max(1.4vw, 20px);
+    font-size: max(1.4vw, 16px);
     margin-top: 10px;
 
     transition: background-color 0.2s ease;
@@ -244,9 +244,9 @@ button {
 
     #title {
         text-align: center;
-        font-size: max(6vw, 40px);
+        font-size: max(5vw, 40px);
         margin-bottom: -20px;
-        margin-top: -20px;
+        margin-top: -10px;
         animation-name: homeAnimation;
         animation-duration: 3s;    
     }
@@ -256,6 +256,7 @@ button {
         min-width: 200px;
         position: relative;
         z-index: 10;
+        margin-top: -10px;
     }
 
     #desc {
@@ -266,7 +267,7 @@ button {
     }
 
     p {
-        font-size: max(1.4vw, 20px);
+        font-size: max(1.4vw, 17px);
     }
 
     img {
@@ -363,8 +364,10 @@ button {
 
 #about {
     background-color: darken($dark, 10%);
-    border-top: 10px solid black;
-    margin-top: 93vh;
+    border-top: 20px solid;
+    border-top-color: darken($dark, 7%);
+    margin-top: 94vh;
+    outline: 20px solid darken($dark, 2%);
 }
 
 #speakers {
@@ -599,6 +602,9 @@ button {
 }
 
 @media screen and (max-width: 830px) {
+    p {
+        text-align: center;
+    }
 	.nav #links {display: none;}
 	.menuicon {
 	  float: right;

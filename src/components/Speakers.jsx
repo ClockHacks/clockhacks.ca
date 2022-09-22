@@ -5,9 +5,7 @@ const Speakers = () => {
 		<div id="speakers" className="container">
 
 			<div className = 'container spaced' id = 'speaker' style = {{padding: '0'}} data-aos = 'fade-up' data-aos-duration = '1000'>
-				<div style = {{width: '40vw'}}>
-					<img src = {insp} alt = 'inspiration'></img>
-				</div>
+				<img src = {insp} alt = 'inspiration'></img>
 
 				<div>
 				<h1 style = {{textAlign: 'right'}}>
