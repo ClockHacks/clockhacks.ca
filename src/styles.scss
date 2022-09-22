@@ -21,13 +21,13 @@ code {
 
 div {
     color: $light;
+    position: relative;
+    z-index: 1;
 }
 
 body {
     background-color: $dark;
     font-family: 'Open Sans', sans-serif;
-    position: relative;
-    z-index: 1;
 }
 
 img {
@@ -207,7 +207,7 @@ gradient {
     position:fixed;
     right:50px;
     top:0;
-    width:6%;
+    width:max(6%, 45px);
     z-index:10000;
 }
 
@@ -280,6 +280,7 @@ button {
     position: fixed;
     top: 10;
     z-index: -1;
+    pointer-events: auto;
 }
 
 #gear0 {
