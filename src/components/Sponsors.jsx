@@ -24,11 +24,11 @@ const partners = {
 	}
 }
 const goldCompanies = [
-	{
-		img: hackclub,
-		href: 'google.ca',
-		alt: 'none'
-	}
+	// {
+	// 	img: hackclub,
+	// 	href: 'google.ca',
+	// 	alt: 'none'
+	// }
 ]
 // const silverCompanies = [
 // ]
