@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.09798580.css",
-    "main.js": "/static/js/main.accbace3.js",
+    "main.css": "/static/css/main.6b9a6ed4.css",
+    "main.js": "/static/js/main.aeeb58d7.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gear2.png": "/static/media/gear2.458cb3e411fe96cc007d.png",
     "static/media/gear3.png": "/static/media/gear3.a246fea050b2e9ac7ec8.png",
     "static/media/watch.png": "/static/media/watch.72cd83a11381186c93a0.png",
+    "static/media/standout.png": "/static/media/standout.6acf02fc7604a65e3cc6.png",
+    "static/media/zhuoen.jpg": "/static/media/zhuoen.a1c96485cb2eade33ae0.jpg",
     "static/media/gear1.png": "/static/media/gear1.3d8a9077ae44aa7987dc.png",
     "static/media/cera.jpg": "/static/media/cera.58bcc89fd2707935df51.jpg",
     "static/media/gear0.png": "/static/media/gear0.71a53c4be302e1149880.png",
@@ -14,16 +16,20 @@
     "static/media/triviaclub.png": "/static/media/triviaclub.0469b0da74410c2f980e.png",
     "static/media/jeffrey.jpg": "/static/media/jeffrey.e78b391d7c3b0a093ed0.jpg",
     "static/media/jay.jpg": "/static/media/jay.c9ab35d2d97209c7a1a2.jpg",
+    "static/media/cake_logo_blue_gray.png": "/static/media/cake_logo_blue_gray.dc92ee7009096a444b45.png",
+    "static/media/certopus_original.png": "/static/media/certopus_original.17a6a81b9d6fc98bd3bc.png",
+    "static/media/desmos.png": "/static/media/desmos.bd5ed5bd29c4b61e0bdd.png",
     "static/media/inspiration.svg": "/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
     "static/media/collaboration.svg": "/static/media/collaboration.83524ac4559add56ba7231b5e245c07f.svg",
     "static/media/contact.svg": "/static/media/contact.caf10b57b78e9622a75dd722b9a14092.svg",
     "static/media/sponsor.svg": "/static/media/sponsor.19f7abd02f244b70c6509a3cdedc4713.svg",
+    "static/media/aops.svg": "/static/media/aops.a30c68398df9bf7f3bcfc6989f5f60ba.svg",
     "index.html": "/index.html",
-    "main.09798580.css.map": "/static/css/main.09798580.css.map",
-    "main.accbace3.js.map": "/static/js/main.accbace3.js.map"
+    "main.6b9a6ed4.css.map": "/static/css/main.6b9a6ed4.css.map",
+    "main.aeeb58d7.js.map": "/static/js/main.aeeb58d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.09798580.css",
-    "static/js/main.accbace3.js"
+    "static/css/main.6b9a6ed4.css",
+    "static/js/main.aeeb58d7.js"
   ]
 }

@@ -2,6 +2,7 @@ import jay from '../assets/team/jay.jpg'
 import jeffrey from '../assets/team/jeffrey.jpg'
 import sean from '../assets/team/sean.jpg'
 import cera from '../assets/team/cera.jpg'
+import zhuo from '../assets/team/zhuoen.jpg'
 
 import gear8 from '../assets/images/gear0.png'
 import gear9 from '../assets/images/gear2.png'
@@ -41,6 +42,20 @@ const Sponsors = () => {
 							<i class = 'bi bi-linkedin' ></i>
 						</a>{' '}
 						<a href = 'https://github.com/jeffrey-zang' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-github' ></i>
+						</a>
+					</p>
+				</h1>
+
+				<img className = 'headshot' loading = 'lazy' src = {zhuo} alt = 'headshot'></img>
+				<h1>
+					Zhuo En Chua
+					<p>Marketing and Outreach</p>
+					<p>
+						<a href = 'https://www.linkedin.com/in/ze2/' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-linkedin' ></i>
+						</a>{' '}
+						<a href = 'https://github.com/ze-2' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-github' ></i>
 						</a>
 					</p>

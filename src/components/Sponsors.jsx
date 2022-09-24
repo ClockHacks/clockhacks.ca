@@ -5,6 +5,12 @@ import watch from '../assets/images/watch.png'
 import hackclub from '../assets/sponsors/hackclub.png'
 import mlh from '../assets/sponsors/mlh.png'
 import triviaimg from '../assets/sponsors/triviaclub.png'
+import standout from '../assets/sponsors/standout.png'
+import certopus from '../assets/sponsors/certopus_original.png'
+import taskade from '../assets/sponsors/taskade.png'
+import cake from '../assets/sponsors/cake_logo_blue_gray.png'
+import aops from '../assets/sponsors/aops.svg'
+import desmos from '../assets/sponsors/desmos.png'
 
 const partners = {
 	hc: {
@@ -24,16 +30,42 @@ const partners = {
 	}
 }
 const goldCompanies = [
-	// {
-	// 	img: hackclub,
-	// 	href: 'google.ca',
-	// 	alt: 'none'
-	// }
+	{
+		img: taskade,
+		href: 'https://www.taskade.com/',
+		alt: 'taskade'
+	},
+	{
+		img: cake,
+		href: 'https://www.interviewcake.com/',
+		alt: 'cake'
+	}
 ]
-// const silverCompanies = [
-// ]
-// const bronzeCompanies = [
-// ]
+const silverCompanies = [
+	{
+		img: standout,
+		href: 'https://www.standoutstickers.com/?utm_campaign=events-league-organizers-spring2022&utm_medium=email&utm_source=customerio-zoho_creator_-_standout_sticker_intro',
+		alt: 'standoutstickers'
+	},
+	{
+		img: aops,
+		href: 'https://artofproblemsolving.com/',
+		alt: 'aops'
+	}
+]
+const bronzeCompanies = [
+	{
+		img: certopus,
+		href: 'https://certopus.com/',
+		alt: 'certopus'
+	},
+	{
+		img: desmos,
+		href: 'https://www.desmos.com/',
+		alt: 'desmos'
+	},
+
+]
 let PartnerList = []
 
 for (let company in partners) {
@@ -67,12 +99,13 @@ const Sponsors = () => {
 
 			</div>
 
+			<h1>Sponsors</h1>
+
 			<div className="tier" id = 'gold'>
-				{/* <h2>Gold sponsor #1</h2> */}
 				{goldCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a href={company.link} target = '_blank' rel='noreferrer'>
+							<a href={company.href} target = '_blank' rel='noreferrer'>
 								<img src={company.img} alt={company.name}></img>
 							</a>
 							<p>{company.name}</p>
@@ -80,13 +113,11 @@ const Sponsors = () => {
 					)
 				})}
 			</div>
-			{/* 
 			<div className="tier" id = 'silver'>
-				<h2>Silver sponsors #2</h2>
 				{silverCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a href={company.link} target = '_blank' rel='noreferrer'>
+							<a href={company.href} target = '_blank' rel='noreferrer'>
 								<img src={company.img} alt={company.name}></img>
 							</a>
 							<p>{company.name}</p>
@@ -94,18 +125,18 @@ const Sponsors = () => {
 					)
 				})}
 			</div>
+			
 			<div className="tier" id = 'bronze'>
-				<h2>Bronze sponsors #3</h2>
 				{bronzeCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a href={company.link} target = '_blank' rel='noreferrer'><img src={company.img} alt={company.name}></img></a>
+							<a href={company.href} target = '_blank' rel='noreferrer'><img src={company.img} alt={company.name}></img></a>
 							<p>{company.name}</p>
 						</div>
 					)
 				})}
 			</div>
-			<hr/>*/}
+			<hr/>
 
 			<h1>Partners</h1>
 				<div style = {{display: 'grid'}}>
