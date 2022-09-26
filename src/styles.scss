@@ -149,10 +149,6 @@ gradient {
     }
 }
 
-#schedule {
-    background-color: $dark;
-}
-
 @media screen and (max-width: 1000px) {
     .faqdiv {
         display: block;
@@ -368,6 +364,25 @@ button {
     border-top-color: darken($dark, 7%);
     margin-top: 94vh;
     outline: 20px solid darken($dark, 2%);
+}
+
+#schedule {
+    background-color: $dark;
+    font-size: max(1.5vw, 15px);
+    .left {
+        margin-right: 50vw;
+        text-align: center;
+        width: 49vw;
+        background-color: orange;
+        border-radius: 10px;
+    }
+    .right {
+        margin-left: 51%;
+        text-align: center;
+        width: 50vw;
+        background-color: orange;
+        border-radius: 10px;
+    }
 }
 
 #speakers {
