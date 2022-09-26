@@ -379,6 +379,13 @@ button {
     }
 }
 
+@media screen and (max-width: 600px) {
+    #silver, #bronze, #partners {
+        flex-direction: column !important;
+        gap: 0px !important;
+    }
+}
+
 #sponsors {
     display: flex;
     flex-direction: column;
@@ -404,11 +411,15 @@ button {
     @mixin sponsor {
         max-width: none;
         @include centered();
+        align-items: center;
+        align-content: center;
+        margin: auto;
         background-color: #fff;
         padding: 10px;
         border-radius: 10px;
         transition: transform 0.2s;
         margin-bottom: 20px;
+        object-fit: contain;
 
         &:hover {
             transform: scale(1.05);
@@ -421,22 +432,32 @@ button {
 
     #gold {
         img {
-            width: max(30vw, 250px);
+            width: max(30vw, 270px);
+            height: max(12vw, 120px);
             @include sponsor();
         }
     }
 
-    #silver, .partner {
-        @include centered();
-        a {
-            width: max(20vw, 125px);
+    #silver, .partner, #partners {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        img {
+            @include centered();
+            width: max(20vw, 200px);
+            height: max(11vw, 110px);
             @include sponsor();
+            padding: 5px;
         }
     }
 
     #bronze {
+        flex-direction: row;
+        gap: 50px;
         img {
-            width: max(15vw, 100px);
+            width: max(15vw, 150px);
+            height: max(9vw, 70px);
             @include sponsor();
             padding: 5px;
         }

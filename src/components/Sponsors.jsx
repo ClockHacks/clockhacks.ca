@@ -11,6 +11,8 @@ import taskade from '../assets/sponsors/taskade.png'
 import cake from '../assets/sponsors/cake_logo_blue_gray.png'
 import aops from '../assets/sponsors/aops.svg'
 import desmos from '../assets/sponsors/desmos.png'
+import buddy from '../assets/sponsors/interviewbuddy.webp'
+import echo from '../assets/sponsors/echo.png'
 
 const partners = {
 	hc: {
@@ -23,11 +25,11 @@ const partners = {
 		href: 'https://mlh.io/',
 		alt: 'mlh'
 	},
-	trivia: {
-		img: triviaimg,
-		href: 'https://www.instagram.com/lhss.trivia/',
-		alt: 'lhsstrivia'
-	}
+	// trivia: {
+	// 	img: triviaimg,
+	// 	href: 'https://www.instagram.com/lhss.trivia/',
+	// 	alt: 'lhsstrivia'
+	// }
 }
 const goldCompanies = [
 	{
@@ -39,6 +41,16 @@ const goldCompanies = [
 		img: cake,
 		href: 'https://www.interviewcake.com/',
 		alt: 'cake'
+	},
+	{
+		img: buddy,
+		href: 'https://interviewbuddy.in/',
+		alt: 'buddy'
+	},
+	{
+		img: echo,
+		href: 'https://www.echo3d.co/',
+		alt: 'echo'
 	}
 ]
 const silverCompanies = [
@@ -139,9 +151,9 @@ const Sponsors = () => {
 			<hr/>
 
 			<h1>Partners</h1>
-				<div style = {{display: 'grid'}}>
-				</div>
-			{PartnerList}
+			<div id = 'partners'>
+				{PartnerList}
+			</div>
 
 		</div> 
 	)
