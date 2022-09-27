@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6d361cf.css",
-    "main.js": "/static/js/main.fd6aab1b.js",
+    "main.css": "/static/css/main.0d042d30.css",
+    "main.js": "/static/js/main.e8540e1f.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gear2.png": "/static/media/gear2.458cb3e411fe96cc007d.png",
     "static/media/gear3.png": "/static/media/gear3.a246fea050b2e9ac7ec8.png",
     "static/media/watch.png": "/static/media/watch.72cd83a11381186c93a0.png",
     "static/media/standout.png": "/static/media/standout.6acf02fc7604a65e3cc6.png",
+    "static/media/xyz.png": "/static/media/xyz.88298d23ea4c19414907.png",
     "static/media/zhuoen.jpg": "/static/media/zhuoen.a1c96485cb2eade33ae0.jpg",
     "static/media/gear1.png": "/static/media/gear1.3d8a9077ae44aa7987dc.png",
     "static/media/cera.jpg": "/static/media/cera.58bcc89fd2707935df51.jpg",
@@ -27,11 +28,11 @@
     "static/media/sponsor.svg": "/static/media/sponsor.19f7abd02f244b70c6509a3cdedc4713.svg",
     "static/media/aops.svg": "/static/media/aops.a30c68398df9bf7f3bcfc6989f5f60ba.svg",
     "index.html": "/index.html",
-    "main.d6d361cf.css.map": "/static/css/main.d6d361cf.css.map",
-    "main.fd6aab1b.js.map": "/static/js/main.fd6aab1b.js.map"
+    "main.0d042d30.css.map": "/static/css/main.0d042d30.css.map",
+    "main.e8540e1f.js.map": "/static/js/main.e8540e1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6d361cf.css",
-    "static/js/main.fd6aab1b.js"
+    "static/css/main.0d042d30.css",
+    "static/js/main.e8540e1f.js"
   ]
 }

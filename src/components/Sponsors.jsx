@@ -13,6 +13,7 @@ import aops from '../assets/sponsors/aops.svg'
 import desmos from '../assets/sponsors/desmos.png'
 import buddy from '../assets/sponsors/interviewbuddy.webp'
 import echo from '../assets/sponsors/echo.png'
+import xyz from '../assets/sponsors/xyz.png'
 
 const partners = {
 	hc: {
@@ -63,6 +64,11 @@ const silverCompanies = [
 		img: aops,
 		href: 'https://artofproblemsolving.com/',
 		alt: 'aops'
+	},
+	{
+		img: xyz,
+		href: 'https://gen.xyz/',
+		alt: 'xyz'
 	}
 ]
 const bronzeCompanies = [

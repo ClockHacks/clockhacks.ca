@@ -424,7 +424,7 @@ button {
     }
 
     @mixin sponsor {
-        max-width: none;
+        max-width: none; 
         @include centered();
         align-items: center;
         align-content: center;
@@ -433,6 +433,7 @@ button {
         padding: 10px;
         border-radius: 10px;
         transition: transform 0.2s;
+        flex-wrap: wrap;
         margin-bottom: 20px;
         object-fit: contain;
 
@@ -456,6 +457,7 @@ button {
     #silver, .partner, #partners {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 50px;
 
         img {
