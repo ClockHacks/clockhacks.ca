@@ -14,6 +14,7 @@ import desmos from '../assets/sponsors/desmos.png'
 import buddy from '../assets/sponsors/interviewbuddy.webp'
 import echo from '../assets/sponsors/echo.png'
 import xyz from '../assets/sponsors/xyz.png'
+import wolfram from '../assets/sponsors/wolfram.png'
 
 const partners = {
 	hc: {
@@ -52,6 +53,11 @@ const goldCompanies = [
 		img: echo,
 		href: 'https://www.echo3d.co/',
 		alt: 'echo'
+	},
+	{
+		img: wolfram,
+		href: 'https://wolfram.com/',
+		alt: 'wolfram'
 	}
 ]
 const silverCompanies = [
