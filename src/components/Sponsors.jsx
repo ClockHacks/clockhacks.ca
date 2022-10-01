@@ -15,6 +15,7 @@ import buddy from '../assets/sponsors/interviewbuddy.webp'
 import echo from '../assets/sponsors/echo.png'
 import xyz from '../assets/sponsors/xyz.png'
 import wolfram from '../assets/sponsors/wolfram.png'
+import centered from '../assets/sponsors/centered.svg'
 
 const partners = {
 	hc: {
@@ -35,14 +36,14 @@ const partners = {
 }
 const goldCompanies = [
 	{
+		img: centered,
+		href: 'https://www.centered.app/',
+		alt: 'centered'
+	},
+	{
 		img: taskade,
 		href: 'https://www.taskade.com/',
 		alt: 'taskade'
-	},
-	{
-		img: cake,
-		href: 'https://www.interviewcake.com/',
-		alt: 'cake'
 	},
 	{
 		img: buddy,
@@ -54,11 +55,6 @@ const goldCompanies = [
 		href: 'https://www.echo3d.co/',
 		alt: 'echo'
 	},
-	{
-		img: wolfram,
-		href: 'https://wolfram.com/',
-		alt: 'wolfram'
-	}
 ]
 const silverCompanies = [
 	{
@@ -75,7 +71,17 @@ const silverCompanies = [
 		img: xyz,
 		href: 'https://gen.xyz/',
 		alt: 'xyz'
-	}
+	},
+	{
+		img: cake,
+		href: 'https://www.interviewcake.com/',
+		alt: 'cake'
+	},
+	{
+		img: wolfram,
+		href: 'https://wolfram.com/',
+		alt: 'wolfram'
+	},
 ]
 const bronzeCompanies = [
 	{
