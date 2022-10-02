@@ -1,10 +1,26 @@
 import insp from '../assets/inspiration.svg'
+import puri from '../assets/puri.jpg'
 
 const Speakers = () => {
 	return (
 		<div id="speakers" className="container">
 
-			<div className = 'container spaced' id = 'speaker' style = {{padding: '0'}} data-aos = 'fade-up' data-aos-duration = '1000'>
+			<h1 style={{textAlign: 'center'}}>Keynote Speaker</h1>
+			<div className = 'container spaced' style = {{textAlign: 'center', marginTop: '-60px', padding: 0}} data-aos = 'fade-up' data-aos-duration ='1000'>
+				<div>
+				<h1 style = {{textAlign: 'left', marginRight: '155px'}}>
+					Steven Puri
+					<p>
+						<em>Co-Founder, Chief Strategy Officer - Centered</em><br/>
+						Steven has founded and worked with multiple tech companies. He studied at the University of Southern California, and he is the Co-Founder and CSO of Centered, an app designed to increase focus and productivity.
+						<br/><br/><a href='https://www.centered.app/' target='_blank'>Centered</a> is the perfect tool for staying focused and getting stuff done. During the opening ceremony on November 4, Steven will speak about hackathons and their effect on students, as well as Flow State and how Centered helps with focus.
+					</p>
+				</h1>
+				</div>
+				<img loading = 'lazy' src = {puri} alt = 'puri'></img>
+			</div>
+
+			{/* <div className = 'container spaced' style = {{padding: '0'}}>
 				<img src = {insp} alt = 'inspiration'></img>
 
 				<div>
@@ -18,18 +34,8 @@ const Speakers = () => {
 				</h1>
 				</div>
 
-			</div>
+			</div> */}
 
-			<h1 style = {{textAlign: 'center'}}>
-				Guest Speakers
-				<p>This could be you!</p>
-				{/* <div className = 'container spaced'>
-					<h1>
-						Bob Joe
-					</h1>
-					<img src = {headshot} alt = 'headshot' style = {{width: 'max(25%, 100px)', borderRadius: '50px'}}></img>
-				</div> */}
-			</h1>
 		</div>
 	)
 }

@@ -367,21 +367,31 @@ button {
 }
 
 #schedule {
-    background-color: $dark;
     font-size: max(1.5vw, 15px);
-    .left {
-        margin-right: 50vw;
-        text-align: center;
-        width: 49vw;
-        background-color: orange;
+    background-color: $dark;
+    .wrapper {
+        display: flex;
+        width: 100%;
+        // justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: max(1.5vw, 15px);
+    }
+    @mixin bar {
+        width: 35%;
+        background-color: $accent;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-radius: 10px;
     }
+    .left {
+        @include bar;
+        width: 15%;
+    }
     .right {
-        margin-left: 51%;
-        text-align: center;
-        width: 50vw;
-        background-color: orange;
-        border-radius: 10px;
+        @include bar;
+        margin-left: 5%;
+        width: 100%;
     }
 }
 
@@ -391,6 +401,10 @@ button {
         width: 100%;
         color: $accent;
         text-decoration: underline;
+    }
+    img {
+        width: max(50%, 400px) !important;
+        border-radius: 10%;
     }
 }
 
