@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a3f163b.css",
-    "main.js": "/static/js/main.39078c64.js",
+    "main.css": "/static/css/main.46400870.css",
+    "main.js": "/static/js/main.e6fd4fa3.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gear2.png": "/static/media/gear2.458cb3e411fe96cc007d.png",
@@ -22,6 +22,7 @@
     "static/media/certopus_original.png": "/static/media/certopus_original.17a6a81b9d6fc98bd3bc.png",
     "static/media/desmos.png": "/static/media/desmos.bd5ed5bd29c4b61e0bdd.png",
     "static/media/interviewbuddy.webp": "/static/media/interviewbuddy.df9727de5c52afaf5238.webp",
+    "static/media/puri.jpg": "/static/media/puri.45b390c37e865fa2af0f.jpg",
     "static/media/wolfram.png": "/static/media/wolfram.3f6015bc352c5acb715d.png",
     "static/media/inspiration.svg": "/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
     "static/media/collaboration.svg": "/static/media/collaboration.83524ac4559add56ba7231b5e245c07f.svg",
@@ -30,11 +31,11 @@
     "static/media/centered.svg": "/static/media/centered.b0f2b356293e22286b6e4d1a7766291b.svg",
     "static/media/aops.svg": "/static/media/aops.a30c68398df9bf7f3bcfc6989f5f60ba.svg",
     "index.html": "/index.html",
-    "main.0a3f163b.css.map": "/static/css/main.0a3f163b.css.map",
-    "main.39078c64.js.map": "/static/js/main.39078c64.js.map"
+    "main.46400870.css.map": "/static/css/main.46400870.css.map",
+    "main.e6fd4fa3.js.map": "/static/js/main.e6fd4fa3.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a3f163b.css",
-    "static/js/main.39078c64.js"
+    "static/css/main.46400870.css",
+    "static/js/main.e6fd4fa3.js"
   ]
 }
