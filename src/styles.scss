@@ -50,60 +50,6 @@ img {
     background: darken($accent, 10%);
 }
   
-details {
-    position: relative;
-    z-index: 3;
-    width: 30vw;
-    background: lighten(#000, 15%);
-    margin-bottom: 0.5rem;
-    border-radius: 5px;
-
-    p {
-        padding: 1rem;
-        font-size: max(1.2vw, 17px) !important;
-    }
-}
-  
-summary {
-    padding: 1rem;
-    display: block;
-    background: darken($dark, 10%);
-    padding-left: 2.2rem;
-    position: relative;
-    cursor: pointer;
-    font-size: max(1.3vw, 20px);
-    transition: 0.2s ease;
-    
-    &:hover {
-        color: $accent;
-    }
-}
-
-summary:before {
-    content: '';
-    border-width: .4rem;
-    border-style: solid;
-    border-color: transparent transparent transparent #fff;
-    position: absolute;
-    top: 1.6rem;
-    left: 1rem;
-    transform: rotate(0);
-    transform-origin: .2rem 50%;
-    transition: .25s transform ease;
-}
-
-details[open] > summary:before {
-    transform: rotate(90deg);
-}
-
-details[open] summary {
-    color: $accent;
-}
-
-details summary::-webkit-details-marker {
-    display:none;
-}  
-
 @mixin centered {
     margin-left: auto;
     margin-right: auto;
@@ -147,6 +93,60 @@ gradient {
         margin-bottom: 0px;
         color: $accent;
     }
+
+    .details {
+        position: relative;
+        z-index: 3;
+        width: 30vw;
+        background: lighten(#000, 15%);
+        margin-bottom: 0.5rem;
+        border-radius: 5px;
+    
+        p {
+            padding: 1rem;
+            font-size: max(1.2vw, 17px) !important;
+        }
+    }
+      
+    .summary {
+        padding: 1rem;
+        display: block;
+        background: darken($dark, 10%);
+        padding-left: 2.2rem;
+        position: relative;
+        cursor: pointer;
+        font-size: max(1.3vw, 20px);
+        transition: 0.2s ease;
+        
+        &:hover {
+            color: $accent;
+        }
+    }
+    
+    .summary:before {
+        content: '';
+        border-width: .4rem;
+        border-style: solid;
+        border-color: transparent transparent transparent #fff;
+        position: absolute;
+        top: 1.6rem;
+        left: 1rem;
+        transform: rotate(0);
+        transform-origin: .2rem 50%;
+        transition: .25s transform ease;
+    }
+    
+    .details[open] > .summary:before {
+        transform: rotate(90deg);
+    }
+    
+    .details[open] .summary {
+        color: $accent;
+    }
+    
+    .details .summary::-webkit-details-marker {
+        display:none;
+    }    
 }
 
 @media screen and (max-width: 1000px) {
@@ -156,23 +156,26 @@ gradient {
         .header {
             margin-bottom: 15px;
         }
+
+        .details {
+            width: 80%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }    
     }
 
     .faqcolumn {
         margin-left: 0;
     }
 
-    details {
-        width: 80%;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 @media screen and (max-width: 700px) {
-    details {
-        width: 100%;
+    .faqdiv {
+        .details {
+            width: 100%;
+        }
     }
 }
 
@@ -367,8 +370,11 @@ button {
 }
 
 #schedule {
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: max(1.5vw, 15px);
     background-color: $dark;
+    
     h1 {
         margin-top: -50px;
     }
@@ -376,10 +382,7 @@ button {
         margin-top: -30px;
         margin-bottom: 20px;
     }
-    #eventsdiv {
-        width: 80%;
-    }
-    #nov4 {
+    .wrapper {
         margin-bottom: 15px;
         width: 100%;
         display: flex;
@@ -387,22 +390,57 @@ button {
         justify-content: space-between;
     }
     @mixin bar {
-        background-color: $accent;
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 15px;
     }
     .left {
         @include bar;
-        width: max(80%, 80px);
+        width: 20%;
+        background-color: darken($dark, 10%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
     }
     .right {
+        background-color: darken($accent, 10%);
         @include bar;
-        width: 100%;
+        width: 75%;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+
+        i {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        &:hover {
+            background-color: $accent;
+        }
+
+        p {
+            margin-top: 15px;
+            background-color: #262626;
+            width: 100%;
+            display: flex;
+            padding: 15px;
+            padding-left: 10%;
+            padding-right: 10%;
+            text-align: left;
+            margin-bottom: -15px;
+            border-radius: 0 0px 10px 10px;
+            font-size: max(1.2vw, 17px)
+        }
+
+        h2 {
+            width: 100%;
+            padding-left: 15%;
+            padding-right: 15%;    
+            font-size: max(1.3vw, 20px)
+        }
     }
 }
 

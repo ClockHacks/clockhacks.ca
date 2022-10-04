@@ -5,7 +5,7 @@ const nov4 = [
 		'name': 'Wrapping your mind around Python',
 		'time': '17:00 - 18:00',
 		'type': 'workshop',
-		'height': 2,
+		'description': `Join us for a "first-time-coding" workshop to warm up your keyboard before ClockHacks starts. We will be using the Python programming language. We'll go through basic datatypes, input/output, syntax, conditionals, and end with functions and loops. Whether you've never seen a computer in your life or you're a seasoned developer, this workshop is for you! Come hang out and learn some new things before the opening ceremony.`
 	},
 	{
 		'name': 'Opening Ceremony',
@@ -16,7 +16,6 @@ const nov4 = [
 		'name': 'Hacking Starts!',
 		'time': '20:00',
 		'type': 'event',
-		'height': 1
 	},
 ]
 
@@ -59,13 +58,31 @@ const Schedule = () => {
 						return (
 							<div className='wrapper'>
 
-							<div className='left'>
-								{i.time}
-							</div>
-							<div className='right'>
-								<i class = {icon}></i>
-								<h2>{i.name}</h2>
-							</div>
+								<div className='left'>
+									{i.time}
+								</div>
+								
+								<div className='right' onClick = {
+									(e) => {
+										let display = document.getElementById(index).style.display;
+										if (display === 'block') {
+											console.log('yes')
+											document.getElementById(index).style.display = 'none';
+										}
+										else {
+											document.getElementById(index).style.display = 'block';
+										}
+									}
+								}>
+									<h2>
+										<i class = {icon}></i>
+										{i.name}
+									</h2>
+
+									<p style = {{display: 'block'}} id = {index}>
+										{i.description}
+									</p>
+								</div>
 
 							</div>
 						)
@@ -73,9 +90,6 @@ const Schedule = () => {
 				)	
 				}
 			</div>
-			{/* November 4 | 7:00 PM | Hacking Starts!<br/>
-			November 6 | 11:00 AM | Hacking Ends! */}
-
 		</div>
 	)
 }
