@@ -205,6 +205,13 @@ gradient {
     }
 }
 
+#socials {
+    position: absolute;
+    right: 150px;
+    display: flex;
+    gap: 10px;
+}
+
 #mlh {
     display:block;
     max-width:100px;
@@ -469,8 +476,31 @@ button {
         text-decoration: underline;
     }
     img {
-        width: max(50%, 400px) !important;
         border-radius: 10%;
+    }
+    div {
+        width: 100%;
+    }
+    #steven {
+        text-align: center;
+        margin-top: -60px;
+        padding: 0;
+    }
+
+    #stevendesc {
+        margin-right: 155px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #speakers {
+        #steven {
+            margin-top: 0px;
+        }
+        #stevendesc {
+            margin-right: 0px;
+        }
     }
 }
 
@@ -676,6 +706,9 @@ button {
         margin-right: auto;
         margin-top: 25px;
         width: 60%;
+    }
+    p {
+        text-align: left;
     }
 }
 
