@@ -212,6 +212,12 @@ gradient {
     gap: 10px;
 }
 
+@media screen and (max-width: 1150px) {
+    #socials {
+        display: none;
+    }
+}
+
 #mlh {
     display:block;
     max-width:100px;
@@ -469,7 +475,7 @@ button {
 }
 
 #speakers {
-    background-color: $dark;
+    background-color: darken($dark, 10%);
     a {
         width: 100%;
         color: $accent;

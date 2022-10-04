@@ -23,8 +23,8 @@ function App() {
 			<About/>
 			<FAQ/>
 			<Schedule/>
-			<Sponsors/>
 			<Speakers/>
+			<Sponsors/>
 			<Team/>
 			<Contact/>
 			<Footer/>
