@@ -369,29 +369,51 @@ button {
 #schedule {
     font-size: max(1.5vw, 15px);
     background-color: $dark;
-    .wrapper {
-        display: flex;
+    h1 {
+        margin-top: -50px;
+    }
+    p {
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    #eventsdiv {
+        width: 80%;
+    }
+    #nov4 {
+        margin-bottom: 15px;
         width: 100%;
-        // justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
+        display: flex;
         font-size: max(1.5vw, 15px);
+        justify-content: space-between;
     }
     @mixin bar {
-        width: 35%;
         background-color: $accent;
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
     }
     .left {
         @include bar;
-        width: 15%;
+        width: max(80%, 80px);
     }
     .right {
         @include bar;
-        margin-left: 5%;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #schedule {
+        padding-left: 5vw;
+        padding-right: 5vw;
+
+        #eventsdiv {
+            width: 70%;
+        }
     }
 }
 
