@@ -38,6 +38,7 @@ body {
 
 img {
     width: 30%;
+    user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -54,6 +55,10 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
     background: darken($accent, 10%);
+}
+
+button {
+    user-select: none;
 }
   
 @mixin centered {
@@ -75,6 +80,7 @@ gradient {
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     display: inline;
+    user-select: none;
 }
 
 #faq {
@@ -388,6 +394,15 @@ button {
     outline: 20px solid darken($dark, 2%);
 }
 
+@keyframes schedule {
+    from {
+        margin-bottom: 40px;
+    }
+    to {
+        margin-bottom: 15px;
+    }
+}
+
 #schedule {
     padding-left: 10%;
     padding-right: 10%;
@@ -420,6 +435,10 @@ button {
         display: flex;
         font-size: max(1.5vw, 15px);
         justify-content: space-between;
+
+        animation: schedule;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
     }
 
     @mixin bar {
@@ -486,6 +505,14 @@ button {
 
         #eventsdiv {
             width: 70%;
+        }
+    }
+}
+
+@media (prefers-reduced-motion) {
+    #schedule {
+        .wrapper {
+            animation: none;
         }
     }
 }
