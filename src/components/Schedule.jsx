@@ -90,7 +90,7 @@ const nov6 = [
 		'name': 'Hacking Ends!',
 		'time': '11:00',
 		'type': 'event',
-		'description': 'Stop hacking! The official time for creating your project has ended. Make a logo on Canva, submit to Devpost, and start polishing that pitch!'
+		'description': 'Stop hacking! The official time for creating your project has ended. Submit your pitch on Devpost!'
 	},
 	{
 		'name': 'Closing Ceremony',
