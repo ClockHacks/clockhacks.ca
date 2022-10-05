@@ -6,9 +6,9 @@ const Speakers = () => {
 		<div id="speakers" className="container">
 
 			<h1 style={{textAlign: 'center'}}>Keynote Speaker</h1>
-			<div className = 'container spaced' style = {{textAlign: 'center', marginTop: '-60px', padding: 0}} data-aos = 'fade-up' data-aos-duration ='1000'>
+			<div className = 'container spaced' id = 'steven' data-aos = 'fade-up' data-aos-duration ='1000'>
 				<div>
-				<h1 style = {{textAlign: 'left', marginRight: '155px'}}>
+				<h1 id = 'stevendesc'>
 					Steven Puri
 					<p>
 						<em>Co-Founder, Chief Strategy Officer - Centered</em><br/>
