@@ -62,7 +62,7 @@ const nov5 = [
 	{
 		'name': '!Light',
 		'time': '19:00 - 20:30',
-		'type': 'minigame',
+		'type': 'game',
 		'description': 'Participants remake a chosen website using their best (or worst) HTML and CSS skills in a limited amount of time. Brought to you by MLH!'
 	},
 	{
@@ -180,6 +180,7 @@ const Schedule = () => {
 	return (
 		<div id="schedule" className = 'container' style = {{textAlign: 'center'}}>
 			<h1>Schedule</h1>
+			<a href = 'https://calendar.google.com/calendar/u/0?cid=ZDk5NzA1OTYwZTkwNmFhMjM5MDA5M2Y2YWNlMjM1ZjU0NDc0ODdmMjk4YzkyNmMyOTg5NTdlNGNjNDZlZTJjMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t' target='_blank' rel='noreferrer'>Google Calendar Events</a>
 			<p>All the workshops, events, and activities you'll find at ClockHacks | All times are in EST</p>
 			
 			<div className='selectors'>

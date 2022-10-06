@@ -42,6 +42,10 @@ const FAQ = () => {
 					<summary className = 'summary'>What if I've never been to a hackathon before?</summary>
 					<p>That's okay! All beginners are welcome. You don't have to be an expert to participate in a hackathon. If you choose not to code, you will be able to connect with other participants, attend workshops, listen to guest speakers, and learn about the world of tech.</p>
 				</details>
+				<details className = 'details'>
+					<summary className = 'summary'>Can I come if I'm a post-secondary or university student?</summary>
+					<p>Yes, but you will not be eligible for prizes. In order to keep ClockHacks fair and inclusive, we want to give the best chances to high school students. We still encourage to come, attend workshops, pitch a project, and meet some new people.</p>
+				</details>
 
 				</div>
 
@@ -67,7 +71,7 @@ const FAQ = () => {
 				</details>
 				<details className = 'details'>
 					<summary className = 'summary'>What kind of workshops, talks, and events will there be?</summary>
-					<p>Events and activities will be determined at a later date.</p>
+					<p>There are a lot! They are linked <a href='#schedule'>here</a> and include ceremonies, Vue workshop, Design workshop, and Among Us.</p>
 				</details>
 				<details className = 'details'>
 					<summary className = 'summary'>What if I need help?</summary>
@@ -86,7 +90,7 @@ const FAQ = () => {
 
 				<details className = 'details' open>
 					<summary className = 'summary'>How does judging work?</summary>
-					<p>You will submit a pitch video on Devpost, which will be reviewed by a panel of judges. </p>
+					<p>You will submit a pitch video on <a href='https://clockhacks.devpost.com/' target = '_blank' rel='noreferrer'>Devpost</a>, which will be reviewed by a panel of judges. </p>
 				</details>
 				<details className = 'details'>
 					<summary className = 'summary'>What prizes are there?</summary>
@@ -99,6 +103,14 @@ const FAQ = () => {
 				<details className = 'details'>
 					<summary className = 'summary'>What if I can't, or haven't made anything?</summary>
 					<p>That's okay! Nobody is forcing you to make something at ClockHacks. We just hope that you can learn something, have fun, or make some new friends.</p>
+				</details>
+				<details className = 'details'>
+					<summary className = 'summary'>Will workshops/events be recorded?</summary>
+					<p>Ceremonies and workshops will be streamed on Twitch and later uploaded to YouTube. Activities and minigames, which involve you, will not be recorded.</p>
+				</details>
+				<details className = 'details'>
+					<summary className = 'summary'>How will prizes be shipped?</summary>
+					<p>Most of the prizes are gift cards or other digital awards. Some prizes will need to be shipped, and you will provide your preferred postal code if you need to be shipped a prize.</p>
 				</details>
 
 				</div>
