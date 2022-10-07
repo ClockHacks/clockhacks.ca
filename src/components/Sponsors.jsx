@@ -16,6 +16,7 @@ import echo from '../assets/sponsors/echo.png'
 import xyz from '../assets/sponsors/xyz.png'
 import wolfram from '../assets/sponsors/wolfram.png'
 import centered from '../assets/sponsors/centered.svg'
+import gar from '../assets/sponsors/gar.webp'
 
 const partners = {
 	hc: {
@@ -35,6 +36,11 @@ const partners = {
 	// }
 }
 const goldCompanies = [
+	{
+		img: gar,
+		href: 'https://automationroboticsarduino.com/',
+		alt: 'gar'
+	},
 	{
 		img: centered,
 		href: 'https://www.centered.app/',
