@@ -9,13 +9,14 @@ import standout from '../assets/sponsors/standout.png'
 import certopus from '../assets/sponsors/certopus_original.png'
 import taskade from '../assets/sponsors/taskade.png'
 import cake from '../assets/sponsors/cake_logo_blue_gray.png'
-import aops from '../assets/sponsors/aops.svg'
+import aops from '../assets/sponsors/aops.png'
 import desmos from '../assets/sponsors/desmos.png'
-import buddy from '../assets/sponsors/interviewbuddy.webp'
+import buddy from '../assets/sponsors/buddy.png'
 import echo from '../assets/sponsors/echo.png'
 import xyz from '../assets/sponsors/xyz.png'
 import wolfram from '../assets/sponsors/wolfram.png'
 import centered from '../assets/sponsors/centered.svg'
+import gar from '../assets/sponsors/gar.webp'
 
 const partners = {
 	hc: {
@@ -30,10 +31,18 @@ const partners = {
 	},
 	// trivia: {
 	// 	img: triviaimg,
-	// 	href: 'https://www.instagram.com/lhss.trivia/',
+	// 	href: 'https://www.instagram.com/lhss.triviaclub/',
 	// 	alt: 'lhsstrivia'
 	// }
 }
+const diamondCompanies = [
+	{
+		img: gar,
+		href: 'https://automationroboticsarduino.com/',
+		alt: 'gar',
+	},
+]
+
 const goldCompanies = [
 	{
 		img: centered,
@@ -44,11 +53,6 @@ const goldCompanies = [
 		img: taskade,
 		href: 'https://www.taskade.com/',
 		alt: 'taskade'
-	},
-	{
-		img: buddy,
-		href: 'https://interviewbuddy.in/',
-		alt: 'buddy'
 	},
 	{
 		img: echo,
@@ -66,6 +70,11 @@ const silverCompanies = [
 		img: aops,
 		href: 'https://artofproblemsolving.com/',
 		alt: 'aops'
+	},
+	{
+		img: buddy,
+		href: 'https://interviewbuddy.in/',
+		alt: 'buddy'
 	},
 	{
 		img: xyz,
@@ -131,6 +140,17 @@ const Sponsors = () => {
 
 			<h1>Sponsors</h1>
 
+			<div className="tier" id = 'diamond'>
+				{diamondCompanies.map((company, i) => {
+					return (
+						<div className="company">
+							<a href={company.href} target = '_blank' rel='noreferrer'>
+								<img src={company.img} alt={company.name}></img>
+							</a>
+						</div>
+					)
+				})}
+			</div>
 			<div className="tier" id = 'gold'>
 				{goldCompanies.map((company, i) => {
 					return (
@@ -138,7 +158,6 @@ const Sponsors = () => {
 							<a href={company.href} target = '_blank' rel='noreferrer'>
 								<img src={company.img} alt={company.name}></img>
 							</a>
-							<p>{company.name}</p>
 						</div>
 					)
 				})}
@@ -150,7 +169,6 @@ const Sponsors = () => {
 							<a href={company.href} target = '_blank' rel='noreferrer'>
 								<img src={company.img} alt={company.name}></img>
 							</a>
-							<p>{company.name}</p>
 						</div>
 					)
 				})}
@@ -161,7 +179,6 @@ const Sponsors = () => {
 					return (
 						<div className="company">
 							<a href={company.href} target = '_blank' rel='noreferrer'><img src={company.img} alt={company.name}></img></a>
-							<p>{company.name}</p>
 						</div>
 					)
 				})}

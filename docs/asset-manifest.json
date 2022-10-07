@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.decf6ca4.css",
-    "main.js": "/static/js/main.bb64ec82.js",
+    "main.css": "/static/css/main.73de9d07.css",
+    "main.js": "/static/js/main.a839a631.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gear2.png": "/static/media/gear2.458cb3e411fe96cc007d.png",
@@ -13,6 +13,7 @@
     "static/media/gear1.png": "/static/media/gear1.3d8a9077ae44aa7987dc.png",
     "static/media/cera.jpg": "/static/media/cera.58bcc89fd2707935df51.jpg",
     "static/media/gear0.png": "/static/media/gear0.71a53c4be302e1149880.png",
+    "static/media/buddy.png": "/static/media/buddy.a5db7867d17708a1515e.png",
     "static/media/sean.jpg": "/static/media/sean.6369654af566de2cc634.jpg",
     "static/media/triviaclub.png": "/static/media/triviaclub.0469b0da74410c2f980e.png",
     "static/media/echo.png": "/static/media/echo.d4c58a0129dab2a2f848.png",
@@ -21,7 +22,6 @@
     "static/media/cake_logo_blue_gray.png": "/static/media/cake_logo_blue_gray.dc92ee7009096a444b45.png",
     "static/media/certopus_original.png": "/static/media/certopus_original.17a6a81b9d6fc98bd3bc.png",
     "static/media/desmos.png": "/static/media/desmos.bd5ed5bd29c4b61e0bdd.png",
-    "static/media/interviewbuddy.webp": "/static/media/interviewbuddy.df9727de5c52afaf5238.webp",
     "static/media/puri.jpg": "/static/media/puri.45b390c37e865fa2af0f.jpg",
     "static/media/wolfram.png": "/static/media/wolfram.3f6015bc352c5acb715d.png",
     "static/media/inspiration.svg": "/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
@@ -29,13 +29,13 @@
     "static/media/contact.svg": "/static/media/contact.caf10b57b78e9622a75dd722b9a14092.svg",
     "static/media/sponsor.svg": "/static/media/sponsor.19f7abd02f244b70c6509a3cdedc4713.svg",
     "static/media/centered.svg": "/static/media/centered.b0f2b356293e22286b6e4d1a7766291b.svg",
-    "static/media/aops.svg": "/static/media/aops.a30c68398df9bf7f3bcfc6989f5f60ba.svg",
+    "static/media/gar.webp": "/static/media/gar.311360654f077af76dfb.webp",
     "index.html": "/index.html",
-    "main.decf6ca4.css.map": "/static/css/main.decf6ca4.css.map",
-    "main.bb64ec82.js.map": "/static/js/main.bb64ec82.js.map"
+    "main.73de9d07.css.map": "/static/css/main.73de9d07.css.map",
+    "main.a839a631.js.map": "/static/js/main.a839a631.js.map"
   },
   "entrypoints": [
-    "static/css/main.decf6ca4.css",
-    "static/js/main.bb64ec82.js"
+    "static/css/main.73de9d07.css",
+    "static/js/main.a839a631.js"
   ]
 }

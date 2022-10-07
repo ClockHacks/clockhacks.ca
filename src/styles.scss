@@ -593,7 +593,7 @@ button {
         align-content: center;
         margin: auto;
         background-color: #fff;
-        padding: 10px;
+        padding: 3%;
         border-radius: 10px;
         transition: transform 0.2s;
         flex-wrap: wrap;
@@ -609,12 +609,20 @@ button {
         }
     }
 
+    #diamond {
+        img {
+            width: max(40vw, 270px);
+            height: max(16vw, 120px);
+            @include sponsor();
+            border: 10px solid #45D9E7;
+        }
+    }
+
     #gold {
         img {
             width: max(30vw, 270px);
             height: max(12vw, 120px);
             @include sponsor();
-            padding: 5px;
         }
     }
 
@@ -629,7 +637,6 @@ button {
             width: max(20vw, 200px);
             height: max(11vw, 110px);
             @include sponsor();
-            padding: 5px;
         }
     }
 
@@ -640,7 +647,6 @@ button {
             width: max(15vw, 150px);
             height: max(9vw, 70px);
             @include sponsor();
-            padding: 5px;
         }
         margin-bottom: 10px;
         margin-top: -10px;
