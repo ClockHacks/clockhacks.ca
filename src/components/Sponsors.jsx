@@ -45,6 +45,11 @@ const diamondCompanies = [
 
 const goldCompanies = [
 	{
+		img: gar,
+		href: 'https://automationroboticsarduino.com/',
+		alt: 'gar'
+	},
+	{
 		img: centered,
 		href: 'https://www.centered.app/',
 		alt: 'centered'
