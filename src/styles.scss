@@ -215,7 +215,7 @@ gradient {
     position: absolute;
     right: 160px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 @media screen and (max-width: 1150px) {
@@ -239,7 +239,7 @@ button {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
     background-color: $accent;
-    padding: 10px 15px;
+    padding: 0.75vw 1.25vw;
     border-radius: 25px;
     font-size: max(1.4vw, 16px);
     margin-top: 10px;
@@ -911,40 +911,83 @@ button {
     font-feature-settings: 'liga';
 }
 
-#footerspaced {
-    padding: 2vw;
-    display: block;
-    justify-content: center;
-    text-align: center;
-    @include centered();
+#footer {
+    position: relative;
+    bottom: 0;
+    padding-top: 5vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-bottom: 2vw;
+    display: flex;
+    gap: 5rem;
+
+    div {
+        display: block;
+        width: 33%;
+        // background-color: #78B68C;
+        line-height: max(3vw, 30px);
+    }
+
+    h2 {
+        color: lighten($dark, 50%);
+        font-size: max(1vw, 10px)
+    }
+
+    #copyright {
+        h1 {
+            flex-basis: 100%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        p {
+            margin-top: 15px;
+        }
+
+        img {
+            width: 20%;
+        }
+    }
+
+    #footersocials {
+        display: flex;
+        gap: 15px;
+    }
+
+    gradient {
+        font-size: max(3vw, 3px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #footer {
+        display: block !important;
+        justify-content: center !important;
+        div {
+            @include centered();
+            text-align: center;
+        }
+    }
+}
+
+footer {
+    background-color: #0B1015;
 
     p {
         font-size: max(1.5vw, 13px);
     }
-    
+
     a {
+        display: block;
         transition: color 0.2s ease;
         &:hover {
             color: $accent;
         }
-        margin-left: 10px;
         cursor: pointer;
         white-space: nowrap;
+        font-size: max(1.5vw, 13px);
     }
-}
 
-// @media screen and (max-width: 1000px) {
-//     #footerspaced {
-//         display: block !important;
-//         justify-content: center !important;
-        
-//         h1, a {
-//             text-align: center !important;
-
-//         }
-//     }
-// }
-
-footer {
-    background-color: #0B1015;
+    padding-bottom: 5vw;
 }
