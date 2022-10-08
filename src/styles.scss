@@ -394,6 +394,43 @@ button {
     outline: 20px solid darken($dark, 2%);
 }
 
+#clock {
+    background-color: $dark;
+    text-align: center;
+
+    #thingy {
+        font-size: max(6vw, 60px)
+    }
+
+    div {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: underline;
+        color: $accent;
+    }
+
+    #clockgear {
+        position: absolute;
+        transform: rotate(180deg) scale(0.8);
+        left: -50px;
+        top: 0px;
+    }
+
+    #programmerimg {
+        @include centered();
+        width: max(25%, 200px);
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #clockgear {
+        display: none;
+    }
+}
+
 @keyframes schedule {
     from {
         margin-bottom: 40px;

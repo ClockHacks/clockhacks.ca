@@ -7,6 +7,7 @@ import Speakers from './components/Speakers';
 import Sponsors from './components/Sponsors';
 import Team from './components/Team';
 import Footer from './components/Footer';
+import Clock from './components/Clock';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -21,6 +22,7 @@ function App() {
 
 			<Home/>
 			<About/>
+			<Clock/>
 			<FAQ/>
 			<Schedule/>
 			<Speakers/>
