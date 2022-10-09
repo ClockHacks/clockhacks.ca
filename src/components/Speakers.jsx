@@ -3,7 +3,7 @@ import puri from '../assets/puri.jpg'
 
 const Speakers = () => {
 	return (
-		<div id="speakers" className="container">
+		<div id="speakers" className="container" >
 
 			<h1 style={{textAlign: 'center'}}>Keynote Speaker</h1>
 			<div className = 'container spaced' id = 'steven' data-aos = 'fade-up' data-aos-duration ='1000'>

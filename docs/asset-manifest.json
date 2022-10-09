@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.be5213d9.css",
-    "main.js": "/static/js/main.40b722fe.js",
+    "main.css": "/static/css/main.21eb6747.css",
+    "main.js": "/static/js/main.30c5e44d.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
+    "static/media/gearfull2.png": "/static/media/gearfull2.1cfa4e2934fd234f056c.png",
     "static/media/gear2.png": "/static/media/gear2.458cb3e411fe96cc007d.png",
     "static/media/gear3.png": "/static/media/gear3.a246fea050b2e9ac7ec8.png",
     "static/media/watch.png": "/static/media/watch.72cd83a11381186c93a0.png",
@@ -26,17 +27,18 @@
     "static/media/wolfram.png": "/static/media/wolfram.3f6015bc352c5acb715d.png",
     "static/media/programmer.svg": "/static/media/programmer.8579d0e33b7d84c5c5304b08a9709a07.svg",
     "static/media/inspiration.svg": "/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
+    "static/media/gearfull1.png": "/static/media/gearfull1.6121d27b4538c340fc49.png",
     "static/media/collaboration.svg": "/static/media/collaboration.83524ac4559add56ba7231b5e245c07f.svg",
     "static/media/contact.svg": "/static/media/contact.caf10b57b78e9622a75dd722b9a14092.svg",
     "static/media/sponsor.svg": "/static/media/sponsor.19f7abd02f244b70c6509a3cdedc4713.svg",
     "static/media/centered.svg": "/static/media/centered.b0f2b356293e22286b6e4d1a7766291b.svg",
     "static/media/gar.webp": "/static/media/gar.311360654f077af76dfb.webp",
     "index.html": "/index.html",
-    "main.be5213d9.css.map": "/static/css/main.be5213d9.css.map",
-    "main.40b722fe.js.map": "/static/js/main.40b722fe.js.map"
+    "main.21eb6747.css.map": "/static/css/main.21eb6747.css.map",
+    "main.30c5e44d.js.map": "/static/js/main.30c5e44d.js.map"
   },
   "entrypoints": [
-    "static/css/main.be5213d9.css",
-    "static/js/main.40b722fe.js"
+    "static/css/main.21eb6747.css",
+    "static/js/main.30c5e44d.js"
   ]
 }

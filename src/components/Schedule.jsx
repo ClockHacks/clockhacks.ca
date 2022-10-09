@@ -189,15 +189,15 @@ const Schedule = () => {
 				<button id = 'nov6button' onClick = {() => switchDate('nov6')}>November 6</button>
 			</div>
 
-			<div id = 'nov4'>
+			<div id = 'nov4' className='date'>
 				{nov4.map((i, index) => {return (makeDate(i, index, 'nov4')) })}
 			</div>
 
-			<div id = 'nov5'>
+			<div id = 'nov5' className='date'>
 				{nov5.map((i, index) => {return (makeDate(i=i, index=index, 'nov5')) })}
 			</div>
 
-			<div id = 'nov6'>
+			<div id = 'nov6' className='date'>
 				{nov6.map((i, index) => {return (makeDate(i=i, index=index, 'nov6')) })}
 			</div>
 			<img loading = 'lazy' src = {gear5} alt = 'gear5' id = 'gear5'></img>

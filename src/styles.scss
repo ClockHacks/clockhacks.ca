@@ -231,7 +231,7 @@ gradient {
     position:fixed;
     right:50px;
     top:0;
-    width:max(6%, 45px);
+    width:max(6%, 65px);
     z-index:10000;
 }
 
@@ -466,10 +466,12 @@ button {
 
 @keyframes schedule {
     from {
-        margin-bottom: 40px;
+        margin-left: -100px;
+        opacity: 0.75;
     }
     to {
-        margin-bottom: 15px;
+        margin-right: inherit;
+        opacity: inherit;
     }
 }
 
@@ -509,7 +511,9 @@ button {
         display: flex;
         font-size: max(1.5vw, 15px);
         justify-content: space-between;
+    }
 
+    .date {
         animation: schedule;
         animation-duration: 1s;
         animation-timing-function: ease-in-out;
@@ -1000,6 +1004,12 @@ button {
         div {
             @include centered();
             text-align: center;
+        }
+
+        #footersocials {
+            @include centered();
+            display: flex;
+            justify-content: center;
         }
     }
 }
