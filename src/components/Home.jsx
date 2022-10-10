@@ -13,7 +13,9 @@ const Home = () => {
         <img loading = 'lazy' src = {gear1} alt = 'gear1' id = 'gear1'></img>
         <img loading = 'lazy' src = {gear1} alt = 'gear2' id = 'gear2'></img>
         <img loading = 'lazy' src = {gear2} alt = 'gear3' id = 'gearfull'></img>
-        <img loading = 'lazy' src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
+        <a href = '#about'>
+          <img loading = 'lazy' src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
+        </a>
         <h1 id = 'title'>
             <gradient loading = 'lazy' >ClockHacks</gradient>
         </h1>
