@@ -111,7 +111,7 @@ for (let company in partners) {
 	PartnerList.push(
 		<div className="partner">
 			<a href={partners[company].href} style = {{display: 'block'}} target = '_blank' rel='noreferrer'>
-				<img src={partners[company].img} width = '100%' alt={partners[company].alt}></img>
+				<img loading = 'lazy' src={partners[company].img} width = '100%' alt={partners[company].alt}></img>
 			</a>
 		</div>
 	)
@@ -125,7 +125,7 @@ const Sponsors = () => {
 			
 			<div className = 'container spaced' style = {{padding: '0'}} data-aos = 'fade-right' data-aos-duration = '1000'>
 			<h1>
-				Sponsor the <gradient>future</gradient>
+				Sponsor the <gradient loading = 'lazy' >future</gradient>
 				<p>
 					Sponsors like you are what makes ClockHacks possible. Without sponsors, we wouldn't be able to have prizes, workshops, speakers, or even the event at all. 
 					<br></br><br></br>
@@ -145,7 +145,7 @@ const Sponsors = () => {
 					return (
 						<div className="company">
 							<a href={company.href} target = '_blank' rel='noreferrer'>
-								<img src={company.img} alt={company.name}></img>
+								<img loading = 'lazy' src={company.img} alt={company.name}></img>
 							</a>
 						</div>
 					)
@@ -156,7 +156,7 @@ const Sponsors = () => {
 					return (
 						<div className="company">
 							<a href={company.href} target = '_blank' rel='noreferrer'>
-								<img src={company.img} alt={company.name}></img>
+								<img loading = 'lazy' src={company.img} alt={company.name}></img>
 							</a>
 						</div>
 					)
@@ -167,7 +167,7 @@ const Sponsors = () => {
 					return (
 						<div className="company">
 							<a href={company.href} target = '_blank' rel='noreferrer'>
-								<img src={company.img} alt={company.name}></img>
+								<img loading = 'lazy' src={company.img} alt={company.name}></img>
 							</a>
 						</div>
 					)
@@ -178,7 +178,7 @@ const Sponsors = () => {
 				{bronzeCompanies.map((company, i) => {
 					return (
 						<div className="company">
-							<a href={company.href} target = '_blank' rel='noreferrer'><img src={company.img} alt={company.name}></img></a>
+							<a href={company.href} target = '_blank' rel='noreferrer'><img loading = 'lazy' src={company.img} alt={company.name}></img></a>
 						</div>
 					)
 				})}

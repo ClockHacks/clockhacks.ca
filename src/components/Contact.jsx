@@ -6,7 +6,7 @@ const Contact = () => {
 		<>
 		<div id="contact" className="container spaced">
 			<h1>
-				Inspire, create, <gradient>innovate</gradient>
+				Inspire, create, <gradient loading = 'lazy' >innovate</gradient>
 				<p>
 					Hackathons are a great place to not only learn about tech, but to meet and connect with other likeminded people. If you're a high schooler interested in tech, business, design, or just free merch, ClockHacks is for you.
 					<br></br>

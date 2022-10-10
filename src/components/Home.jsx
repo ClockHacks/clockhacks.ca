@@ -9,13 +9,13 @@ const Home = () => {
   return (
     <div className = 'container' id = 'home' style = {{paddingTop: '5vh'}}>
 
-        <img src = {gear0} alt = 'gear0' id = 'gear0'></img>
-        <img src = {gear1} alt = 'gear1' id = 'gear1'></img>
-        <img src = {gear1} alt = 'gear2' id = 'gear2'></img>
-        <img src = {gear2} alt = 'gear3' id = 'gearfull'></img>
-        <img src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
+        <img loading = 'lazy' src = {gear0} alt = 'gear0' id = 'gear0'></img>
+        <img loading = 'lazy' src = {gear1} alt = 'gear1' id = 'gear1'></img>
+        <img loading = 'lazy' src = {gear1} alt = 'gear2' id = 'gear2'></img>
+        <img loading = 'lazy' src = {gear2} alt = 'gear3' id = 'gearfull'></img>
+        <img loading = 'lazy' src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
         <h1 id = 'title'>
-            <gradient>ClockHacks</gradient>
+            <gradient loading = 'lazy' >ClockHacks</gradient>
         </h1>
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}} id ='desc'>
             A hackathon for time | November 4 - 6, 2022

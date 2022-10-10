@@ -73,14 +73,30 @@ button {
 
 gradient {
     background-color: #f3ec78;
-    background-image: linear-gradient(90deg, $accent 22%, rgba(174,221,13,1) 100%);
-    background-size: 100%;
+    background-image: linear-gradient(90deg, 
+        $accent,
+        #4bdbd2,
+        #93e317,
+        $accent
+    );
+    background-size: 200%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
     display: inline;
     user-select: none;
+
+    animation: background-pan 2s linear infinite;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
 }
 
 #faq {
@@ -324,23 +340,15 @@ button {
     }
 }
 
-@keyframes gearspin2 {
-    from {
-        transform: rotate(0deg);
-        left: -200px;
-    } to {
-        transform: rotate(360deg);
-        left: -200px;
-    }
-}
-
 #gearfull {
     position: absolute;
     top: -200px;
+    left: -200px;
+    transition: transform 3s;
 
-    transform: scale(0.6);
-
-    animation: gearspin2 7s infinite;
+    &:hover {
+        transform: rotate(180deg)
+    }
 }
 
 #gear1 {

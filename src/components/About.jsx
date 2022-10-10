@@ -9,7 +9,7 @@ const About = () => {
 
 			<div data-aos = 'fade-up' data-aos-duration = '1200'>
 			<h1>
-				By <gradient> students,</gradient> for <gradient> students</gradient>
+				By <gradient loading = 'lazy' > students,</gradient> for <gradient loading = 'lazy' > students</gradient>
 			</h1>
 			<p>
 				ClockHacks is a hackathon created by a group of high school students from Waterloo, Ontario. It is a 40 hour long event themed around time.

@@ -25,7 +25,7 @@ const Speakers = () => {
 
 				<div>
 				<h1 style = {{textAlign: 'right'}}>
-				<gradient>Inspire</gradient> youth in tech
+				<gradient loading = 'lazy' >Inspire</gradient> youth in tech
 				<p>
 					Sign up to be a guest speaker at ClockHacks and inspire the youth of the future. Give a speech or host a workshop during the event from November 4 to November 6, 2022.
 					<br></br><br></br>

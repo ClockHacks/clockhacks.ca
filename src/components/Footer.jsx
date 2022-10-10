@@ -12,8 +12,8 @@ const Footer = () => {
 			
 			<div id = 'copyright'>
 				<h1>
-					<img src = {logo} alt = 'footerlogo' id = 'footerlogo'></img>
-					<gradient>ClockHacks</gradient>
+					<img loading = 'lazy' src = {logo} alt = 'footerlogo' id = 'footerlogo'></img>
+					<gradient loading = 'lazy'>ClockHacks</gradient>
 				</h1>
 				<p>Copyright © 2022 ClockHacks</p>
 				<p id='footersocials'>
