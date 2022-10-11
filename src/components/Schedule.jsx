@@ -60,6 +60,15 @@ const nov5 = [
 		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :). Presented by Cera Wang'
 	},
 	{
+		'name': 'Cybersecurity: Keeping your software safe',
+		'time': '18:00 - 19:00',
+		'type': 'workshop',
+		'description': `1. a quick overview of cybersecurity in code and using C/C++ to make a buffer overflow and showing how to execute that buffer overflow attack;
+2. a discussion of patching software and why you should, with a show of how to use Metasploit framework to exploit a known vulnerability
+3. a small talk about Kilgore College and studying in Texas including the World Famous Rangerettes.
+Hosted by Danny Darden, professor at Kilgore College.`
+	},
+	{
 		'name': '!Light',
 		'time': '19:00 - 20:30',
 		'type': 'game',
@@ -142,7 +151,7 @@ function makeDate(i, index, type='') {
 					{i.name}
 				</h2>
 
-				<p id = {index + type}>
+				<p id = {index + type} style = {{whiteSpace: 'pre-line'}}>
 					{i.description}
 				</p>
 			</div>
