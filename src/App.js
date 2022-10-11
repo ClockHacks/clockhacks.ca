@@ -16,6 +16,7 @@ import Navbar from './components/Navbar'
 
 function App() {
 	AOS.init()
+	
 	return (
 		<div id="app" className="bg-dark-color">
 			<Navbar/>
