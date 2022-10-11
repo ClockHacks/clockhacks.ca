@@ -19,7 +19,9 @@ const Home = () => {
           }
         }></img>
         <h1 id = 'title'>
-            <gradient loading = 'lazy' >ClockHacks</gradient>
+            <gradient loading = 'lazy' >
+              ClockHacks
+            </gradient>
         </h1>
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}} id ='desc'>
             A hackathon for time | November 4 - 6, 2022

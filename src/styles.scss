@@ -71,6 +71,26 @@ button {
     margin-right: auto;
 }
 
+@keyframes scale {
+    from, to {
+      transform: scale(0);
+    }
+    
+    50% {
+      transform: scale(1);
+    }
+}  
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    
+    to {
+      transform: rotate(180deg);
+    }
+}
+  
 gradient {
     background-color: #f3ec78;
     background-image: linear-gradient(90deg, 
@@ -86,6 +106,8 @@ gradient {
     -moz-text-fill-color: transparent;
     display: inline;
     user-select: none;
+    display: inline-block;
+    position: relative;
 
     animation: background-pan 2s linear infinite;
 }
@@ -934,6 +956,7 @@ button {
 	.nav.responsive {
         display: block;
 		#links {
+            padding: 10px;
             display: block;
             float: none;
             text-align: left;
@@ -946,6 +969,13 @@ button {
                 display: block;
             }
 		}  
+        #socials {
+            display: flex;
+            position: static;
+        }
+        &:hover {
+            background-color: rgba(36, 38, 38, 0.5);
+        }
 	}
 }
 
