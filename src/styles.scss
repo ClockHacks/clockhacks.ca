@@ -296,7 +296,6 @@ button {
         min-width: 200px;
         position: relative;
         z-index: 10;
-        margin-top: -10px;
         transition: 0.3s;
 
         &:hover {
@@ -324,9 +323,9 @@ button {
 #home {
     height: 93vh;
     position: fixed;
-    top: 10;
     z-index: -1;
     pointer-events: auto;
+    padding-top: 6vh;
 }
 
 #gear0 {
@@ -338,17 +337,18 @@ button {
 @keyframes gearspin {
     from {
         transform: rotate(0deg);
-        left: inherit;
+        // left: inherit;
     } to {
         transform: rotate(360deg);
-        left: inherit;
+        // left: inherit;
     }
 }
 
 #gearfull {
     position: absolute;
-    top: -200px;
-    left: -200px;
+    left: -100px;
+    width: max(20vw, 200px);
+    top: -100px;
     transition: transform 3s;
 
     &:hover {
@@ -698,8 +698,8 @@ button {
 
     #diamond {
         img {
-            width: max(40vw, 270px);
-            height: max(16vw, 120px);
+            width: max(40vw, 300px);
+            height: max(16vw, 155px);
             @include sponsor();
             border: 10px solid #45D9E7;
         }

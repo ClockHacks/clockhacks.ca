@@ -7,15 +7,17 @@ import gear2 from '../assets/images/gearfull2.png'
 
 const Home = () => {
   return (
-    <div className = 'container' id = 'home' style = {{paddingTop: '5vh'}}>
+    <div className = 'container' id = 'home'>
 
         <img loading = 'lazy' src = {gear0} alt = 'gear0' id = 'gear0'></img>
         <img loading = 'lazy' src = {gear1} alt = 'gear1' id = 'gear1'></img>
         <img loading = 'lazy' src = {gear1} alt = 'gear2' id = 'gear2'></img>
         <img loading = 'lazy' src = {gear2} alt = 'gear3' id = 'gearfull'></img>
-        <a href = '#about'>
-          <img loading = 'lazy' src = {logo} alt = 'logo' className='centered' id = 'homelogo'></img>
-        </a>
+        <img loading = 'lazy' src = {logo} alt = 'logo' class='centered hover:cursor-pointer' id = 'homelogo' onClick = {
+          () => {
+            document.getElementById('about').scrollIntoView();
+          }
+        }></img>
         <h1 id = 'title'>
             <gradient loading = 'lazy' >ClockHacks</gradient>
         </h1>

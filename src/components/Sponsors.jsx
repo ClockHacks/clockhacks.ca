@@ -17,6 +17,7 @@ import xyz from '../assets/sponsors/xyz.png'
 import wolfram from '../assets/sponsors/wolfram.png'
 import centered from '../assets/sponsors/centered.svg'
 import gar from '../assets/sponsors/gar.webp'
+import kilgore from '../assets/sponsors/kilgore.png'
 
 const partners = {
 	hc: {
@@ -48,6 +49,11 @@ const goldCompanies = [
 		img: centered,
 		href: 'https://www.centered.app/',
 		alt: 'centered'
+	},
+	{
+		img: kilgore,
+		href: 'https://www.kilgore.edu/',
+		alt: 'kilgore college'
 	},
 	{
 		img: taskade,
