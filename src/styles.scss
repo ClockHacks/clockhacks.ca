@@ -232,9 +232,13 @@ gradient {
     right: 160px;
     display: flex;
     gap: 15px;
+
+    #devposticon {
+        font-size: max(1.5vw, 30px);
+    }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1250px) {
     #socials {
         display: none;
     }
@@ -864,7 +868,7 @@ button {
     monospace;
     background-color: #000;
     backdrop-filter: blur(8px);
-    background-color: rgba(36, 38, 38, 0.7);
+    background-color: rgba(36, 38, 38, 0.5);
     padding: 15px 18px 15px 18px;
     color: #000;
 	align-items: center;
@@ -876,7 +880,7 @@ button {
     font-size: max(1.3vw, 25px);
 
     &:hover {
-        background-color: #000;
+        background-color: #111;
     }
 
     #links {
@@ -1011,6 +1015,11 @@ button {
     #footersocials {
         display: flex;
         gap: 15px;
+        align-items: center;
+
+        #devposticonf {
+            font-size: max(1.7vw, 15px);
+        }
     }
 
     gradient {
