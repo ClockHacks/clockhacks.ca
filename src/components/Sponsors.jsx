@@ -18,6 +18,7 @@ import wolfram from '../assets/sponsors/wolfram.png'
 import centered from '../assets/sponsors/centered.svg'
 import gar from '../assets/sponsors/gar.webp'
 import kilgore from '../assets/sponsors/kilgore.png'
+import recall from '../assets/sponsors/recall.png'
 
 const partners = {
 	hc: {
@@ -97,6 +98,11 @@ const silverCompanies = [
 		href: 'https://wolfram.com/',
 		alt: 'wolfram'
 	},
+	{
+		img: recall,
+		href: 'https://www.recall.ai/',
+		alt: 'recall'
+	}
 ]
 const bronzeCompanies = [
 	{
