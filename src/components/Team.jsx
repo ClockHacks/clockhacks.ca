@@ -3,6 +3,7 @@ import jeffrey from '../assets/team/jeffrey.jpg'
 import sean from '../assets/team/sean.jpg'
 import cera from '../assets/team/cera.jpg'
 import zhuo from '../assets/team/zhuoen.jpg'
+import nathan from '../assets/team/nathanwong.jpg'
 
 import gear8 from '../assets/images/gear0.png'
 import gear9 from '../assets/images/gear2.png'
@@ -22,9 +23,9 @@ const Sponsors = () => {
 				<img className = 'headshot' loading = 'lazy' src = {sean} alt = 'headshot'></img>
 				<h1>
 					Sean Wang
-					<p>Co-Founder</p>
+					<p>Co-founder</p>
 					<p>
-						<a href = 'https://www.linkedin.com/in/pilotprix/' target = '_blank' rel = 'noreferrer'>
+						<a class='mr-3' href = 'https://www.linkedin.com/in/pilotprix/' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-linkedin' ></i>
 						</a>{' '}
 						<a href = 'https://github.com/PilotPrix' target = '_blank' rel = 'noreferrer'>
@@ -38,7 +39,7 @@ const Sponsors = () => {
 					Jeffrey Zang
 					<p>Technical Lead</p>
 					<p>
-						<a href = 'https://www.linkedin.com/in/jeffreyzang2007/' target = '_blank' rel = 'noreferrer'>
+						<a class='mr-3' href = 'https://www.linkedin.com/in/jeffreyzang2007/' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-linkedin' ></i>
 						</a>{' '}
 						<a href = 'https://github.com/jeffrey-zang' target = '_blank' rel = 'noreferrer'>
@@ -52,7 +53,7 @@ const Sponsors = () => {
 					Zhuo En Chua
 					<p>Marketing and Outreach</p>
 					<p>
-						<a href = 'https://www.linkedin.com/in/ze2/' target = '_blank' rel = 'noreferrer'>
+						<a class='mr-3' href = 'https://www.linkedin.com/in/ze2/' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-linkedin' ></i>
 						</a>{' '}
 						<a href = 'https://github.com/ze-2' target = '_blank' rel = 'noreferrer'>
@@ -69,7 +70,7 @@ const Sponsors = () => {
 					Jay Ren
 					<p>Co-founder</p>
 					<p>
-						<a href = 'https://www.linkedin.com/in/jay-yuan-ren-107892211/' target = '_blank' rel = 'noreferrer'>
+						<a class='mr-3' href = 'https://www.linkedin.com/in/jay-yuan-ren-107892211/' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-linkedin' ></i>
 						</a>{' '}
 						<a href = 'https://github.com/JaryJay' target = '_blank' rel = 'noreferrer'>
@@ -83,10 +84,24 @@ const Sponsors = () => {
 					Cera Wang
 					<p>Design Lead</p>
 					<p>
-						<a href = 'https://www.linkedin.com/in/cera-wang-171699240/' target = '_blank' rel = 'noreferrer'>
+						<a class='mr-3' href = 'https://www.linkedin.com/in/cera-wang-171699240/' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-linkedin' ></i>
 						</a>{' '}
 						<a href = 'https://github.com/orgs/ClockHacks/people/acrenw' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-github' ></i>
+						</a>
+					</p>
+				</h1>
+
+				<img class = 'headshot disabled:pointer-events-none' loading = 'lazy' src = {nathan} alt = 'headshot'></img>
+				<h1>
+					Nathan Wong
+					<p>Finance and Sponsorship</p>
+					<p>
+						<a class='mr-3' href = 'https://www.linkedin.com/in/nathan-wong-03362696/' target = '_blank' rel = 'noreferrer'>
+							<i class = 'bi bi-linkedin' ></i>
+						</a>{' '}
+						<a href = 'https://github.com/TheLoneMoonRat' target = '_blank' rel = 'noreferrer'>
 							<i class = 'bi bi-github' ></i>
 						</a>
 					</p>
