@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf9119e7.css",
-    "main.js": "/static/js/main.b9fbc7f9.js",
+    "main.css": "/static/css/main.00947086.css",
+    "main.js": "/static/js/main.d51e671a.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gearfull2.png": "/static/media/gearfull2.1cfa4e2934fd234f056c.png",
     "static/media/gear2.png": "/static/media/gear2.458cb3e411fe96cc007d.png",
     "static/media/gear3.png": "/static/media/gear3.a246fea050b2e9ac7ec8.png",
     "static/media/watch.png": "/static/media/watch.72cd83a11381186c93a0.png",
+    "static/media/nathanwong.jpg": "/static/media/nathanwong.5c0569428de542feb7eb.jpg",
     "static/media/standout.png": "/static/media/standout.6acf02fc7604a65e3cc6.png",
     "static/media/xyz.png": "/static/media/xyz.88298d23ea4c19414907.png",
     "static/media/zhuoen.jpg": "/static/media/zhuoen.a1c96485cb2eade33ae0.jpg",
@@ -34,11 +35,11 @@
     "static/media/centered.svg": "/static/media/centered.b0f2b356293e22286b6e4d1a7766291b.svg",
     "static/media/gar.webp": "/static/media/gar.311360654f077af76dfb.webp",
     "index.html": "/index.html",
-    "main.bf9119e7.css.map": "/static/css/main.bf9119e7.css.map",
-    "main.b9fbc7f9.js.map": "/static/js/main.b9fbc7f9.js.map"
+    "main.00947086.css.map": "/static/css/main.00947086.css.map",
+    "main.d51e671a.js.map": "/static/js/main.d51e671a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf9119e7.css",
-    "static/js/main.b9fbc7f9.js"
+    "static/css/main.00947086.css",
+    "static/js/main.d51e671a.js"
   ]
 }
