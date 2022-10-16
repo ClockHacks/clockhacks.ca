@@ -12,9 +12,11 @@ $dark: #353535;
 
 html {
     scroll-behavior: smooth;
+    transition: 0s;
 }
 
 * {
+    transition: 0s;
     &::selection {
         background-color: darken($accent, 10%);
     }
@@ -29,9 +31,11 @@ div {
     color: $light;
     position: relative;
     z-index: 1;
+    transition: 0s;
 }
 
 body {
+    transition: 0s;
     background-color: $dark;
     font-family: 'Open Sans', sans-serif;
 }
@@ -260,7 +264,7 @@ gradient {
     }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
     #socials {
         display: none;
     }
