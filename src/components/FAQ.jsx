@@ -110,7 +110,7 @@ const FAQ = () => {
 				</details>
 				<details className = 'details'>
 					<summary className = 'summary'>How will prizes be shipped?</summary>
-					<p>Most of the prizes are gift cards or other digital awards. Some prizes will need to be shipped, and you will provide your preferred postal code if you need to be shipped a prize.</p>
+					<p>Most of the prizes are gift cards or other digital awards. Some prizes will need to be shipped, and you will provide your preferred postal code if you need to be shipped a prize. Unfortunately, we can't ship prizes outside of North America.</p>
 				</details>
 
 				</div>
