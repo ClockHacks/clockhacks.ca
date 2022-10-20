@@ -1,38 +1,41 @@
-import gear5 from '../assets/images/gear3.png'
-import { useState } from 'react'
+import gear5 from "../assets/images/gear3.png";
+import { useState } from "react";
 
 const nov4 = [
-	{
-		'name': 'Wrapping your mind around Python: the very basics of programming',
-		'time': '17:00 - 18:00',
-		'type': 'workshop',
-		'description': `Join us for a "first-time-coding" workshop to warm up your keyboard before ClockHacks starts. We will be using the Python programming language. We'll go through basic datatypes, input/output, syntax, conditionals, and end with functions and loops. Whether you're here to learn or here to have fun, this workshop is for you! Come hang out and learn some new things before the opening ceremony.`
-	},
-	{
-		'name': 'Opening Ceremony',
-		'time': '18:00 - 19:00',
-		'type': 'ceremony',
-		'description': `Welcome to ClockHacks! We'll be introducing how the event works, some of the activities and workshops that we'll be having, and we'll thank our sponsors. Steven Puri, our guest speaker, will speak about hackathons and students, as well as productivity. Stay for a Q/A session at the end!`
-	},
-	{
-		'name': 'Hacking Starts!',
-		'time': '19:00',
-		'type': 'event',
-		'description': 'The official time for creating your website, app, robot, or design starts now!'
-	},
-	{
-		'name': 'Idea Crafting: We help you invent and improve ideas',
-		'time': '19:00 - 19:30',
-		'type': 'activity',
-		'description': 'Need an idea for your ClockHacks project? Hop in a discord call with us and we\'ll give you ideas, inspiration, and guidance!'
-	},
-	{
-		'name': 'Making very Versatile websites with Vue',
-		'time': '19:30 - 20:30',
-		'type': 'workshop',
-		'description': 'Websites are some of the best projects for hackathons, and Vue is one of the most versatile web frameworks out there. If you already know a framework like React or Angular, Vue will be a valuable part on your web dev resume. We\'ll cover components, templates, form and event handling, and much more. Join us to learn Vue: The progressive JavaScript framework.'
-	},
-]
+  {
+    name: "Wrapping your mind around Python: the very basics of programming",
+    time: "17:00 - 18:00",
+    type: "workshop",
+    description: `Join us for a "first-time-coding" workshop to warm up your keyboard before ClockHacks starts. We will be using the Python programming language. We'll go through basic datatypes, input/output, syntax, conditionals, and end with functions and loops. Whether you're here to learn or here to have fun, this workshop is for you! Come hang out and learn some new things before the opening ceremony.`,
+  },
+  {
+    name: "Opening Ceremony",
+    time: "18:00 - 19:00",
+    type: "ceremony",
+    description: `Welcome to ClockHacks! We'll be introducing how the event works, some of the activities and workshops that we'll be having, and we'll thank our sponsors. Steven Puri, our guest speaker, will speak about hackathons and students, as well as productivity. Stay for a Q/A session at the end!`,
+  },
+  {
+    name: "Hacking Starts!",
+    time: "19:00",
+    type: "event",
+    description:
+      "The official time for creating your website, app, robot, or design starts now!",
+  },
+  {
+    name: "Idea Crafting: We help you invent and improve ideas",
+    time: "19:00 - 19:30",
+    type: "activity",
+    description:
+      "Need an idea for your ClockHacks project? Hop in a discord call with us and we'll give you ideas, inspiration, and guidance!",
+  },
+  {
+    name: "Making very Versatile websites with Vue",
+    time: "19:30 - 20:30",
+    type: "workshop",
+    description:
+      "Websites are some of the best projects for hackathons, and Vue is one of the most versatile web frameworks out there. If you already know a framework like React or Angular, Vue will be a valuable part on your web dev resume. We'll cover components, templates, form and event handling, and much more. Join us to learn Vue: The progressive JavaScript framework.",
+  },
+];
 
 const nov5 = [
 	{
@@ -72,152 +75,171 @@ const nov5 = [
 		'description': `1. a quick overview of cybersecurity in code and using C/C++ to make a buffer overflow and showing how to execute that buffer overflow attack;
 2. a discussion of patching software and why you should, with a show of how to use Metasploit framework to exploit a known vulnerability
 3. a small talk about Kilgore College and studying in Texas including the World Famous Rangerettes.
-Hosted by Danny Darden, professor at Kilgore College.`
-	},
-	{
-		'name': '!Light',
-		'time': '19:00 - 20:30',
-		'type': 'game',
-		'description': 'Participants remake a chosen website using their best (or worst) HTML and CSS skills in a limited amount of time. Brought to you by MLH!'
-	},
-	{
-		'name': 'Augmented Reality Workshop with echo3D',
-		'time': '21:00 - 22:00',
-		'type': 'workshop',
-		'description': 'Workshop about AR/VR, provided by echo3D. Learn about the current and future technologies in virtual reality and what echo3D provides.'
-	}
-]
+Hosted by Danny Darden, professor at Kilgore College.`,
+  },
+  {
+    name: "!Light",
+    time: "19:00 - 20:30",
+    type: "game",
+    description:
+      "Participants remake a chosen website using their best (or worst) HTML and CSS skills in a limited amount of time. Brought to you by MLH!",
+  },
+  {
+    name: "Augmented Reality Workshop with echo3D",
+    time: "21:00 - 22:00",
+    type: "workshop",
+    description:
+      "Workshop about AR/VR, provided by echo3D. Learn about the current and future technologies in virtual reality and what echo3D provides.",
+  },
+];
 
 const nov6 = [
-	{
-		'name': 'How to Polish and Present your final Project',
-		'time': '9:00 - 9:30',
-		'type': 'workshop',
-		'description': `As the end of ClockHacks approaches, pitching and judging time comes ever nearer. In this workshop, you will learn how to design a stunning presentation for your project, as well as polishing up the frontend and how to pitch to judges. Learn important skills presented by hackathon veterans here at ClockHacks.`
-	},
-	{
-		'name': 'FREE Moral Support from the Organizers',
-		'time': '10:00 - 11:00',
-		'type': 'activity',
-		'description': 'Need that final motivation boost to finish your project? Hop in a Discord call with the organizers and get some FREE moral support!'
-	},
-	{ 
-		'name': 'Hacking Ends!',
-		'time': '11:00',
-		'type': 'event',
-		'description': 'Stop hacking! The official time for creating your project has ended. Submit your pitch on Devpost!'
-	},
-	{
-		'name': 'Closing Ceremony',
-		'time': '14:00 - 15:00',
-		'type': 'ceremony',
-		'description': `Thanks for attending ClockHacks and making the event as awesome as it is! We'll be thanking sponsors, giving out prizes, and watching the winning projects demo videos.`
-	},
-]
+  {
+    name: "How to Polish and Present your final Project",
+    time: "9:00 - 9:30",
+    type: "workshop",
+    description: `As the end of ClockHacks approaches, pitching and judging time comes ever nearer. In this workshop, you will learn how to design a stunning presentation for your project, as well as polishing up the frontend and how to pitch to judges. Learn important skills presented by hackathon veterans here at ClockHacks.`,
+  },
+  {
+    name: "FREE Moral Support from the Organizers",
+    time: "10:00 - 11:00",
+    type: "activity",
+    description:
+      "Need that final motivation boost to finish your project? Hop in a Discord call with the organizers and get some FREE moral support!",
+  },
+  {
+    name: "Hacking Ends!",
+    time: "11:00",
+    type: "event",
+    description:
+      "Stop hacking! The official time for creating your project has ended. Submit your pitch on Devpost!",
+  },
+  {
+    name: "Closing Ceremony",
+    time: "14:00 - 15:00",
+    type: "ceremony",
+    description: `Thanks for attending ClockHacks and making the event as awesome as it is! We'll be thanking sponsors, giving out prizes, and watching the winning projects demo videos.`,
+  },
+];
 
-function makeDate(i, index, type='') {
+function makeDate(i, index, type = "") {
+  let icon = "";
+  if (i.type === "workshop") {
+    icon = "bi bi-tools";
+  } else if (i.type === "ceremony") {
+    icon = "bi bi-people-fill";
+  } else if (i.type === "event") {
+    icon = "bi bi-exclamation-lg";
+  } else if (i.type === "activity") {
+    icon = "bi bi-mic-fill";
+  } else if (i.type === "game") {
+    icon = "bi bi-controller";
+  }
 
-	let icon = ''
-	if (i.type === 'workshop') {
-		icon = 'bi bi-tools'
-	}
-	else if (i.type === 'ceremony') {
-		icon = 'bi bi-people-fill'
-	}
-	else if (i.type === 'event') {
-		icon = 'bi bi-exclamation-lg'
-	}
-	else if (i.type === 'activity') {
-		icon = 'bi bi-mic-fill'
-	}
-	else if (i.type === 'game') {
-		icon = 'bi bi-controller'
-	}
+  return (
+    <div className="wrapper">
+      <div className="left">{i.time}</div>
 
-	return (
-		<div className='wrapper'>
+      <div
+        className="right"
+        onClick={(e) => {
+          let display = document.getElementById(index + type).style.display;
+          if (display === "block") {
+            document.getElementById(index + type).style.display = "none";
+          } else {
+            document.getElementById(index + type).style.display = "block";
+          }
+        }}
+      >
+        <h2>
+          <i class={icon}></i>
+          {i.name}
+        </h2>
 
-			<div className='left'>
-				{i.time}
-			</div>
-			
-			<div className='right' onClick = {
-				(e) => {
-					let display = document.getElementById(index + type).style.display;
-					if (display === 'block') {
-						document.getElementById(index + type).style.display = 'none';
-					}
-					else {
-						document.getElementById(index + type).style.display = 'block';
-					}
-				}
-			}>
-				<h2>
-					<i class = {icon}></i>
-					{i.name}
-				</h2>
-
-				<p id = {index + type} style = {{whiteSpace: 'pre-line'}}>
-					{i.description}
-				</p>
-			</div>
-
-		</div>
-	)
+        <p id={index + type} style={{ whiteSpace: "pre-line" }}>
+          {i.description}
+        </p>
+      </div>
+    </div>
+  );
 }
 
-const dates = ['nov4', 'nov5', 'nov6']
+const dates = ["nov4", "nov5", "nov6"];
 function switchDate(newdate) {
+  let currentdate;
+  dates.forEach((i) => {
+    let item = document.getElementById(i);
 
-	let currentdate;
-	dates.forEach( (i) => {
-		let item = document.getElementById(i);
-		
-		if (window.getComputedStyle(item, null).display == 'block') {
-			currentdate = i
-		}
-	})
+    if (window.getComputedStyle(item, null).display == "block") {
+      currentdate = i;
+    }
+  });
 
-	if (newdate === currentdate) {
-		return
-	}
+  if (newdate === currentdate) {
+    return;
+  }
 
-	document.getElementById(currentdate).style.display = 'none';
-	document.getElementById(newdate).style.display = 'block';
+  document.getElementById(currentdate).style.display = "none";
+  document.getElementById(newdate).style.display = "block";
 
-	let button = document.getElementById(newdate + 'button')
-	button.style.backgroundColor = '#4F9265';
-	document.getElementById(currentdate + 'button').style.backgroundColor = '#78B68C'
+  let button = document.getElementById(newdate + "button");
+  button.style.backgroundColor = "#4F9265";
+  document.getElementById(currentdate + "button").style.backgroundColor =
+    "#78B68C";
 }
 
 const Schedule = () => {
+  return (
+    <div id="schedule" className="container" style={{ textAlign: "center" }}>
+      <h1>Schedule</h1>
+      <a
+        href="https://calendar.google.com/calendar/u/0?cid=ZDk5NzA1OTYwZTkwNmFhMjM5MDA5M2Y2YWNlMjM1ZjU0NDc0ODdmMjk4YzkyNmMyOTg5NTdlNGNjNDZlZTJjMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Google Calendar Events
+      </a>
+      <p>
+        All the workshops, events, and activities you'll find at ClockHacks |
+        All times are in EST
+      </p>
 
-	return (
-		<div id="schedule" className = 'container' style = {{textAlign: 'center'}}>
-			<h1>Schedule</h1>
-			<a href = 'https://calendar.google.com/calendar/u/0?cid=ZDk5NzA1OTYwZTkwNmFhMjM5MDA5M2Y2YWNlMjM1ZjU0NDc0ODdmMjk4YzkyNmMyOTg5NTdlNGNjNDZlZTJjMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t' target='_blank' rel='noreferrer'>Google Calendar Events</a>
-			<p>All the workshops, events, and activities you'll find at ClockHacks | All times are in EST</p>
-			
-			<div className='selectors'>
-				<button id = 'nov4button' onClick = {() => switchDate('nov4')} style = {{backgroundColor: '#4F9265'}}>November 4</button>
-				<button id = 'nov5button' onClick = {() => switchDate('nov5')}>November 5</button>
-				<button id = 'nov6button' onClick = {() => switchDate('nov6')}>November 6</button>
-			</div>
+      <div className="selectors">
+        <button
+          id="nov4button"
+          onClick={() => switchDate("nov4")}
+          style={{ backgroundColor: "#4F9265" }}
+        >
+          November 4
+        </button>
+        <button id="nov5button" onClick={() => switchDate("nov5")}>
+          November 5
+        </button>
+        <button id="nov6button" onClick={() => switchDate("nov6")}>
+          November 6
+        </button>
+      </div>
 
-			<div id = 'nov4' className='date'>
-				{nov4.map((i, index) => {return (makeDate(i, index, 'nov4')) })}
-			</div>
+      <div id="nov4" className="date">
+        {nov4.map((i, index) => {
+          return makeDate(i, index, "nov4");
+        })}
+      </div>
 
-			<div id = 'nov5' className='date'>
-				{nov5.map((i, index) => {return (makeDate(i=i, index=index, 'nov5')) })}
-			</div>
+      <div id="nov5" className="date">
+        {nov5.map((i, index) => {
+          return makeDate((i = i), (index = index), "nov5");
+        })}
+      </div>
 
-			<div id = 'nov6' className='date'>
-				{nov6.map((i, index) => {return (makeDate(i=i, index=index, 'nov6')) })}
-			</div>
-			<img loading = 'lazy' src = {gear5} alt = 'gear5' id = 'gear5'></img>
-		</div>
-	)
-}
+      <div id="nov6" className="date">
+        {nov6.map((i, index) => {
+          return makeDate((i = i), (index = index), "nov6");
+        })}
+      </div>
+      <img loading="lazy" src={gear5} alt="gear5" id="gear5"></img>
+    </div>
+  );
+};
 
 export default Schedule;
