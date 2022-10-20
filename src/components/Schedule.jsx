@@ -37,27 +37,33 @@ const nov4 = [
 const nov5 = [
 	{
 		'name': 'Among the ClockHacks',
-		'time': '10:30 - 11:30',
+		'time': '9:30 - 10:30',
 		'type': 'game',
 		'description': 'Ready to unwind after a night of coding? Come join us in a Discord channel to play Among Us.'
 	},
 	{
+		'name': 'What to do in High School to prepare for a Career in Tech',
+		'time': '10:30-11:30',
+		'type': 'workshop',
+		'description': "Finding tech opportunities in high school can be one of the hardest parts of getting into university. In this workshop, we'll go over extracurriculars, grades, and how to prepare your resume for summer internships."
+	},
+	{
+		'name': 'How to make your UI/UX GREAT',
+		'time': '11:30 - 12:30',
+		'type': 'workshop',
+		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :).'
+	},
+	{
 		'name': 'Lunch Chat',
-		'time': '12:00 - 13:00',
+		'time': '12:30 - 13:00',
 		'type': 'activity',
 		'description': 'Come talk to the organizers and other hackers while you eat lunch! Get together with your team in person and hop on a Discord call with us. Tell us what\'s going well, what you need help with, and what questions you might have.'
 	},
 	{
 		'name': 'Organizer Project - Live!',
-		'time': '13:15 - 16:15',
+		'time': '14:00 - 18:00',
 		'type': 'activity',
-		'description': 'Watch the organizers of ClockHacks suffer by creating a hackathon project in just THREE HOURS! Link to the Twitch stream will be posted on Discord at the time of the event. This is just for fun and we will not be winning any of the prizes :)'
-	},
-	{
-		'name': 'How to make your UI/UX GREAT',
-		'time': '17:00 - 18:00',
-		'type': 'workshop',
-		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :). Presented by Cera Wang'
+		'description': 'Watch the organizers of ClockHacks suffer by creating a hackathon project in just FOUR HOURS! Link to the Twitch stream will be posted on Discord at the time of the event. This is just for fun and we will not be winning any of the prizes :)'
 	},
 	{
 		'name': 'Cybersecurity: Keeping your software safe',
