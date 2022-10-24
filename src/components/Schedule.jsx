@@ -64,7 +64,7 @@ const nov5 = [
 	},
 	{
 		'name': 'Organizer Project - Live!',
-		'time': '14:00 - 18:00',
+		'time': '15:00 - 18:00',
 		'type': 'activity',
 		'description': 'Watch the organizers of ClockHacks suffer by creating a hackathon project in just FOUR HOURS! Link to the Twitch stream will be posted on Discord at the time of the event. This is just for fun and we will not be winning any of the prizes :)'
 	},

@@ -19,14 +19,15 @@ import centered from '../assets/sponsors/centered.svg'
 import gar from '../assets/sponsors/gar.webp'
 import kilgore from '../assets/sponsors/kilgore.png'
 import recall from '../assets/sponsors/recall.png'
+import digitalo from '../assets/sponsors/do.png'
 
-const partners = {
-	hc: {
+const partners = [
+	{
 		img: hackclub,
 		href: 'https://hackclub.com/',
 		alt: 'hackclub'
 	},
-	mlh: {
+	{
 		img: mlh,
 		href: 'https://mlh.io/',
 		alt: 'mlh'
@@ -36,7 +37,7 @@ const partners = {
 	// 	href: 'https://www.instagram.com/lhss.triviaclub/',
 	// 	alt: 'lhsstrivia'
 	// }
-}
+]
 const diamondCompanies = [
 	{
 		img: gar,
@@ -55,6 +56,11 @@ const goldCompanies = [
 		img: kilgore,
 		href: 'https://www.kilgore.edu/',
 		alt: 'kilgore college'
+	},
+	{
+		img: digitalo,
+		href: 'https://www.digitalocean.com/',
+		alt: 'digital ocean'
 	},
 	{
 		img: taskade,
