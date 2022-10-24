@@ -892,7 +892,6 @@ button {
 	display: flex;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    background-color: #000;
     backdrop-filter: blur(8px);
     background-color: rgba(36, 38, 38, 0.5);
     padding: 15px 18px 15px 18px;
@@ -901,12 +900,13 @@ button {
     z-index: 11;
 	position: sticky;
     top: 0;
-	transition: 0.2s ease;
+	transition: 0.4s ease;
     line-height: 40px;
     font-size: max(1.3vw, 25px);
 
     &:hover {
-        background-color: #111;
+        backdrop-filter: blur(8px);
+        background-color: rgba(15, 19, 19, 0.7);
     }
 
     #links {
