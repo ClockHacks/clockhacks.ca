@@ -52,10 +52,17 @@ const nov5 = [
 	},
 	{
 		'name': 'How to make your UI/UX GREAT',
-		'time': '11:30 - 12:30',
+		'time': '12:30 - 13:00',
 		'type': 'workshop',
 		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :).'
 	},
+  {
+    name: "Augmented Reality Workshop with echo3D",
+    time: "13:30 - 14:30",
+    type: "workshop",
+    description:
+      "Workshop about AR/VR, provided by echo3D. Learn about the current and future technologies in virtual reality and what echo3D provides.",
+  },
 	{
 		'name': 'Lunch Chat',
 		'time': '12:30 - 13:00',
@@ -79,17 +86,20 @@ Hosted by Danny Darden, professor at Kilgore College.`,
   },
   {
     name: "!Light",
-    time: "19:00 - 20:30",
+    time: "19:00 - 20:00",
     type: "game",
     description:
-      "Participants remake a chosen website using their best (or worst) HTML and CSS skills in a limited amount of time. Brought to you by MLH!",
+      `Test your web development knowledge! You’ll have to
+      recreate a website using nothing but a terminal. No
+      loading it to check if it works, no syntax correction, and no outside resources! Just you, a terminal, HTML and CSS!
+      `,
   },
   {
-    name: "Augmented Reality Workshop with echo3D",
-    time: "21:00 - 22:00",
-    type: "workshop",
+    name: "Snyk Cybersecurity Challenge",
+    time: "20:00 - 21:00",
+    type: "activity",
     description:
-      "Workshop about AR/VR, provided by echo3D. Learn about the current and future technologies in virtual reality and what echo3D provides.",
+      `Snyk helps you automatically detect vulnerabilities big or small in your projects using either their command line tools or connections directly to your code repositories. For each vulnerability, they provide a clear proof of concept and ways to mitigate the issue. In this workshop, we will be completing a few capture the flag challenges!`,
   },
 ];
 
