@@ -20,6 +20,7 @@ import gar from '../assets/sponsors/gar.webp'
 import kilgore from '../assets/sponsors/kilgore.png'
 import recall from '../assets/sponsors/recall.png'
 import digitalo from '../assets/sponsors/do.png'
+import onlyoffice from '../assets/sponsors/onlyoffice.png'
 
 const partners = [
 	{
@@ -39,6 +40,11 @@ const partners = [
 	// }
 ]
 const diamondCompanies = [
+	{
+		img: onlyoffice,
+		href: 'https://www.onlyoffice.com/',
+		alt: 'onlyoffice'
+	},
 	{
 		img: gar,
 		href: 'https://automationroboticsarduino.com/',
@@ -84,21 +90,21 @@ const silverCompanies = [
 		href: 'https://artofproblemsolving.com/',
 		alt: 'aops'
 	},
-	{
-		img: buddy,
-		href: 'https://interviewbuddy.in/',
-		alt: 'buddy'
-	},
+	// {
+	// 	img: buddy,
+	// 	href: 'https://interviewbuddy.in/',
+	// 	alt: 'buddy'
+	// },
 	{
 		img: xyz,
 		href: 'https://gen.xyz/',
 		alt: 'xyz'
 	},
-	{
-		img: cake,
-		href: 'https://www.interviewcake.com/',
-		alt: 'cake'
-	},
+	// {
+	// 	img: cake,
+	// 	href: 'https://www.interviewcake.com/',
+	// 	alt: 'cake'
+	// },
 	{
 		img: wolfram,
 		href: 'https://wolfram.com/',
@@ -111,11 +117,11 @@ const silverCompanies = [
 	}
 ]
 const bronzeCompanies = [
-	{
-		img: certopus,
-		href: 'https://certopus.com/',
-		alt: 'certopus'
-	},
+	// {
+	// 	img: certopus,
+	// 	href: 'https://certopus.com/',
+	// 	alt: 'certopus'
+	// },
 	{
 		img: desmos,
 		href: 'https://www.desmos.com/',

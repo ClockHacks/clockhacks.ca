@@ -731,7 +731,12 @@ button {
             width: max(40vw, 300px);
             height: max(16vw, 155px);
             @include sponsor();
-            border: 10px solid #45D9E7;
+            
+        }
+        div:last-child {
+            img {
+                border: 10px solid #45D9E7;
+            }
         }
     }
 

@@ -38,6 +38,12 @@ const nov4 = [
 ];
 
 const nov5 = [
+  {
+    'name': 'International Meetup',
+    'time': '2:00 - 3:00',
+    'type': 'activity',
+    'description': `A large portion of our hackers are international. This is a chance for those that can't catch the midnight workshops to network, meet new people, and talk about how the event is going!`
+  },
 	{
 		'name': 'Among the ClockHacks',
 		'time': '9:30 - 10:30',
@@ -57,18 +63,18 @@ const nov5 = [
 		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :).'
 	},
   {
+		'name': 'Lunch Chat',
+		'time': '12:30 - 13:00',
+		'type': 'activity',
+		'description': 'Come talk to the organizers and other hackers while you eat lunch! Get together with your team in person and hop on a Discord call with us. Tell us what\'s going well, what you need help with, and what questions you might have.'
+	},
+  {
     name: "Augmented Reality Workshop with echo3D",
     time: "13:30 - 14:30",
     type: "workshop",
     description:
       "Workshop about AR/VR, provided by echo3D. Learn about the current and future technologies in virtual reality and what echo3D provides.",
   },
-	{
-		'name': 'Lunch Chat',
-		'time': '12:30 - 13:00',
-		'type': 'activity',
-		'description': 'Come talk to the organizers and other hackers while you eat lunch! Get together with your team in person and hop on a Discord call with us. Tell us what\'s going well, what you need help with, and what questions you might have.'
-	},
 	{
 		'name': 'Organizer Project - Live!',
 		'time': '15:00 - 18:00',
@@ -105,10 +111,10 @@ Hosted by Danny Darden, professor at Kilgore College.`,
 
 const nov6 = [
   {
-    name: "How to Polish and Present your final Project",
+    name: "How to talk to girls",
     time: "9:00 - 9:30",
     type: "workshop",
-    description: `As the end of ClockHacks approaches, pitching and judging time comes ever nearer. In this workshop, you will learn how to design a stunning presentation for your project, as well as polishing up the frontend and how to pitch to judges. Learn important skills presented by hackathon veterans here at ClockHacks.`,
+    description: `Hosted by Sean Wang`,
   },
   {
     name: "FREE Moral Support from the Organizers",
