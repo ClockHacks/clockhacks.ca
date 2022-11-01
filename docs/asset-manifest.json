@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.290cf0be.css",
-    "main.js": "/static/js/main.685a1a32.js",
+    "main.css": "/static/css/main.40d03a7a.css",
+    "main.js": "/static/js/main.a893be54.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gearfull2.png": "/static/media/gearfull2.1cfa4e2934fd234f056c.png",
@@ -11,6 +11,7 @@
     "static/media/nathanwong.jpg": "/static/media/nathanwong.5c0569428de542feb7eb.jpg",
     "static/media/standout.png": "/static/media/standout.6acf02fc7604a65e3cc6.png",
     "static/media/xyz.png": "/static/media/xyz.88298d23ea4c19414907.png",
+    "static/media/kilgore.png": "/static/media/kilgore.c18515ccc38a47ad9774.png",
     "static/media/zhuoen.jpg": "/static/media/zhuoen.a1c96485cb2eade33ae0.jpg",
     "static/media/gear1.png": "/static/media/gear1.3d8a9077ae44aa7987dc.png",
     "static/media/cera.jpg": "/static/media/cera.58bcc89fd2707935df51.jpg",
@@ -25,6 +26,7 @@
     "static/media/certopus_original.png": "/static/media/certopus_original.17a6a81b9d6fc98bd3bc.png",
     "static/media/desmos.png": "/static/media/desmos.bd5ed5bd29c4b61e0bdd.png",
     "static/media/puri.jpg": "/static/media/puri.45b390c37e865fa2af0f.jpg",
+    "static/media/onlyoffice.png": "/static/media/onlyoffice.61f0ae0874799f69cf72.png",
     "static/media/wolfram.png": "/static/media/wolfram.3f6015bc352c5acb715d.png",
     "static/media/programmer.svg": "/static/media/programmer.8579d0e33b7d84c5c5304b08a9709a07.svg",
     "static/media/inspiration.svg": "/static/media/inspiration.fdc87ea80cb4955f74e927b81e2fc293.svg",
@@ -35,11 +37,11 @@
     "static/media/centered.svg": "/static/media/centered.b0f2b356293e22286b6e4d1a7766291b.svg",
     "static/media/gar.webp": "/static/media/gar.311360654f077af76dfb.webp",
     "index.html": "/index.html",
-    "main.290cf0be.css.map": "/static/css/main.290cf0be.css.map",
-    "main.685a1a32.js.map": "/static/js/main.685a1a32.js.map"
+    "main.40d03a7a.css.map": "/static/css/main.40d03a7a.css.map",
+    "main.a893be54.js.map": "/static/js/main.a893be54.js.map"
   },
   "entrypoints": [
-    "static/css/main.290cf0be.css",
-    "static/js/main.685a1a32.js"
+    "static/css/main.40d03a7a.css",
+    "static/js/main.a893be54.js"
   ]
 }
