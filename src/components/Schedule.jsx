@@ -52,7 +52,7 @@ const nov5 = [
 	},
 	{
 		'name': 'What to do in High School to prepare for a Career in Tech',
-		'time': '10:30-11:30',
+		'time': '10:30 - 11:30',
 		'type': 'workshop',
 		'description': "Finding tech opportunities in high school can be one of the hardest parts of getting into university. In this workshop, we'll go over extracurriculars, grades, and how to prepare your resume for summer internships."
 	},
@@ -79,7 +79,7 @@ const nov5 = [
 		'name': 'Organizer Project - Live!',
 		'time': '15:00 - 18:00',
 		'type': 'activity',
-		'description': 'Watch the organizers of ClockHacks suffer by creating a hackathon project in just FOUR HOURS! Link to the Twitch stream will be posted on Discord at the time of the event. This is just for fun and we will not be winning any of the prizes :)'
+		'description': 'Watch the organizers of ClockHacks suffer by creating a hackathon project in just THREE HOURS! Link to the Twitch stream will be posted on Discord at the time of the event. This is just for fun and we will not be winning any of the prizes :)'
 	},
 	{
 		'name': 'Cybersecurity: Keeping your software safe',
@@ -91,14 +91,11 @@ const nov5 = [
 Hosted by Danny Darden, professor at Kilgore College.`,
   },
   {
-    name: "!Light",
+    name: "MS Paint Bob Ross",
     time: "19:00 - 20:00",
     type: "game",
     description:
-      `Test your web development knowledge! You’ll have to
-      recreate a website using nothing but a terminal. No
-      loading it to check if it works, no syntax correction, and no outside resources! Just you, a terminal, HTML and CSS!
-      `,
+      `Test your painting skills by following along with a Bob Ross video in MS Paint! You'll be working in groups to recreate famous paintings by Bob Ross. Hosted by MLH.`,
   },
   {
     name: "Snyk Cybersecurity Challenge",

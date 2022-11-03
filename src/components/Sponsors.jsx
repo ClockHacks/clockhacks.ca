@@ -21,6 +21,7 @@ import kilgore from '../assets/sponsors/kilgore.png'
 import recall from '../assets/sponsors/recall.png'
 import digitalo from '../assets/sponsors/do.png'
 import onlyoffice from '../assets/sponsors/onlyoffice.png'
+import slingshot from '../assets/sponsors/slingshot.png'
 
 const partners = [
 	{
@@ -46,6 +47,11 @@ const diamondCompanies = [
 		alt: 'onlyoffice'
 	},
 	{
+		img: digitalo,
+		href: 'https://www.digitalocean.com/',
+		alt: 'digital ocean'
+	},
+	{
 		img: gar,
 		href: 'https://automationroboticsarduino.com/',
 		alt: 'gar',
@@ -64,14 +70,14 @@ const goldCompanies = [
 		alt: 'kilgore college'
 	},
 	{
-		img: digitalo,
-		href: 'https://www.digitalocean.com/',
-		alt: 'digital ocean'
-	},
-	{
 		img: taskade,
 		href: 'https://www.taskade.com/',
 		alt: 'taskade'
+	},
+	{
+		img: slingshot,
+		href: 'https://slingshotahead.com/',
+		alt: 'slinghsot'
 	},
 	{
 		img: echo,
