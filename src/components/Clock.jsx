@@ -37,7 +37,6 @@ const Clock = () => {
         <div data-aos = 'fade-down' data-aos-duration='800'>
             <h1><gradient loading = 'lazy' >ClockHacks</gradient> starts in</h1>
             <h1 id = 'thingy'></h1>
-            <h1>Register <a href='https://docs.google.com/forms/u/3/d/e/1FAIpQLSdUDbXhQ3MCTsl_e0mp4dS-uRLHbbAZH5LePfpVzFSEvUrZog/viewform?usp=send_form' target='_blank' rel='noreferrer'>here</a>!</h1>
             <img src = {image} loading = 'lazy' alt = 'programmer' id = 'programmerimg'></img>
         </div>
         <img src = {gear} alt = 'gear' id = 'clockgear' loading = 'lazy'></img>

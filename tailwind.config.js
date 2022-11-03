@@ -9,6 +9,7 @@ module.exports = {
 				"accent-color": "var(--accent-color)",
 				"light-color": "var(--light-color)",
 				"dark-color": "var(--dark-color)",
+				"accent-dark": '#4F9265'
 			},
 		},
 	},

@@ -94,7 +94,7 @@ const FAQ = () => {
 				</details>
 				<details className = 'details'>
 					<summary className = 'summary'>What prizes are there?</summary>
-					<p>Prizes will be determined at a later date.</p>
+					<p>The full list of prizes are on our <a href='https://clockhacks.devpost.com/?ref_feature=challenge&ref_medium=discover' target='_blank' rel='noreferrer'>Devpost!</a></p>
 				</details>
 				<details className = 'details'>
 					<summary className = 'summary'>What if my question isn't listed here?</summary>

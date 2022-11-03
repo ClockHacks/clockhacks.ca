@@ -26,11 +26,7 @@ const Home = () => {
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}} id ='desc'>
             A hackathon for time | November 4 - 6, 2022
             <br></br> 
-            <button onClick = {
-              () => {
-                window.open('https://forms.gle/3YWYgnWdzHLvpDa66');
-              }
-            }>Register Now!</button>{' '}
+            <button class='bg-accent-dark cursor-not-allowed'>Registration Closed</button>{' '}
             <button onClick = {
               () => {
                 let sponsor = document.getElementById('sponsors')
