@@ -58,7 +58,7 @@ const nov5 = [
 	},
 	{
 		'name': 'How to make your UI/UX GREAT',
-		'time': '12:30 - 13:00',
+		'time': '11:30 - 12:30',
 		'type': 'workshop',
 		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :).'
 	},

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5c072dd9.css",
-    "main.js": "/static/js/main.435fd178.js",
+    "main.js": "/static/js/main.811d2f60.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gearfull2.png": "/static/media/gearfull2.1cfa4e2934fd234f056c.png",
@@ -39,10 +39,10 @@
     "static/media/gar.webp": "/static/media/gar.311360654f077af76dfb.webp",
     "index.html": "/index.html",
     "main.5c072dd9.css.map": "/static/css/main.5c072dd9.css.map",
-    "main.435fd178.js.map": "/static/js/main.435fd178.js.map"
+    "main.811d2f60.js.map": "/static/js/main.811d2f60.js.map"
   },
   "entrypoints": [
     "static/css/main.5c072dd9.css",
-    "static/js/main.435fd178.js"
+    "static/js/main.811d2f60.js"
   ]
 }
