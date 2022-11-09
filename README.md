@@ -32,5 +32,12 @@ Join hackers from across North America this November for a weekend of fun and in
 - AOS<br/>
 - Bootstrap Icons<br/>
 
+## Steps for updating website
+- Run `npm run build`
+- Locate and delete the `docs` folder in `root`
+- Locate and rename the `build` folder to docs
+- Restore the deleted `CNAME` file
+- Add and commit
+
 Graphics by https://undraw.co/illustrations <br/>
 Logo and banner by https://www.linkedin.com/in/cera-wang-171699240/
