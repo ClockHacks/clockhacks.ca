@@ -19,6 +19,7 @@ function App() {
 	
 	return (
 		<div id="app" className="bg-dark-color">
+
 			<Navbar/>
 
 			<Home/>

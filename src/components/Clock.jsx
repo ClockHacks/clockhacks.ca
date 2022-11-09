@@ -35,8 +35,15 @@ const Clock = () => {
   return (
     <div className='container' id='clock'>
         <div data-aos = 'fade-down' data-aos-duration='800'>
-            <h1><gradient loading = 'lazy' >ClockHacks</gradient> starts in</h1>
-            <h1 id = 'thingy'></h1>
+            <h1>This year, <gradient loading = 'lazy' >ClockHacks</gradient> achieved</h1>
+            {/* <h1 id = 'thingy'></h1> */}
+            <h2 class='text-3xl leading-loose'>
+              <i class='bi bi-people-fill text-4xl text-light-color'></i> 215 creative and amazing hackers<br/>
+              <i class='bi bi-folder-fill text-4xl text-light-color'></i> 40 innovative projects<br/>
+              <i class='bi bi-tools text-4xl text-light-color'></i> 14 workshops and activities<br/>
+              <i class='bi bi-trophy-fill text-4xl text-light-color'></i> The largest online high-school hackathon of the 2023 season
+
+            </h2>
             <img src = {image} loading = 'lazy' alt = 'programmer' id = 'programmerimg'></img>
         </div>
         <img src = {gear} alt = 'gear' id = 'clockgear' loading = 'lazy'></img>

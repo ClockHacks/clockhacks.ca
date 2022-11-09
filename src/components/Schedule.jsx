@@ -6,12 +6,14 @@ const nov4 = [
     name: "Wrapping your mind around Python: the very basics of programming",
     time: "17:00 - 18:00",
     type: "workshop",
-    description: `Join us for a "first-time-coding" workshop to warm up your keyboard before ClockHacks starts. We will be using the Python programming language. We'll go through basic datatypes, input/output, syntax, conditionals, and end with functions and loops. Whether you're here to learn or here to have fun, this workshop is for you! Come hang out and learn some new things before the opening ceremony.`,
+    recording: 'https://www.youtube.com/watch?v=OAcdAf_atMw',
+    description: `Recording: Join us for a "first-time-coding" workshop to warm up your keyboard before ClockHacks starts. We will be using the Python programming language. We'll go through basic datatypes, input/output, syntax, conditionals, and end with functions and loops. Whether you're here to learn or here to have fun, this workshop is for you! Come hang out and learn some new things before the opening ceremony.`,
   },
   {
     name: "Opening Ceremony",
     time: "18:00 - 19:00",
     type: "ceremony",
+    recording: "https://www.youtube.com/watch?v=yPVyyQltFHM&t=613s",
     description: `Welcome to ClockHacks! We'll be introducing how the event works, some of the activities and workshops that we'll be having, and we'll thank our sponsors. Steven Puri, our guest speaker, will speak about hackathons and students, as well as productivity. Stay for a Q/A session at the end!`,
   },
   {
@@ -32,6 +34,7 @@ const nov4 = [
     name: "Making very Versatile websites with Vue",
     time: "19:30 - 20:30",
     type: "workshop",
+    recording: 'https://www.youtube.com/watch?v=bpy2CHC4PJ4&t=1042s',
     description:
       "Websites are some of the best projects for hackathons, and Vue is one of the most versatile web frameworks out there. If you already know a framework like React or Angular, Vue will be a valuable part on your web dev resume. We'll cover components, templates, form and event handling, and much more. Join us to learn Vue: The progressive JavaScript framework.",
   },
@@ -54,12 +57,14 @@ const nov5 = [
 		'name': 'What to do in High School to prepare for a Career in Tech',
 		'time': '10:30 - 11:30',
 		'type': 'workshop',
+    'recording': 'https://www.youtube.com/watch?v=bpy2CHC4PJ4&t=1042s',
 		'description': "Finding tech opportunities in high school can be one of the hardest parts of getting into university. In this workshop, we'll go over extracurriculars, grades, and how to prepare your resume for summer internships."
 	},
 	{
 		'name': 'How to make your UI/UX GREAT',
 		'time': '11:30 - 12:30',
 		'type': 'workshop',
+    'recording': 'https://www.youtube.com/watch?v=OiVXXHn97rI',
 		'description': 'Do you ever get physically ill looking at the design of your project? Well, fear no more: in this workshop, we will go over the thinking process of design as well as how to apply these elements and principles using Figma to solve user problems and create intuitive, aesthetically pleasing interfaces :).'
 	},
   {
@@ -72,6 +77,7 @@ const nov5 = [
     name: "Augmented Reality Workshop with echo3D",
     time: "13:30 - 14:30",
     type: "workshop",
+    recording: 'https://www.youtube.com/watch?v=Pzf2Zrdm3N8&t=2408s',
     description:
       "Workshop about AR/VR, provided by echo3D. Learn about the current and future technologies in virtual reality and what echo3D provides.",
   },
@@ -85,6 +91,7 @@ const nov5 = [
 		'name': 'Cybersecurity: Keeping your software safe',
 		'time': '18:00 - 19:00',
 		'type': 'workshop',
+    'recording': 'https://www.youtube.com/watch?v=nDqw5pGkJig',
 		'description': `1. a quick overview of cybersecurity in code and using C/C++ to make a buffer overflow and showing how to execute that buffer overflow attack;
 2. a discussion of patching software and why you should, with a show of how to use Metasploit framework to exploit a known vulnerability
 3. a small talk about Kilgore College and studying in Texas including the World Famous Rangerettes.
@@ -108,9 +115,10 @@ Hosted by Danny Darden, professor at Kilgore College.`,
 
 const nov6 = [
   {
-    name: "How to talk to girls",
+    name: "A Guide for Talking to Girls (& Guys)",
     time: "9:00 - 9:30",
     type: "workshop",
+    recording: "https://www.youtube.com/watch?v=OiVXXHn97rI",
     description: `Hosted by Sean Wang`,
   },
   {
@@ -129,8 +137,9 @@ const nov6 = [
   },
   {
     name: "Closing Ceremony",
-    time: "14:00 - 15:00",
+    time: "14:30 - 15:30",
     type: "ceremony",
+    recording: "https://www.youtube.com/watch?v=51y9nK5lgcs",
     description: `Thanks for attending ClockHacks and making the event as awesome as it is! We'll be thanking sponsors, giving out prizes, and watching the winning projects demo videos.`,
   },
 ];
@@ -170,7 +179,10 @@ function makeDate(i, index, type = "") {
         </h2>
 
         <p id={index + type} style={{ whiteSpace: "pre-line" }}>
-          {i.description}
+          {i.description}<br/>
+          {i.recording && 
+              <a href = {i.recording} target='_blank' rel = 'noreferrer'>Recording Link</a>
+          }
         </p>
       </div>
     </div>

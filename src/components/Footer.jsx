@@ -22,6 +22,8 @@ const Footer = () => {
 					<a href = 'https://github.com/ClockHacks' target = '_blank'><i class = 'bi bi-github'></i></a>
 					<a href = 'https://www.linkedin.com/company/clockhacks/' target = '_blank'><i class = 'bi bi-linkedin'></i></a>
 					<a href = 'https://www.instagram.com/clockhacks/' target = '_blank'><i class = 'bi bi-instagram'></i> </a>
+					<a href = 'https://www.twitch.tv/clockhacks/' target = '_blank'><i class = 'bi bi-twitch'></i> </a>
+					<a href = 'https://www.youtube.com/channel/UCTXw20G-JSnQE80tZmwUbwg' target = '_blank'><i class = 'bi bi-youtube'></i> </a>
 					<a href = 'https://clockhacks.devpost.com/' target = '_blank' class='flex items-center justify-center '><SiDevpost id = 'devposticonf'/></a>
 				</p>
 			</div>

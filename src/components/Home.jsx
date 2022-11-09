@@ -24,25 +24,24 @@ const Home = () => {
             </gradient>
         </h1>
         <p style = {{textAlign: 'center', fontSize: 'max(2vw, 20px)'}} id ='desc'>
-            A hackathon for time | November 4 - 6, 2022
+            A hackathon for time | <p style = {{fontSize: 'inherit', textDecoration: 'line-through', display: 'inline'}}>November 4 - 6, 2022</p>
             <br></br> 
-            <button class='bg-accent-dark cursor-not-allowed'>Registration Closed</button>{' '}
+            {/* <button class='bg-accent-dark cursor-not-allowed'>Registration Closed</button>{' '} */}
             <button onClick = {
               () => {
                 let sponsor = document.getElementById('sponsors')
                 sponsor.scrollIntoView({behavior: 'smooth'});
               }
             }>Sponsor Us</button>
-            <br></br>
-            <button onClick = {
+            {/* <button onClick = {
               () => {window.open('https://discord.com/invite/UKjQBdy26S')}
             }
-              >Join the Discord!</button>
+              >Join the Discord!</button> */}
               {' '}
                           <button onClick = {
               () => {window.open('https://clockhacks.devpost.com/')}
             }
-              >Devpost</button>
+              >View Projects</button>
               
         </p>
 

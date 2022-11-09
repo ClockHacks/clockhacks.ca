@@ -22,6 +22,7 @@ import recall from '../assets/sponsors/recall.png'
 import digitalo from '../assets/sponsors/do.png'
 import onlyoffice from '../assets/sponsors/onlyoffice.png'
 import slingshot from '../assets/sponsors/slingshot.png'
+import overleaf from '../assets/sponsors/overleaf.png'
 
 const partners = [
 	{
@@ -41,6 +42,11 @@ const partners = [
 	// }
 ]
 const diamondCompanies = [
+	{
+		img: overleaf,
+		href: "https://www.overleaf.com/",
+		alt: 'overleaf'
+	},
 	{
 		img: onlyoffice,
 		href: 'https://www.onlyoffice.com/',

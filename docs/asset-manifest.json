@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c072dd9.css",
-    "main.js": "/static/js/main.811d2f60.js",
+    "main.css": "/static/css/main.0e1b8018.css",
+    "main.js": "/static/js/main.62580959.js",
     "static/media/Logo.png": "/static/media/Logo.ec739979523c90817a96.png",
     "static/media/banner.jpg": "/static/media/banner.82ca41d7a91549b07285.jpg",
     "static/media/gearfull2.png": "/static/media/gearfull2.1cfa4e2934fd234f056c.png",
@@ -10,6 +10,7 @@
     "static/media/watch.png": "/static/media/watch.72cd83a11381186c93a0.png",
     "static/media/nathanwong.jpg": "/static/media/nathanwong.5c0569428de542feb7eb.jpg",
     "static/media/standout.png": "/static/media/standout.6acf02fc7604a65e3cc6.png",
+    "static/media/overleaf.png": "/static/media/overleaf.c5631a8e44fa56037832.png",
     "static/media/xyz.png": "/static/media/xyz.88298d23ea4c19414907.png",
     "static/media/kilgore.png": "/static/media/kilgore.c18515ccc38a47ad9774.png",
     "static/media/zhuoen.jpg": "/static/media/zhuoen.a1c96485cb2eade33ae0.jpg",
@@ -38,11 +39,11 @@
     "static/media/centered.svg": "/static/media/centered.b0f2b356293e22286b6e4d1a7766291b.svg",
     "static/media/gar.webp": "/static/media/gar.311360654f077af76dfb.webp",
     "index.html": "/index.html",
-    "main.5c072dd9.css.map": "/static/css/main.5c072dd9.css.map",
-    "main.811d2f60.js.map": "/static/js/main.811d2f60.js.map"
+    "main.0e1b8018.css.map": "/static/css/main.0e1b8018.css.map",
+    "main.62580959.js.map": "/static/js/main.62580959.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c072dd9.css",
-    "static/js/main.811d2f60.js"
+    "static/css/main.0e1b8018.css",
+    "static/js/main.62580959.js"
   ]
 }
