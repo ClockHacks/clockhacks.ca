@@ -38,7 +38,7 @@ const Clock = () => {
             <h1>This year, <gradient loading = 'lazy' >ClockHacks</gradient> achieved</h1>
             {/* <h1 id = 'thingy'></h1> */}
             <h2 class='text-3xl leading-loose'>
-              <i class='bi bi-people-fill text-4xl text-light-color'></i> 215 creative and amazing hackers<br/>
+              <i class='bi bi-people-fill text-4xl text-light-color'></i> 360 registered hackers<br/>
               <i class='bi bi-folder-fill text-4xl text-light-color'></i> 40 innovative projects<br/>
               <i class='bi bi-tools text-4xl text-light-color'></i> 14 workshops and activities<br/>
               <i class='bi bi-trophy-fill text-4xl text-light-color'></i> The largest online high-school hackathon of the 2023 season
